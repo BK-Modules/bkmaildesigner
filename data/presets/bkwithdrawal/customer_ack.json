@@ -1,0 +1,156 @@
+{
+ "subject": {
+  "es": "Hemos recibido tu desistimiento {request_id}",
+  "en": "We have received your withdrawal {request_id}",
+  "fr": "Nous avons reçu votre rétractation {request_id}",
+  "it": "Abbiamo ricevuto il tuo recesso {request_id}",
+  "de": "Wir haben Ihren Widerruf {request_id} erhalten"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Desistimiento recibido, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Hemos registrado tu desistimiento del pedido <b>{order_reference}</b>, comprado el {purchase_date}. Fecha de la solicitud: {date_add}.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Solicitud:</b> {request_id} &nbsp;·&nbsp; <b>Motivo:</b> {reason}</p>",
+    "tone": "neutral"
+   },
+   {
+    "type": "html",
+    "html": "{products_html}"
+   },
+   {
+    "type": "text",
+    "html": "<p>Guarda este correo: es el resguardo de que ejercitaste tu derecho dentro de plazo. Te devolveremos el importe en cuanto recibamos los productos.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "Withdrawal received, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>We have registered your withdrawal from order <b>{order_reference}</b>, purchased on {purchase_date}. Request date: {date_add}.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Request:</b> {request_id} &nbsp;·&nbsp; <b>Reason:</b> {reason}</p>",
+    "tone": "neutral"
+   },
+   {
+    "type": "html",
+    "html": "{products_html}"
+   },
+   {
+    "type": "text",
+    "html": "<p>Keep this email: it is the proof that you exercised your right in time. We will refund you as soon as we receive the goods.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Rétractation reçue, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Nous avons enregistré votre rétractation de la commande <b>{order_reference}</b>, achetée le {purchase_date}. Date de la demande : {date_add}.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Demande :</b> {request_id} &nbsp;·&nbsp; <b>Motif :</b> {reason}</p>",
+    "tone": "neutral"
+   },
+   {
+    "type": "html",
+    "html": "{products_html}"
+   },
+   {
+    "type": "text",
+    "html": "<p>Conservez cet e-mail : c'est la preuve que vous avez exercé votre droit dans les délais. Nous vous rembourserons dès réception des produits.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Recesso ricevuto, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Abbiamo registrato il tuo recesso dall'ordine <b>{order_reference}</b>, acquistato il {purchase_date}. Data della richiesta: {date_add}.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Richiesta:</b> {request_id} &nbsp;·&nbsp; <b>Motivo:</b> {reason}</p>",
+    "tone": "neutral"
+   },
+   {
+    "type": "html",
+    "html": "{products_html}"
+   },
+   {
+    "type": "text",
+    "html": "<p>Conserva questa email: è la prova che hai esercitato il tuo diritto nei termini. Ti rimborseremo appena riceveremo i prodotti.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Widerruf erhalten, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Wir haben Ihren Widerruf zur Bestellung <b>{order_reference}</b> vom {purchase_date} erfasst. Datum des Antrags: {date_add}.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Antrag:</b> {request_id} &nbsp;·&nbsp; <b>Grund:</b> {reason}</p>",
+    "tone": "neutral"
+   },
+   {
+    "type": "html",
+    "html": "{products_html}"
+   },
+   {
+    "type": "text",
+    "html": "<p>Bewahren Sie diese E-Mail auf: sie belegt, dass Sie Ihr Recht fristgerecht ausgeübt haben. Wir erstatten den Betrag, sobald die Ware bei uns eingeht.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ]
+ }
+}

@@ -1,0 +1,116 @@
+{
+ "subject": {
+  "es": "Pedido {order_name} en tránsito",
+  "en": "Order {order_name} in transit",
+  "fr": "Commande {order_name} en transit",
+  "it": "Ordine {order_name} in transito",
+  "de": "Bestellung {order_name} unterwegs"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Tu pedido está en camino, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>El pedido <b>{order_name}</b> viaja con {carrier}. Puedes seguirlo aquí: {followup}</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Seguir mi pedido",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "Your order is on the way, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Order <b>{order_name}</b> is travelling with {carrier}. You can track it here: {followup}</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Track my order",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Votre commande est en route, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>La commande <b>{order_name}</b> voyage avec {carrier}. Suivez-la ici : {followup}</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Suivre ma commande",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Il tuo ordine è in viaggio, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>L'ordine <b>{order_name}</b> viaggia con {carrier}. Puoi seguirlo qui: {followup}</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Segui il mio ordine",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Ihre Bestellung ist unterwegs, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Bestellung <b>{order_name}</b> reist mit {carrier}. Hier verfolgen: {followup}</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Bestellung verfolgen",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

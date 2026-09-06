@@ -1,0 +1,141 @@
+{
+ "subject": {
+  "es": "Tu descuento de bienvenida",
+  "en": "Your welcome discount",
+  "fr": "Votre remise de bienvenue",
+  "it": "Il tuo sconto di benvenuto",
+  "de": "Ihr Willkommensrabatt"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Bienvenido, aquí tienes tu descuento",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Gracias por suscribirte al boletín de {shop_name}. Usa este código en tu próxima compra:</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>{discount}</b></p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Ir a la tienda",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "Welcome — here is your discount",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Thanks for subscribing to the {shop_name} newsletter. Use this code on your next purchase:</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>{discount}</b></p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Go to the shop",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Bienvenue, voici votre remise",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Merci de vous être inscrit à la newsletter de {shop_name}. Utilisez ce code lors de votre prochain achat :</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>{discount}</b></p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Aller à la boutique",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Benvenuto, ecco il tuo sconto",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Grazie per esserti iscritto alla newsletter di {shop_name}. Usa questo codice nel prossimo acquisto:</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>{discount}</b></p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Vai al negozio",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Willkommen — hier ist Ihr Rabatt",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Danke für Ihre Anmeldung zum Newsletter von {shop_name}. Verwenden Sie diesen Code beim nächsten Einkauf:</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>{discount}</b></p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Zum Shop",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

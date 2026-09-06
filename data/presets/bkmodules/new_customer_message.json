@@ -1,0 +1,141 @@
+{
+ "subject": {
+  "es": "Nuevo mensaje de {customer_name}",
+  "en": "New message from {customer_name}",
+  "fr": "Nouveau message de {customer_name}",
+  "it": "Nuovo messaggio da {customer_name}",
+  "de": "Neue Nachricht von {customer_name}"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Nuevo mensaje de atención al cliente",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p><b>{customer_name}</b> ({customer_email}) ha escrito a {contact_name}. Pedido: {order_reference}.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{message}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Responder en el back office",
+    "url": "{admin_link}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "New customer service message",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p><b>{customer_name}</b> ({customer_email}) wrote to {contact_name}. Order: {order_reference}.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{message}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Reply in the back office",
+    "url": "{admin_link}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Nouveau message du service client",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p><b>{customer_name}</b> ({customer_email}) a écrit à {contact_name}. Commande : {order_reference}.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{message}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Répondre dans le back-office",
+    "url": "{admin_link}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Nuovo messaggio di assistenza clienti",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p><b>{customer_name}</b> ({customer_email}) ha scritto a {contact_name}. Ordine: {order_reference}.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{message}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Rispondi nel back office",
+    "url": "{admin_link}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Neue Kundenservice-Nachricht",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p><b>{customer_name}</b> ({customer_email}) hat an {contact_name} geschrieben. Bestellung: {order_reference}.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{message}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Im Back-Office antworten",
+    "url": "{admin_link}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

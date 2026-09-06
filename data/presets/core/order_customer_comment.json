@@ -1,0 +1,141 @@
+{
+ "subject": {
+  "es": "Mensaje de {firstname} sobre el pedido {order_name}",
+  "en": "Message from {firstname} about order {order_name}",
+  "fr": "Message de {firstname} au sujet de la commande {order_name}",
+  "it": "Messaggio di {firstname} sull'ordine {order_name}",
+  "de": "Nachricht von {firstname} zur Bestellung {order_name}"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Un cliente ha escrito sobre su pedido",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p><b>{firstname} {lastname}</b> ({email}) ha escrito sobre el pedido <b>{order_name}</b>.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{message}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Abrir el pedido",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "A customer wrote about their order",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p><b>{firstname} {lastname}</b> ({email}) wrote about order <b>{order_name}</b>.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{message}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Open the order",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Un client a écrit au sujet de sa commande",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p><b>{firstname} {lastname}</b> ({email}) a écrit au sujet de la commande <b>{order_name}</b>.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{message}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Ouvrir la commande",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Un cliente ha scritto sul suo ordine",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p><b>{firstname} {lastname}</b> ({email}) ha scritto sull'ordine <b>{order_name}</b>.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{message}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Apri l'ordine",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Ein Kunde hat zu seiner Bestellung geschrieben",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p><b>{firstname} {lastname}</b> ({email}) hat zur Bestellung <b>{order_name}</b> geschrieben.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{message}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Bestellung öffnen",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

@@ -1,0 +1,116 @@
+{
+ "subject": {
+  "es": "Tu cuenta profesional está activa",
+  "en": "Your business account is active",
+  "fr": "Votre compte professionnel est actif",
+  "it": "Il tuo account professionale è attivo",
+  "de": "Ihr Geschäftskonto ist aktiv"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Ya puedes comprar, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Hemos validado tu cuenta profesional en {shop_name}. Al entrar verás tus precios y condiciones.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Entrar en mi cuenta",
+    "url": "{my_account_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "You can order now, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>We have approved your business account at {shop_name}. When you sign in you will see your prices and terms.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Go to my account",
+    "url": "{my_account_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Vous pouvez commander, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Nous avons validé votre compte professionnel chez {shop_name}. En vous connectant, vous verrez vos tarifs et conditions.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Accéder à mon compte",
+    "url": "{my_account_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Ora puoi ordinare, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Abbiamo approvato il tuo account professionale su {shop_name}. Accedendo vedrai i tuoi prezzi e condizioni.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Vai al mio account",
+    "url": "{my_account_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Sie können jetzt bestellen, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Wir haben Ihr Geschäftskonto bei {shop_name} freigegeben. Nach der Anmeldung sehen Sie Ihre Preise und Konditionen.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Zu meinem Konto",
+    "url": "{my_account_url}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

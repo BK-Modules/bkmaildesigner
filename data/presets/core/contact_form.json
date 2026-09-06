@@ -1,0 +1,116 @@
+{
+ "subject": {
+  "es": "Hemos recibido tu mensaje",
+  "en": "We have received your message",
+  "fr": "Nous avons reçu votre message",
+  "it": "Abbiamo ricevuto il tuo messaggio",
+  "de": "Wir haben Ihre Nachricht erhalten"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Gracias por escribirnos, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Hemos recibido tu mensaje y te respondemos lo antes posible. Guarda este correo como resguardo.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Ir a la tienda",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "Thanks for writing to us, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>We have received your message and will reply as soon as we can. Keep this email as a record.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Go to the shop",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Merci de nous avoir écrit, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Nous avons bien reçu votre message et vous répondrons dès que possible. Conservez cet e-mail comme preuve.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Aller à la boutique",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Grazie per averci scritto, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Abbiamo ricevuto il tuo messaggio e ti risponderemo il prima possibile. Conserva questa email come ricevuta.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Vai al negozio",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Danke für Ihre Nachricht, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Wir haben Ihre Nachricht erhalten und antworten so schnell wie möglich. Bewahren Sie diese E-Mail als Beleg auf.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Zum Shop",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

@@ -1,0 +1,196 @@
+{
+ "subject": {
+  "es": "Nuevo pedido {order_name}",
+  "en": "New order {order_name}",
+  "fr": "Nouvelle commande {order_name}",
+  "it": "Nuovo ordine {order_name}",
+  "de": "Neue Bestellung {order_name}"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Nuevo pedido de {firstname} {lastname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Pedido <b>{order_name}</b> del {date}. Cliente: {firstname} {lastname} ({email}).</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "order",
+    "source": "items",
+    "discount_source": "discounts",
+    "totals": true,
+    "labels": {}
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Pago:</b> {payment} &nbsp;·&nbsp; <b>Transportista:</b> {carrier}</p>",
+    "tone": "neutral"
+   },
+   {
+    "type": "addresses",
+    "labels": {}
+   },
+   {
+    "type": "button",
+    "text": "Abrir el pedido",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "New order from {firstname} {lastname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Order <b>{order_name}</b> placed on {date}. Customer: {firstname} {lastname} ({email}).</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "order",
+    "source": "items",
+    "discount_source": "discounts",
+    "totals": true,
+    "labels": {}
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Payment:</b> {payment} &nbsp;·&nbsp; <b>Carrier:</b> {carrier}</p>",
+    "tone": "neutral"
+   },
+   {
+    "type": "addresses",
+    "labels": {}
+   },
+   {
+    "type": "button",
+    "text": "Open the order",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Nouvelle commande de {firstname} {lastname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Commande <b>{order_name}</b> du {date}. Client : {firstname} {lastname} ({email}).</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "order",
+    "source": "items",
+    "discount_source": "discounts",
+    "totals": true,
+    "labels": {}
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Paiement :</b> {payment} &nbsp;·&nbsp; <b>Transporteur :</b> {carrier}</p>",
+    "tone": "neutral"
+   },
+   {
+    "type": "addresses",
+    "labels": {}
+   },
+   {
+    "type": "button",
+    "text": "Ouvrir la commande",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Nuovo ordine di {firstname} {lastname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Ordine <b>{order_name}</b> del {date}. Cliente: {firstname} {lastname} ({email}).</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "order",
+    "source": "items",
+    "discount_source": "discounts",
+    "totals": true,
+    "labels": {}
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Pagamento:</b> {payment} &nbsp;·&nbsp; <b>Corriere:</b> {carrier}</p>",
+    "tone": "neutral"
+   },
+   {
+    "type": "addresses",
+    "labels": {}
+   },
+   {
+    "type": "button",
+    "text": "Apri l'ordine",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Neue Bestellung von {firstname} {lastname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Bestellung <b>{order_name}</b> vom {date}. Kunde: {firstname} {lastname} ({email}).</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "order",
+    "source": "items",
+    "discount_source": "discounts",
+    "totals": true,
+    "labels": {}
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Zahlung:</b> {payment} &nbsp;·&nbsp; <b>Versanddienst:</b> {carrier}</p>",
+    "tone": "neutral"
+   },
+   {
+    "type": "addresses",
+    "labels": {}
+   },
+   {
+    "type": "button",
+    "text": "Bestellung öffnen",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

@@ -1,0 +1,151 @@
+{
+ "subject": {
+  "es": "Hilo de {firstname} {lastname} reenviado por {employee}",
+  "en": "Thread from {firstname} {lastname} forwarded by {employee}",
+  "fr": "Fil de {firstname} {lastname} transféré par {employee}",
+  "it": "Conversazione di {firstname} {lastname} inoltrata da {employee}",
+  "de": "Konversation von {firstname} {lastname}, weitergeleitet von {employee}"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Te han pasado una conversación",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{employee} te reenvía la conversación con {firstname} {lastname}.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{comment}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "divider"
+   },
+   {
+    "type": "text",
+    "html": "<p>{messages}</p>",
+    "align": "left",
+    "tone": "normal"
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "A conversation has been passed to you",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{employee} forwards you the conversation with {firstname} {lastname}.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{comment}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "divider"
+   },
+   {
+    "type": "text",
+    "html": "<p>{messages}</p>",
+    "align": "left",
+    "tone": "normal"
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Une conversation vous a été transmise",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{employee} vous transfère la conversation avec {firstname} {lastname}.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{comment}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "divider"
+   },
+   {
+    "type": "text",
+    "html": "<p>{messages}</p>",
+    "align": "left",
+    "tone": "normal"
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Ti hanno passato una conversazione",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{employee} ti inoltra la conversazione con {firstname} {lastname}.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{comment}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "divider"
+   },
+   {
+    "type": "text",
+    "html": "<p>{messages}</p>",
+    "align": "left",
+    "tone": "normal"
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Ihnen wurde eine Konversation übergeben",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{employee} leitet Ihnen die Konversation mit {firstname} {lastname} weiter.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{comment}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "divider"
+   },
+   {
+    "type": "text",
+    "html": "<p>{messages}</p>",
+    "align": "left",
+    "tone": "normal"
+   }
+  ]
+ }
+}

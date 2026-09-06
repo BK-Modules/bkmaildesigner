@@ -1,0 +1,146 @@
+{
+ "subject": {
+  "es": "No hemos podido cobrar el pedido {order_name}",
+  "en": "We could not charge order {order_name}",
+  "fr": "Nous n'avons pas pu encaisser la commande {order_name}",
+  "it": "Non siamo riusciti ad addebitare l'ordine {order_name}",
+  "de": "Zahlung für Bestellung {order_name} fehlgeschlagen"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Hay un problema con el pago, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>El pago del pedido <b>{order_name}</b> no se ha completado, así que el pedido está en espera. Puedes reintentarlo desde tu cuenta.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Reintentar el pago",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>Si el importe sí se ha cargado en tu cuenta, escríbenos y lo revisamos.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "There is a problem with the payment, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>The payment for order <b>{order_name}</b> did not go through, so the order is on hold. You can try again from your account.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Try the payment again",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>If the amount was charged anyway, write to us and we will check it.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Un problème avec le paiement, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Le paiement de la commande <b>{order_name}</b> n'a pas abouti, la commande est donc en attente. Vous pouvez réessayer depuis votre compte.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Réessayer le paiement",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>Si le montant a tout de même été débité, écrivez-nous et nous le vérifierons.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "C'è un problema con il pagamento, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Il pagamento dell'ordine <b>{order_name}</b> non è andato a buon fine, quindi l'ordine è in attesa. Puoi riprovare dal tuo account.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Riprova il pagamento",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>Se l'importo è stato comunque addebitato, scrivici e lo verifichiamo.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Es gibt ein Problem mit der Zahlung, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Die Zahlung für Bestellung <b>{order_name}</b> war nicht erfolgreich, die Bestellung wartet. Sie können es in Ihrem Konto erneut versuchen.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Zahlung erneut versuchen",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>Falls der Betrag doch abgebucht wurde, schreiben Sie uns und wir prüfen das.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ]
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "subject": {
+  "es": "Nuevo comentario en «{post_title}»",
+  "en": "New comment on “{post_title}”",
+  "fr": "Nouveau commentaire sur « {post_title} »",
+  "it": "Nuovo commento su «{post_title}»",
+  "de": "Neuer Kommentar zu „{post_title}“"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Nuevo comentario en el blog",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{firstname} {lastname} ha comentado en <b>{post_title}</b>:</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{comment_content}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Ver el artículo",
+    "url": "{post_link}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "New comment on the blog",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{firstname} {lastname} commented on <b>{post_title}</b>:</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{comment_content}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "See the post",
+    "url": "{post_link}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Nouveau commentaire sur le blog",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{firstname} {lastname} a commenté <b>{post_title}</b> :</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{comment_content}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Voir l'article",
+    "url": "{post_link}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Nuovo commento sul blog",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{firstname} {lastname} ha commentato <b>{post_title}</b>:</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{comment_content}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Vedi l'articolo",
+    "url": "{post_link}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Neuer Kommentar im Blog",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{firstname} {lastname} hat <b>{post_title}</b> kommentiert:</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{comment_content}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Beitrag ansehen",
+    "url": "{post_link}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

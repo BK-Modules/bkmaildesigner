@@ -1,0 +1,146 @@
+{
+ "subject": {
+  "es": "Ya está disponible: {product}",
+  "en": "Back in stock: {product}",
+  "fr": "De nouveau disponible : {product}",
+  "it": "Di nuovo disponibile: {product}",
+  "de": "Wieder verfügbar: {product}"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Vuelve a estar en stock",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p><b>{product}</b> ha vuelto a nuestro catálogo. Pediste que te avisáramos, y aquí lo tienes.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Ver el producto",
+    "url": "{product_link}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>Te avisamos una sola vez: este aviso no se repite.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "It is available again",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p><b>{product}</b> is back in our catalogue. You asked us to let you know, so here it is.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "See the product",
+    "url": "{product_link}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>We notify you once: this alert is not repeated.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Il est de retour en stock",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p><b>{product}</b> est de retour dans notre catalogue. Vous nous aviez demandé de vous prévenir.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Voir le produit",
+    "url": "{product_link}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>Nous vous prévenons une seule fois : cette alerte ne se répète pas.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "È tornato disponibile",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p><b>{product}</b> è tornato nel nostro catalogo. Ci avevi chiesto di avvisarti.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Vedi il prodotto",
+    "url": "{product_link}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>Ti avvisiamo una sola volta: questo avviso non si ripete.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Wieder auf Lager",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p><b>{product}</b> ist wieder in unserem Katalog. Sie wollten benachrichtigt werden.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Produkt ansehen",
+    "url": "{product_link}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>Wir benachrichtigen Sie einmal: diese Meldung wiederholt sich nicht.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ]
+ }
+}

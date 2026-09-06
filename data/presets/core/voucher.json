@@ -1,0 +1,141 @@
+{
+ "subject": {
+  "es": "Vale de {voucher_amount} por el pedido {order_name}",
+  "en": "A {voucher_amount} voucher for order {order_name}",
+  "fr": "Bon de {voucher_amount} pour la commande {order_name}",
+  "it": "Buono di {voucher_amount} per l'ordine {order_name}",
+  "de": "Gutschein über {voucher_amount} für Bestellung {order_name}"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Tienes un vale, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Por el pedido <b>{order_name}</b> te hemos emitido un vale de <b>{voucher_amount}</b>.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>{voucher_num}</b></p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Ir a la tienda",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "You have a voucher, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>For order <b>{order_name}</b> we have issued a voucher of <b>{voucher_amount}</b>.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>{voucher_num}</b></p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Go to the shop",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Vous avez un bon, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Pour la commande <b>{order_name}</b>, nous avons émis un bon de <b>{voucher_amount}</b>.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>{voucher_num}</b></p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Aller à la boutique",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Hai un buono, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Per l'ordine <b>{order_name}</b> abbiamo emesso un buono di <b>{voucher_amount}</b>.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>{voucher_num}</b></p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Vai al negozio",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Sie haben einen Gutschein, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Für Bestellung <b>{order_name}</b> haben wir einen Gutschein über <b>{voucher_amount}</b> ausgestellt.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>{voucher_num}</b></p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Zum Shop",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

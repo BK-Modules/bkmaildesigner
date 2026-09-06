@@ -1,0 +1,116 @@
+{
+ "subject": {
+  "es": "Tu devolución {id_order_return}: {state_order_return}",
+  "en": "Your return {id_order_return}: {state_order_return}",
+  "fr": "Votre retour {id_order_return} : {state_order_return}",
+  "it": "Il tuo reso {id_order_return}: {state_order_return}",
+  "de": "Ihre Rücksendung {id_order_return}: {state_order_return}"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Novedades de tu devolución, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>La devolución <b>{id_order_return}</b> está ahora en el estado <b>{state_order_return}</b>.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Ver mis devoluciones",
+    "url": "{my_account_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "News about your return, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Return <b>{id_order_return}</b> is now in the state <b>{state_order_return}</b>.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "See my returns",
+    "url": "{my_account_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Des nouvelles de votre retour, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Le retour <b>{id_order_return}</b> est maintenant à l'état <b>{state_order_return}</b>.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Voir mes retours",
+    "url": "{my_account_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Novità sul tuo reso, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Il reso <b>{id_order_return}</b> è ora nello stato <b>{state_order_return}</b>.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Vedi i miei resi",
+    "url": "{my_account_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Neues zu Ihrer Rücksendung, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Die Rücksendung <b>{id_order_return}</b> hat jetzt den Status <b>{state_order_return}</b>.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Meine Rücksendungen ansehen",
+    "url": "{my_account_url}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

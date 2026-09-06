@@ -1,0 +1,176 @@
+{
+ "subject": {
+  "es": "Devolución del pedido {order_name}",
+  "en": "Return for order {order_name}",
+  "fr": "Retour pour la commande {order_name}",
+  "it": "Reso per l'ordine {order_name}",
+  "de": "Rücksendung zur Bestellung {order_name}"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Nueva solicitud de devolución",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{firstname} {lastname} pide devolver artículos del pedido <b>{order_name}</b>.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "order",
+    "source": "items",
+    "discount_source": "discounts",
+    "totals": false,
+    "labels": {}
+   },
+   {
+    "type": "box",
+    "html": "<p>{message}</p>",
+    "tone": "neutral"
+   },
+   {
+    "type": "button",
+    "text": "Abrir el pedido",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "New return request",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{firstname} {lastname} wants to return items from order <b>{order_name}</b>.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "order",
+    "source": "items",
+    "discount_source": "discounts",
+    "totals": false,
+    "labels": {}
+   },
+   {
+    "type": "box",
+    "html": "<p>{message}</p>",
+    "tone": "neutral"
+   },
+   {
+    "type": "button",
+    "text": "Open the order",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Nouvelle demande de retour",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{firstname} {lastname} souhaite retourner des articles de la commande <b>{order_name}</b>.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "order",
+    "source": "items",
+    "discount_source": "discounts",
+    "totals": false,
+    "labels": {}
+   },
+   {
+    "type": "box",
+    "html": "<p>{message}</p>",
+    "tone": "neutral"
+   },
+   {
+    "type": "button",
+    "text": "Ouvrir la commande",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Nuova richiesta di reso",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{firstname} {lastname} chiede di restituire articoli dell'ordine <b>{order_name}</b>.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "order",
+    "source": "items",
+    "discount_source": "discounts",
+    "totals": false,
+    "labels": {}
+   },
+   {
+    "type": "box",
+    "html": "<p>{message}</p>",
+    "tone": "neutral"
+   },
+   {
+    "type": "button",
+    "text": "Apri l'ordine",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Neue Rücksendeanfrage",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{firstname} {lastname} möchte Artikel aus Bestellung <b>{order_name}</b> zurücksenden.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "order",
+    "source": "items",
+    "discount_source": "discounts",
+    "totals": false,
+    "labels": {}
+   },
+   {
+    "type": "box",
+    "html": "<p>{message}</p>",
+    "tone": "neutral"
+   },
+   {
+    "type": "button",
+    "text": "Bestellung öffnen",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

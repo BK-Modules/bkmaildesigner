@@ -1,0 +1,146 @@
+{
+ "subject": {
+  "es": "Tu cuenta profesional está en revisión",
+  "en": "Your business account is under review",
+  "fr": "Votre compte professionnel est en cours de validation",
+  "it": "Il tuo account professionale è in verifica",
+  "de": "Ihr Geschäftskonto wird geprüft"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Hola {firstname},",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Hemos recibido tu registro como profesional en {shop_name}. Lo revisa una persona, así que puede tardar unas horas.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "text",
+    "html": "<p>Te escribiremos en cuanto esté validada. Hasta entonces no podrás ver los precios profesionales.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Ir a la tienda",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "Hi {firstname},",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>We have received your business registration at {shop_name}. A person reviews it, so it may take a few hours.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "text",
+    "html": "<p>We will write as soon as it is approved. Until then you cannot see business prices.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Go to the shop",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Bonjour {firstname},",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Nous avons reçu votre inscription professionnelle chez {shop_name}. Une personne l'examine, cela peut prendre quelques heures.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "text",
+    "html": "<p>Nous vous écrirons dès qu'il sera validé. D'ici là, vous ne verrez pas les tarifs professionnels.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Aller à la boutique",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Ciao {firstname},",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Abbiamo ricevuto la tua registrazione professionale su {shop_name}. La verifica una persona, quindi possono servire alcune ore.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "text",
+    "html": "<p>Ti scriveremo appena sarà approvato. Fino ad allora non vedrai i prezzi professionali.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Vai al negozio",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Hallo {firstname},",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Wir haben Ihre gewerbliche Registrierung bei {shop_name} erhalten. Eine Person prüft sie, das kann einige Stunden dauern.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "text",
+    "html": "<p>Wir melden uns, sobald sie freigegeben ist. Bis dahin sehen Sie keine Geschäftspreise.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Zum Shop",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

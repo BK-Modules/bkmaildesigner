@@ -1,0 +1,111 @@
+{
+ "subject": {
+  "es": "Sin stock: {product}",
+  "en": "Out of stock: {product}",
+  "fr": "Rupture de stock : {product}",
+  "it": "Esaurito: {product}",
+  "de": "Nicht auf Lager: {product}"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Se ha agotado un producto",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>{product}</b> se ha quedado sin existencias. Cantidad actual: {qty}. Última salida: {last_qty} unidades.</p>",
+    "tone": "warning"
+   },
+   {
+    "type": "button",
+    "text": "Ir al catálogo",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "A product has run out",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>{product}</b> is out of stock. Current quantity: {qty}. Last movement: {last_qty} units.</p>",
+    "tone": "warning"
+   },
+   {
+    "type": "button",
+    "text": "Go to the catalogue",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Un produit est épuisé",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>{product}</b> est en rupture de stock. Quantité actuelle : {qty}. Dernier mouvement : {last_qty} unités.</p>",
+    "tone": "warning"
+   },
+   {
+    "type": "button",
+    "text": "Aller au catalogue",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Un prodotto è esaurito",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>{product}</b> è esaurito. Quantità attuale: {qty}. Ultimo movimento: {last_qty} unità.</p>",
+    "tone": "warning"
+   },
+   {
+    "type": "button",
+    "text": "Vai al catalogo",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Ein Produkt ist ausverkauft",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>{product}</b> ist ausverkauft. Aktuelle Menge: {qty}. Letzte Bewegung: {last_qty} Einheiten.</p>",
+    "tone": "warning"
+   },
+   {
+    "type": "button",
+    "text": "Zum Katalog",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

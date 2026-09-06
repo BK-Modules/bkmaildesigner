@@ -1,0 +1,386 @@
+{
+ "subject": {
+  "es": "Pedido {order_name} confirmado",
+  "en": "Order {order_name} confirmed",
+  "fr": "Commande {order_name} confirmée",
+  "it": "Ordine {order_name} confermato",
+  "de": "Bestellung {order_name} bestätigt"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Gracias por tu pedido, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Ya lo tenemos. Guarda este correo: es tu comprobante.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Pedido</b> {order_name} &nbsp;·&nbsp; <b>Fecha</b> {date}<br><b>Pago</b> {payment} &nbsp;·&nbsp; <b>Envío</b> {carrier}</p>",
+    "tone": "primary",
+    "align": "left"
+   },
+   {
+    "type": "heading",
+    "text": "Qué has pedido",
+    "size": "h2",
+    "align": "left",
+    "pad_top": 10
+   },
+   {
+    "type": "order",
+    "source": "products",
+    "discount_source": "discounts",
+    "totals": true,
+    "labels": {},
+    "layout": "",
+    "show_image": 1,
+    "show_reference": "",
+    "show_options": "",
+    "show_unit": "",
+    "image_size": 0,
+    "totals_mode": {
+     "subtotal": "always",
+     "shipping": "always",
+     "discounts": "auto",
+     "tax": "auto",
+     "total_paid": "always"
+    }
+   },
+   {
+    "type": "button",
+    "text": "Ver mi pedido",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "divider",
+    "style": "solid"
+   },
+   {
+    "type": "heading",
+    "text": "Dónde va",
+    "size": "h2",
+    "align": "left"
+   },
+   {
+    "type": "addresses",
+    "labels": {}
+   },
+   {
+    "type": "text",
+    "html": "<p>¿Algo no cuadra? Responde a este correo en las próximas horas y lo cambiamos antes de que salga.</p>",
+    "align": "left",
+    "tone": "muted",
+    "pad_top": 14
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "Thank you for your order, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>We have it. Keep this email: it is your receipt.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Order</b> {order_name} &nbsp;·&nbsp; <b>Date</b> {date}<br><b>Payment</b> {payment} &nbsp;·&nbsp; <b>Carrier</b> {carrier}</p>",
+    "tone": "primary",
+    "align": "left"
+   },
+   {
+    "type": "heading",
+    "text": "What you ordered",
+    "size": "h2",
+    "align": "left",
+    "pad_top": 10
+   },
+   {
+    "type": "order",
+    "source": "products",
+    "discount_source": "discounts",
+    "totals": true,
+    "labels": {},
+    "layout": "",
+    "show_image": 1,
+    "show_reference": "",
+    "show_options": "",
+    "show_unit": "",
+    "image_size": 0,
+    "totals_mode": {
+     "subtotal": "always",
+     "shipping": "always",
+     "discounts": "auto",
+     "tax": "auto",
+     "total_paid": "always"
+    }
+   },
+   {
+    "type": "button",
+    "text": "View my order",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "divider",
+    "style": "solid"
+   },
+   {
+    "type": "heading",
+    "text": "Where it goes",
+    "size": "h2",
+    "align": "left"
+   },
+   {
+    "type": "addresses",
+    "labels": {}
+   },
+   {
+    "type": "text",
+    "html": "<p>Something off? Reply to this email in the next few hours and we change it before it ships.</p>",
+    "align": "left",
+    "tone": "muted",
+    "pad_top": 14
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Merci pour votre commande, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Nous l’avons. Conservez cet e-mail : c’est votre justificatif.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Commande</b> {order_name} &nbsp;·&nbsp; <b>Date</b> {date}<br><b>Paiement</b> {payment} &nbsp;·&nbsp; <b>Transporteur</b> {carrier}</p>",
+    "tone": "primary",
+    "align": "left"
+   },
+   {
+    "type": "heading",
+    "text": "Ce que vous avez commandé",
+    "size": "h2",
+    "align": "left",
+    "pad_top": 10
+   },
+   {
+    "type": "order",
+    "source": "products",
+    "discount_source": "discounts",
+    "totals": true,
+    "labels": {},
+    "layout": "",
+    "show_image": 1,
+    "show_reference": "",
+    "show_options": "",
+    "show_unit": "",
+    "image_size": 0,
+    "totals_mode": {
+     "subtotal": "always",
+     "shipping": "always",
+     "discounts": "auto",
+     "tax": "auto",
+     "total_paid": "always"
+    }
+   },
+   {
+    "type": "button",
+    "text": "Voir ma commande",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "divider",
+    "style": "solid"
+   },
+   {
+    "type": "heading",
+    "text": "Où elle va",
+    "size": "h2",
+    "align": "left"
+   },
+   {
+    "type": "addresses",
+    "labels": {}
+   },
+   {
+    "type": "text",
+    "html": "<p>Un souci ? Répondez à cet e-mail dans les prochaines heures et nous corrigeons avant l’expédition.</p>",
+    "align": "left",
+    "tone": "muted",
+    "pad_top": 14
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Grazie per il tuo ordine, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Ce l’abbiamo. Conserva questa email: è la tua ricevuta.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Ordine</b> {order_name} &nbsp;·&nbsp; <b>Data</b> {date}<br><b>Pagamento</b> {payment} &nbsp;·&nbsp; <b>Spedizione</b> {carrier}</p>",
+    "tone": "primary",
+    "align": "left"
+   },
+   {
+    "type": "heading",
+    "text": "Che cosa hai ordinato",
+    "size": "h2",
+    "align": "left",
+    "pad_top": 10
+   },
+   {
+    "type": "order",
+    "source": "products",
+    "discount_source": "discounts",
+    "totals": true,
+    "labels": {},
+    "layout": "",
+    "show_image": 1,
+    "show_reference": "",
+    "show_options": "",
+    "show_unit": "",
+    "image_size": 0,
+    "totals_mode": {
+     "subtotal": "always",
+     "shipping": "always",
+     "discounts": "auto",
+     "tax": "auto",
+     "total_paid": "always"
+    }
+   },
+   {
+    "type": "button",
+    "text": "Vedi il mio ordine",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "divider",
+    "style": "solid"
+   },
+   {
+    "type": "heading",
+    "text": "Dove va",
+    "size": "h2",
+    "align": "left"
+   },
+   {
+    "type": "addresses",
+    "labels": {}
+   },
+   {
+    "type": "text",
+    "html": "<p>Qualcosa non torna? Rispondi a questa email nelle prossime ore e lo cambiamo prima della spedizione.</p>",
+    "align": "left",
+    "tone": "muted",
+    "pad_top": 14
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Danke für Ihre Bestellung, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Sie ist bei uns. Bewahren Sie diese E-Mail als Beleg auf.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Bestellung</b> {order_name} &nbsp;·&nbsp; <b>Datum</b> {date}<br><b>Zahlung</b> {payment} &nbsp;·&nbsp; <b>Versand</b> {carrier}</p>",
+    "tone": "primary",
+    "align": "left"
+   },
+   {
+    "type": "heading",
+    "text": "Was Sie bestellt haben",
+    "size": "h2",
+    "align": "left",
+    "pad_top": 10
+   },
+   {
+    "type": "order",
+    "source": "products",
+    "discount_source": "discounts",
+    "totals": true,
+    "labels": {},
+    "layout": "",
+    "show_image": 1,
+    "show_reference": "",
+    "show_options": "",
+    "show_unit": "",
+    "image_size": 0,
+    "totals_mode": {
+     "subtotal": "always",
+     "shipping": "always",
+     "discounts": "auto",
+     "tax": "auto",
+     "total_paid": "always"
+    }
+   },
+   {
+    "type": "button",
+    "text": "Meine Bestellung ansehen",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "divider",
+    "style": "solid"
+   },
+   {
+    "type": "heading",
+    "text": "Wohin es geht",
+    "size": "h2",
+    "align": "left"
+   },
+   {
+    "type": "addresses",
+    "labels": {}
+   },
+   {
+    "type": "text",
+    "html": "<p>Stimmt etwas nicht? Antworten Sie in den nächsten Stunden, wir ändern es vor dem Versand.</p>",
+    "align": "left",
+    "tone": "muted",
+    "pad_top": 14
+   }
+  ]
+ }
+}

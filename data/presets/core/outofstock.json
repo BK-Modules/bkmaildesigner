@@ -1,0 +1,116 @@
+{
+ "subject": {
+  "es": "Sin stock en el pedido {order_name}",
+  "en": "Out of stock in order {order_name}",
+  "fr": "Rupture de stock sur la commande {order_name}",
+  "it": "Esaurito nell'ordine {order_name}",
+  "de": "Nicht auf Lager in Bestellung {order_name}"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Un pedido pide algo que no hay",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>El pedido <b>{order_name}</b> de {firstname} {lastname} incluye un producto sin existencias. Revísalo antes de prepararlo.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Abrir el pedido",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "An order asks for something you do not have",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Order <b>{order_name}</b> from {firstname} {lastname} includes a product that is out of stock. Check it before preparing it.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Open the order",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Une commande demande un article indisponible",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>La commande <b>{order_name}</b> de {firstname} {lastname} contient un produit en rupture. Vérifiez-la avant de la préparer.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Ouvrir la commande",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Un ordine chiede qualcosa che non c'è",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>L'ordine <b>{order_name}</b> di {firstname} {lastname} include un prodotto esaurito. Controllalo prima di prepararlo.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Apri l'ordine",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Eine Bestellung verlangt etwas, das fehlt",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Bestellung <b>{order_name}</b> von {firstname} {lastname} enthält ein Produkt, das nicht auf Lager ist. Prüfen Sie sie vor der Vorbereitung.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Bestellung öffnen",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

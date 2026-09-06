@@ -1,0 +1,116 @@
+{
+ "subject": {
+  "es": "Vale de descuento del pedido {order_name}",
+  "en": "Credit slip for order {order_name}",
+  "fr": "Avoir pour la commande {order_name}",
+  "it": "Nota di credito per l'ordine {order_name}",
+  "de": "Gutschrift für Bestellung {order_name}"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Tienes un vale, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Hemos emitido un vale de descuento por el pedido <b>{order_name}</b>. Lo tienes disponible en tu cuenta.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Ver mis vales",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "You have a credit slip, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>We have issued a credit slip for order <b>{order_name}</b>. It is available in your account.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "See my credit slips",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Vous avez un avoir, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Nous avons émis un avoir pour la commande <b>{order_name}</b>. Il est disponible dans votre compte.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Voir mes avoirs",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Hai una nota di credito, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Abbiamo emesso una nota di credito per l'ordine <b>{order_name}</b>. È disponibile nel tuo account.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Vedi le mie note di credito",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Sie haben eine Gutschrift, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Wir haben eine Gutschrift für Bestellung <b>{order_name}</b> ausgestellt. Sie finden sie in Ihrem Konto.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Meine Gutschriften ansehen",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

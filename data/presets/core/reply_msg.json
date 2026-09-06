@@ -1,0 +1,141 @@
+{
+ "subject": {
+  "es": "Respuesta a tu mensaje",
+  "en": "Reply to your message",
+  "fr": "Réponse à votre message",
+  "it": "Risposta al tuo messaggio",
+  "de": "Antwort auf Ihre Nachricht"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Hola {firstname},",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Te respondemos al mensaje que nos enviaste:</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{reply}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Ver la conversación",
+    "url": "{link}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "Hi {firstname},",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Here is our reply to the message you sent us:</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{reply}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "See the conversation",
+    "url": "{link}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Bonjour {firstname},",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Voici notre réponse au message que vous nous avez envoyé :</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{reply}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Voir la conversation",
+    "url": "{link}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Ciao {firstname},",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Ecco la nostra risposta al messaggio che ci hai inviato:</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{reply}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Vedi la conversazione",
+    "url": "{link}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Hallo {firstname},",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Hier ist unsere Antwort auf Ihre Nachricht:</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{reply}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Zur Konversation",
+    "url": "{link}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

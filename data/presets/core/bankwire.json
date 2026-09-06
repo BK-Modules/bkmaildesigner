@@ -1,0 +1,171 @@
+{
+ "subject": {
+  "es": "Cómo pagar el pedido {order_name}",
+  "en": "How to pay order {order_name}",
+  "fr": "Comment payer la commande {order_name}",
+  "it": "Come pagare l'ordine {order_name}",
+  "de": "So bezahlen Sie Bestellung {order_name}"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Ya solo falta la transferencia, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Tu pedido <b>{order_name}</b> está reservado. Para confirmarlo, haz una transferencia de <b>{total_paid}</b> con estos datos:</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Titular:</b> {bankwire_owner}<br><b>Cuenta:</b> {bankwire_details}<br><b>Banco:</b> {bankwire_address}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "text",
+    "html": "<p>Indica <b>{order_name}</b> en el concepto. En cuanto veamos el ingreso preparamos el pedido.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Ver mi pedido",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "Only the transfer left, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Your order <b>{order_name}</b> is reserved. To confirm it, transfer <b>{total_paid}</b> using these details:</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Account holder:</b> {bankwire_owner}<br><b>Account:</b> {bankwire_details}<br><b>Bank:</b> {bankwire_address}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "text",
+    "html": "<p>Put <b>{order_name}</b> as the reference. As soon as we see the payment we prepare the order.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "View my order",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Il ne reste que le virement, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Votre commande <b>{order_name}</b> est réservée. Pour la confirmer, virez <b>{total_paid}</b> avec ces coordonnées :</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Titulaire :</b> {bankwire_owner}<br><b>Compte :</b> {bankwire_details}<br><b>Banque :</b> {bankwire_address}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "text",
+    "html": "<p>Indiquez <b>{order_name}</b> en référence. Dès réception, nous préparons la commande.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Voir ma commande",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Manca solo il bonifico, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Il tuo ordine <b>{order_name}</b> è riservato. Per confermarlo, fai un bonifico di <b>{total_paid}</b> con questi dati:</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Intestatario:</b> {bankwire_owner}<br><b>Conto:</b> {bankwire_details}<br><b>Banca:</b> {bankwire_address}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "text",
+    "html": "<p>Indica <b>{order_name}</b> nella causale. Appena vediamo l'accredito prepariamo l'ordine.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Vedi il mio ordine",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Es fehlt nur die Überweisung, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Ihre Bestellung <b>{order_name}</b> ist reserviert. Zur Bestätigung überweisen Sie <b>{total_paid}</b> mit diesen Daten:</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Kontoinhaber:</b> {bankwire_owner}<br><b>Konto:</b> {bankwire_details}<br><b>Bank:</b> {bankwire_address}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "text",
+    "html": "<p>Geben Sie <b>{order_name}</b> als Verwendungszweck an. Sobald der Eingang da ist, bereiten wir die Bestellung vor.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Bestellung ansehen",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

@@ -1,0 +1,116 @@
+{
+ "subject": {
+  "es": "Importación de {filename} terminada",
+  "en": "Import of {filename} finished",
+  "fr": "Import de {filename} terminé",
+  "it": "Importazione di {filename} completata",
+  "de": "Import von {filename} abgeschlossen"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "La importación ha terminado",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>El fichero <b>{filename}</b> se ha terminado de importar. Revisa el resultado en el back office antes de dar el catálogo por bueno.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Ir al back office",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "The import has finished",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>The file <b>{filename}</b> has finished importing. Check the result in the back office before trusting the catalogue.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Go to the back office",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "L'import est terminé",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Le fichier <b>{filename}</b> a fini d'être importé. Vérifiez le résultat dans le back-office avant de valider le catalogue.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Accéder au back-office",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "L'importazione è finita",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Il file <b>{filename}</b> ha finito di importarsi. Controlla il risultato nel back office prima di dare per buono il catalogo.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Vai al back office",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Der Import ist fertig",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Die Datei <b>{filename}</b> wurde importiert. Prüfen Sie das Ergebnis im Back-Office, bevor Sie dem Katalog vertrauen.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Zum Back-Office",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

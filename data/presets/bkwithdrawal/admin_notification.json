@@ -1,0 +1,191 @@
+{
+ "subject": {
+  "es": "Nuevo desistimiento {request_id} del pedido {order_reference}",
+  "en": "New withdrawal {request_id} for order {order_reference}",
+  "fr": "Nouvelle rétractation {request_id} pour la commande {order_reference}",
+  "it": "Nuovo recesso {request_id} per l'ordine {order_reference}",
+  "de": "Neuer Widerruf {request_id} zur Bestellung {order_reference}"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Nuevo desistimiento",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{firstname} {lastname} ({email}, {phone}) desiste del pedido <b>{order_reference}</b>, comprado el {purchase_date}.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Solicitud:</b> {request_id} &nbsp;·&nbsp; <b>Fecha:</b> {date_add} &nbsp;·&nbsp; <b>Motivo:</b> {reason}</p>",
+    "tone": "neutral"
+   },
+   {
+    "type": "html",
+    "html": "{products_html}"
+   },
+   {
+    "type": "button",
+    "text": "Abrir la solicitud",
+    "url": "{bo_request_link}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>El plazo legal para devolver el importe cuenta desde hoy.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "New withdrawal",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{firstname} {lastname} ({email}, {phone}) withdraws from order <b>{order_reference}</b>, purchased on {purchase_date}.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Request:</b> {request_id} &nbsp;·&nbsp; <b>Date:</b> {date_add} &nbsp;·&nbsp; <b>Reason:</b> {reason}</p>",
+    "tone": "neutral"
+   },
+   {
+    "type": "html",
+    "html": "{products_html}"
+   },
+   {
+    "type": "button",
+    "text": "Open the request",
+    "url": "{bo_request_link}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>The legal refund deadline starts counting today.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Nouvelle rétractation",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{firstname} {lastname} ({email}, {phone}) se rétracte de la commande <b>{order_reference}</b>, achetée le {purchase_date}.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Demande :</b> {request_id} &nbsp;·&nbsp; <b>Date :</b> {date_add} &nbsp;·&nbsp; <b>Motif :</b> {reason}</p>",
+    "tone": "neutral"
+   },
+   {
+    "type": "html",
+    "html": "{products_html}"
+   },
+   {
+    "type": "button",
+    "text": "Ouvrir la demande",
+    "url": "{bo_request_link}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>Le délai légal de remboursement court à partir d'aujourd'hui.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Nuovo recesso",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{firstname} {lastname} ({email}, {phone}) recede dall'ordine <b>{order_reference}</b>, acquistato il {purchase_date}.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Richiesta:</b> {request_id} &nbsp;·&nbsp; <b>Data:</b> {date_add} &nbsp;·&nbsp; <b>Motivo:</b> {reason}</p>",
+    "tone": "neutral"
+   },
+   {
+    "type": "html",
+    "html": "{products_html}"
+   },
+   {
+    "type": "button",
+    "text": "Apri la richiesta",
+    "url": "{bo_request_link}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>Il termine legale per il rimborso decorre da oggi.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Neuer Widerruf",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{firstname} {lastname} ({email}, {phone}) widerruft Bestellung <b>{order_reference}</b> vom {purchase_date}.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Antrag:</b> {request_id} &nbsp;·&nbsp; <b>Datum:</b> {date_add} &nbsp;·&nbsp; <b>Grund:</b> {reason}</p>",
+    "tone": "neutral"
+   },
+   {
+    "type": "html",
+    "html": "{products_html}"
+   },
+   {
+    "type": "button",
+    "text": "Antrag öffnen",
+    "url": "{bo_request_link}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>Die gesetzliche Erstattungsfrist läuft ab heute.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ]
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "subject": {
+  "es": "Tu vale de descuento en {shop_name}",
+  "en": "Your voucher at {shop_name}",
+  "fr": "Votre bon de réduction chez {shop_name}",
+  "it": "Il tuo buono su {shop_name}",
+  "de": "Ihr Gutschein bei {shop_name}"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Tienes un vale, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Usa este código en tu próxima compra:</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>{voucher_num}</b></p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Ir a la tienda",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "You have a voucher, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Use this code on your next purchase:</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>{voucher_num}</b></p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Go to the shop",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Vous avez un bon, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Utilisez ce code lors de votre prochain achat :</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>{voucher_num}</b></p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Aller à la boutique",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Hai un buono, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Usa questo codice nel prossimo acquisto:</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>{voucher_num}</b></p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Vai al negozio",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Sie haben einen Gutschein, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Verwenden Sie diesen Code beim nächsten Einkauf:</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>{voucher_num}</b></p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Zum Shop",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

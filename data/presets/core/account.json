@@ -1,0 +1,196 @@
+{
+ "subject": {
+  "es": "Ya estás dentro de {shop_name}",
+  "en": "You are in at {shop_name}",
+  "fr": "Vous êtes inscrit chez {shop_name}",
+  "it": "Sei dentro in {shop_name}",
+  "de": "Sie sind bei {shop_name} dabei"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Ya estás dentro, {firstname}",
+    "size": "h1",
+    "align": "center",
+    "pad_top": 18
+   },
+   {
+    "type": "text",
+    "html": "<p>Tu cuenta en {shop_name} está lista. Guarda esta dirección: es con la que entras.</p>",
+    "align": "center",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>{email}</b></p>",
+    "tone": "neutral",
+    "align": "center",
+    "pad_top": 6
+   },
+   {
+    "type": "button",
+    "text": "Entrar en mi cuenta",
+    "url": "{my_account_url}",
+    "align": "center",
+    "pad_top": 8,
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>¿No has sido tú? Escríbenos y la borramos.</p>",
+    "align": "center",
+    "tone": "muted",
+    "pad_top": 22
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "You are in, {firstname}",
+    "size": "h1",
+    "align": "center",
+    "pad_top": 18
+   },
+   {
+    "type": "text",
+    "html": "<p>Your account at {shop_name} is ready. Keep this address: it is how you sign in.</p>",
+    "align": "center",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>{email}</b></p>",
+    "tone": "neutral",
+    "align": "center",
+    "pad_top": 6
+   },
+   {
+    "type": "button",
+    "text": "Go to my account",
+    "url": "{my_account_url}",
+    "align": "center",
+    "pad_top": 8,
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>Was it not you? Tell us and we delete it.</p>",
+    "align": "center",
+    "tone": "muted",
+    "pad_top": 22
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Vous y êtes, {firstname}",
+    "size": "h1",
+    "align": "center",
+    "pad_top": 18
+   },
+   {
+    "type": "text",
+    "html": "<p>Votre compte chez {shop_name} est prêt. Gardez cette adresse : c’est avec elle que vous vous connectez.</p>",
+    "align": "center",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>{email}</b></p>",
+    "tone": "neutral",
+    "align": "center",
+    "pad_top": 6
+   },
+   {
+    "type": "button",
+    "text": "Accéder à mon compte",
+    "url": "{my_account_url}",
+    "align": "center",
+    "pad_top": 8,
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>Ce n’était pas vous ? Dites-le-nous et nous le supprimons.</p>",
+    "align": "center",
+    "tone": "muted",
+    "pad_top": 22
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Ci sei, {firstname}",
+    "size": "h1",
+    "align": "center",
+    "pad_top": 18
+   },
+   {
+    "type": "text",
+    "html": "<p>Il tuo account su {shop_name} è pronto. Conserva questo indirizzo: è quello con cui entri.</p>",
+    "align": "center",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>{email}</b></p>",
+    "tone": "neutral",
+    "align": "center",
+    "pad_top": 6
+   },
+   {
+    "type": "button",
+    "text": "Vai al mio account",
+    "url": "{my_account_url}",
+    "align": "center",
+    "pad_top": 8,
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>Non sei stato tu? Scrivici e lo cancelliamo.</p>",
+    "align": "center",
+    "tone": "muted",
+    "pad_top": 22
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Sie sind dabei, {firstname}",
+    "size": "h1",
+    "align": "center",
+    "pad_top": 18
+   },
+   {
+    "type": "text",
+    "html": "<p>Ihr Konto bei {shop_name} ist fertig. Merken Sie sich diese Adresse: Damit melden Sie sich an.</p>",
+    "align": "center",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>{email}</b></p>",
+    "tone": "neutral",
+    "align": "center",
+    "pad_top": 6
+   },
+   {
+    "type": "button",
+    "text": "Zu meinem Konto",
+    "url": "{my_account_url}",
+    "align": "center",
+    "pad_top": 8,
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>Waren Sie das nicht? Sagen Sie uns Bescheid, wir löschen es.</p>",
+    "align": "center",
+    "tone": "muted",
+    "pad_top": 22
+   }
+  ]
+ }
+}

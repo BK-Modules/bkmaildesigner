@@ -1,0 +1,116 @@
+{
+ "subject": {
+  "es": "Aviso del registro de la tienda",
+  "en": "Alert from the shop log",
+  "fr": "Alerte du journal de la boutique",
+  "it": "Avviso dal registro del negozio",
+  "de": "Meldung aus dem Shop-Protokoll"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Algo ha quedado registrado",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>PrestaShop ha anotado un aviso en el registro de la tienda. Míralo en Parámetros avanzados › Registros.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Ir al back office",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "Something has been logged",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>PrestaShop wrote an alert in the shop log. Have a look in Advanced Parameters › Logs.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Go to the back office",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Quelque chose a été journalisé",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>PrestaShop a inscrit une alerte dans le journal de la boutique. Consultez Paramètres avancés › Journaux.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Accéder au back-office",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Qualcosa è stato registrato",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>PrestaShop ha annotato un avviso nel registro del negozio. Guardalo in Parametri avanzati › Log.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Vai al back office",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Etwas wurde protokolliert",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>PrestaShop hat eine Meldung ins Shop-Protokoll geschrieben. Schauen Sie unter Erweiterte Einstellungen › Protokolle nach.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Zum Back-Office",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

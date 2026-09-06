@@ -1,0 +1,116 @@
+{
+ "subject": {
+  "es": "Pago recibido del pedido {order_name}",
+  "en": "Payment received for order {order_name}",
+  "fr": "Paiement reçu pour la commande {order_name}",
+  "it": "Pagamento ricevuto per l'ordine {order_name}",
+  "de": "Zahlung für Bestellung {order_name} erhalten"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Hemos recibido tu pago, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>El pago del pedido <b>{order_name}</b> está confirmado. Ya lo estamos preparando.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Seguir mi pedido",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "We have received your payment, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>The payment for order <b>{order_name}</b> is confirmed. We are already preparing it.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Track my order",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Nous avons reçu votre paiement, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Le paiement de la commande <b>{order_name}</b> est confirmé. Nous la préparons déjà.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Suivre ma commande",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Abbiamo ricevuto il tuo pagamento, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Il pagamento dell'ordine <b>{order_name}</b> è confermato. Lo stiamo già preparando.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Segui il mio ordine",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Wir haben Ihre Zahlung erhalten, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Die Zahlung für Bestellung <b>{order_name}</b> ist bestätigt. Wir bereiten sie bereits vor.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Bestellung verfolgen",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

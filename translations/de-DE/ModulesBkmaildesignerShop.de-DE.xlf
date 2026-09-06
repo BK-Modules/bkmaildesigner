@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="ModulesBkmaildesignerShop" source-language="en-US" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="1fbc7e5f1b92c7ec072397b59a0bb5da">
+        <source>Billing address</source>
+        <target>Rechnungsadresse</target>
+      </trans-unit>
+      <trans-unit id="af0f5bdc5be121b9307687aeeae38c17">
+        <source>Delivery address</source>
+        <target>Lieferadresse</target>
+      </trans-unit>
+      <trans-unit id="9d5bf15117441a1b52eb1f0808e4aad3">
+        <source>Discounts</source>
+        <target>Rabatte</target>
+      </trans-unit>
+      <trans-unit id="d95cf4ab2cbf1dfb63f066b50558b07d">
+        <source>My account</source>
+        <target>Mein Konto</target>
+      </trans-unit>
+      <trans-unit id="74ecd9234b2a42ca13e775193f391833">
+        <source>My orders</source>
+        <target>Meine Bestellungen</target>
+      </trans-unit>
+      <trans-unit id="deb10517653c255364175796ace3553f">
+        <source>Product</source>
+        <target>Produkt</target>
+      </trans-unit>
+      <trans-unit id="068f80c7519d0528fb08e82137a72131">
+        <source>Products</source>
+        <target>Produkte</target>
+      </trans-unit>
+      <trans-unit id="03ab340b3f99e03cff9e84314ead38c0">
+        <source>Qty</source>
+        <target>Menge</target>
+      </trans-unit>
+      <trans-unit id="63d5049791d9d79d86e9a108b0a999ca">
+        <source>Reference</source>
+        <target>Referenz</target>
+      </trans-unit>
+      <trans-unit id="ea9cf7e47ff33b2be14e6dd07cbcefc6">
+        <source>Shipping</source>
+        <target>Versand</target>
+      </trans-unit>
+      <trans-unit id="9f82518d468b9fee614fcc92f76bb163">
+        <source>Shop</source>
+        <target>Shop</target>
+      </trans-unit>
+      <trans-unit id="719fec04166d6fa75f89cd29ad61fa8c">
+        <source>Taxes</source>
+        <target>Steuern</target>
+      </trans-unit>
+      <trans-unit id="96b0141273eabab320119c467cdcaf17">
+        <source>Total</source>
+        <target>Summe</target>
+      </trans-unit>
+      <trans-unit id="ea067eb37801c5aab1a1c685eb97d601">
+        <source>Total paid</source>
+        <target>Gesamtbetrag</target>
+      </trans-unit>
+      <trans-unit id="6c957f72dc8cdacc75762f2cbdcdfaf2">
+        <source>Unit price</source>
+        <target>Einzelpreis</target>
+      </trans-unit>
+      <trans-unit id="a78da9de4e848dcf6d56bc0e2cf3f7f9">
+        <source>You receive this email because you have an account at {shop_name}.</source>
+        <target>Sie erhalten diese E-Mail, weil Sie ein Konto bei {shop_name} haben.</target>
+      </trans-unit>
+      <trans-unit id="027e246353e2080a4cab863f3eeb9f4c">
+        <source>You receive this email because this address was used at {shop_name}.</source>
+        <target>Sie erhalten diese E-Mail, weil diese Adresse bei {shop_name} verwendet wurde.</target>
+      </trans-unit>
+      <trans-unit id="bbaff12800505b22a853e8b7f4eb6a22">
+        <source>Contact</source>
+        <target>Kontakt</target>
+      </trans-unit>
+      <trans-unit id="d234d1a12ce2a8b64e64e726559bb418">
+        <source>Track my order</source>
+        <target>Bestellung verfolgen</target>
+      </trans-unit>
+      <trans-unit id="786e3cc638dc10856dcd2b235b05e584">
+        <source>Write to us</source>
+        <target>Schreiben Sie uns</target>
+      </trans-unit>
+      <trans-unit id="b24ce0cd392a5b0b8dedc66c25213594">
+        <source>Free</source>
+        <target>Kostenlos</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

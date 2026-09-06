@@ -1,0 +1,146 @@
+{
+ "subject": {
+  "es": "Confirma tu suscripción",
+  "en": "Confirm your subscription",
+  "fr": "Confirmez votre inscription",
+  "it": "Conferma la tua iscrizione",
+  "de": "Bestätigen Sie Ihre Anmeldung"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Un clic y listo",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Para terminar de suscribirte al boletín de {shop_name}, confirma tu correo.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Confirmar mi suscripción",
+    "url": "{verif_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>Si no has sido tú, no hagas nada: sin esta confirmación no te escribiremos.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "One click and you're in",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>To finish subscribing to the {shop_name} newsletter, confirm your email address.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Confirm my subscription",
+    "url": "{verif_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>If this wasn't you, do nothing: without this confirmation we will not write to you.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Un clic et c'est fait",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Pour terminer votre inscription à la newsletter de {shop_name}, confirmez votre e-mail.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Confirmer mon inscription",
+    "url": "{verif_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>Si ce n'était pas vous, ne faites rien : sans cette confirmation nous ne vous écrirons pas.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Un clic e sei dentro",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Per completare l'iscrizione alla newsletter di {shop_name}, conferma la tua email.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Conferma l'iscrizione",
+    "url": "{verif_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>Se non sei stato tu, non fare nulla: senza questa conferma non ti scriveremo.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Ein Klick genügt",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Um die Anmeldung zum Newsletter von {shop_name} abzuschließen, bestätigen Sie Ihre E-Mail-Adresse.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Anmeldung bestätigen",
+    "url": "{verif_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>Falls Sie das nicht waren, tun Sie nichts: ohne diese Bestätigung schreiben wir Ihnen nicht.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ]
+ }
+}

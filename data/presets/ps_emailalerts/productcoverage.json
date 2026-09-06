@@ -1,0 +1,111 @@
+{
+ "subject": {
+  "es": "Cobertura de stock baja",
+  "en": "Low stock coverage",
+  "fr": "Couverture de stock faible",
+  "it": "Copertura di stock bassa",
+  "de": "Geringe Lagerreichweite"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Queda poco stock",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "box",
+    "html": "<p>La cobertura ha bajado a <b>{current_coverage}</b> días, por debajo del umbral de {warning_coverage}. Toca reponer.</p>",
+    "tone": "warning"
+   },
+   {
+    "type": "button",
+    "text": "Ir al catálogo",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "Stock is running low",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "box",
+    "html": "<p>Coverage has dropped to <b>{current_coverage}</b> days, below the {warning_coverage} threshold. Time to restock.</p>",
+    "tone": "warning"
+   },
+   {
+    "type": "button",
+    "text": "Go to the catalogue",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Le stock s'épuise",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "box",
+    "html": "<p>La couverture est descendue à <b>{current_coverage}</b> jours, sous le seuil de {warning_coverage}. Il faut réapprovisionner.</p>",
+    "tone": "warning"
+   },
+   {
+    "type": "button",
+    "text": "Aller au catalogue",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Le scorte stanno finendo",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "box",
+    "html": "<p>La copertura è scesa a <b>{current_coverage}</b> giorni, sotto la soglia di {warning_coverage}. È ora di rifornire.</p>",
+    "tone": "warning"
+   },
+   {
+    "type": "button",
+    "text": "Vai al catalogo",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Der Bestand geht zur Neige",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "box",
+    "html": "<p>Die Reichweite ist auf <b>{current_coverage}</b> Tage gefallen, unter die Schwelle von {warning_coverage}. Zeit nachzubestellen.</p>",
+    "tone": "warning"
+   },
+   {
+    "type": "button",
+    "text": "Zum Katalog",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

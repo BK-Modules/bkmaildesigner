@@ -1,0 +1,141 @@
+{
+ "subject": {
+  "es": "Mensaje de {email}",
+  "en": "Message from {email}",
+  "fr": "Message de {email}",
+  "it": "Messaggio da {email}",
+  "de": "Nachricht von {email}"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Nuevo mensaje del formulario de contacto",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p><b>{email}</b> ha escrito desde el formulario de contacto. Pedido: {order_name}. Adjunto: {attached_file}.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{message}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Ir a la tienda",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "New message from the contact form",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p><b>{email}</b> wrote from the contact form. Order: {order_name}. Attachment: {attached_file}.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{message}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Go to the shop",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Nouveau message du formulaire de contact",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p><b>{email}</b> a écrit depuis le formulaire de contact. Commande : {order_name}. Pièce jointe : {attached_file}.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{message}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Aller à la boutique",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Nuovo messaggio dal modulo di contatto",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p><b>{email}</b> ha scritto dal modulo di contatto. Ordine: {order_name}. Allegato: {attached_file}.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{message}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Vai al negozio",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Neue Nachricht aus dem Kontaktformular",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p><b>{email}</b> hat über das Kontaktformular geschrieben. Bestellung: {order_name}. Anhang: {attached_file}.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{message}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Zum Shop",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

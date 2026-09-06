@@ -1,0 +1,146 @@
+{
+ "subject": {
+  "es": "Novedades de {shop_name}",
+  "en": "News from {shop_name}",
+  "fr": "Actualités de {shop_name}",
+  "it": "Novità da {shop_name}",
+  "de": "Neues von {shop_name}"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Hola {firstname},",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{message}</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Ir a la tienda",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>Recibes este correo porque estás suscrito a nuestro boletín.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "Hi {firstname},",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{message}</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Go to the shop",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>You receive this email because you are subscribed to our newsletter.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Bonjour {firstname},",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{message}</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Aller à la boutique",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>Vous recevez cet e-mail car vous êtes inscrit à notre newsletter.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Ciao {firstname},",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{message}</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Vai al negozio",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>Ricevi questa email perché sei iscritto alla nostra newsletter.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Hallo {firstname},",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{message}</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Zum Shop",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>Sie erhalten diese E-Mail, weil Sie unseren Newsletter abonniert haben.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ]
+ }
+}

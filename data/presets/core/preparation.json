@@ -1,0 +1,116 @@
+{
+ "subject": {
+  "es": "Preparando el pedido {order_name}",
+  "en": "Preparing order {order_name}",
+  "fr": "Préparation de la commande {order_name}",
+  "it": "Preparazione dell'ordine {order_name}",
+  "de": "Bestellung {order_name} wird vorbereitet"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Ya estamos con tu pedido, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>El pedido <b>{order_name}</b> está en preparación. Te avisamos en cuanto salga de nuestro almacén.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Seguir mi pedido",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "We are on it, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Order <b>{order_name}</b> is being prepared. We will let you know as soon as it leaves our warehouse.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Track my order",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Nous nous en occupons, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>La commande <b>{order_name}</b> est en préparation. Nous vous préviendrons dès qu'elle quitte notre entrepôt.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Suivre ma commande",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Ci stiamo lavorando, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>L'ordine <b>{order_name}</b> è in preparazione. Ti avviseremo appena esce dal nostro magazzino.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Segui il mio ordine",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Wir kümmern uns darum, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Bestellung <b>{order_name}</b> wird vorbereitet. Wir melden uns, sobald sie unser Lager verlässt.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Bestellung verfolgen",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

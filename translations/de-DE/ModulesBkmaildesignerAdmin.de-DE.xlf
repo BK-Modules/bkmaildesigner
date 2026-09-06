@@ -1,0 +1,2119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="ModulesBkmaildesignerAdmin" source-language="en-US" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="b00e2d849110891078254d23cb496897">
+        <source>"Copy from reference" in the editor brings the reference text into the language you are on, so you only have to translate it.</source>
+        <target>„Von Referenz kopieren“ im Editor holt den Referenztext in die Sprache, in der Sie sind — Sie müssen ihn nur noch übersetzen.</target>
+      </trans-unit>
+      <trans-unit id="09f79f67262adbaa5a306310384b36ff">
+        <source>%core% from PrestaShop · %modules% from modules</source>
+        <target>%core% von PrestaShop · %modules% aus Modulen</target>
+      </trans-unit>
+      <trans-unit id="e560d59630d5db9d424722c6e5319cc1">
+        <source>%known% recognised by their markup, %generic% read generically, %none% left as they are.</source>
+        <target>%known% anhand ihres Markups erkannt, %generic% generisch gelesen, %none% bleiben unverändert.</target>
+      </trans-unit>
+      <trans-unit id="8711bbf509f18709bb62b06438934f4b">
+        <source>%n% emails selected</source>
+        <target>%n% E-Mails ausgewählt</target>
+      </trans-unit>
+      <trans-unit id="68aacd1e325b6f741709a751877d0521">
+        <source>(per language)</source>
+        <target>(pro Sprache)</target>
+      </trans-unit>
+      <trans-unit id="bbf34d27ebc0f0bfb02c95ef607da1da">
+        <source>1 email selected</source>
+        <target>1 E-Mail ausgewählt</target>
+      </trans-unit>
+      <trans-unit id="a109fb910d479ae1c1893e16f100aa46">
+        <source>A PrestaShop template: its markup is known, the body is taken out exactly.</source>
+        <target>PrestaShop-Vorlage: Ihr Markup ist bekannt, der Textkörper wird exakt entnommen.</target>
+      </trans-unit>
+      <trans-unit id="87870bd32fc8fc4d8663f3288aae8e07">
+        <source>A designed email without content in a language is sent with the content of this one.</source>
+        <target>Eine gestaltete E-Mail ohne Inhalt in einer Sprache wird mit dem Inhalt dieser Sprache gesendet.</target>
+      </trans-unit>
+      <trans-unit id="64512126034f08d7b3367549b38e0e19">
+        <source>A full design needs at least one block. Add one, or switch this email to header and footer.</source>
+        <target>Ein volles Design braucht mindestens einen Block. Fügen Sie einen hinzu oder stellen Sie diese E-Mail auf Kopf- und Fußzeile.</target>
+      </trans-unit>
+      <trans-unit id="30ac094cfc5e62ea43df1702f0c2c887">
+        <source>A module runs before this one</source>
+        <target>Ein Modul läuft vor diesem</target>
+      </trans-unit>
+      <trans-unit id="dc44b22b5a5f83701087f752b52aa27c">
+        <source>A new email appeared in the list.</source>
+        <target>Eine neue E-Mail ist in der Liste aufgetaucht.</target>
+      </trans-unit>
+      <trans-unit id="5d3fd337f02cadf04bd1a7da5b881db4">
+        <source>A template with its own markup: the logo and the signature are removed by shape. Worth a look at the preview.</source>
+        <target>Vorlage mit eigenem Markup: Logo und Signatur werden anhand ihrer Form entfernt. Ein Blick in die Vorschau lohnt sich.</target>
+      </trans-unit>
+      <trans-unit id="3c6ed8bad4e21f958321695d065cd842">
+        <source>A theme is the look. The words are separate:</source>
+        <target>Ein Theme ist das Aussehen. Die Texte sind getrennt:</target>
+      </trans-unit>
+      <trans-unit id="22b755fb27b692b21b7b44de26b763d9">
+        <source>A theme sets the colours, the typeface and the shape in one click. Your logo and your footer texts are kept. Then change whatever you want below.</source>
+        <target>Ein Theme setzt Farben, Schrift und Form mit einem Klick. Ihr Logo und Ihre Fußzeilentexte bleiben. Danach ändern Sie unten, was Sie wollen.</target>
+      </trans-unit>
+      <trans-unit id="0e4cb251bfff062e4ba9cf15be2b7d52">
+        <source>A variable is a word in braces that PrestaShop replaces with real data when it sends the email. If you write "Hi {firstname}," your customer reads "Hi María,". They are not decoration: type one that does not exist and your customer sees the braces.</source>
+        <target>Eine Variable ist ein Wort in geschweiften Klammern, das PrestaShop beim Versand durch echte Daten ersetzt. Schreiben Sie „Hallo {firstname},“, liest Ihr Kunde „Hallo María,“. Sie sind keine Deko: Tippen Sie eine, die es nicht gibt, sieht Ihr Kunde die Klammern.</target>
+      </trans-unit>
+      <trans-unit id="ee72a3c7c686a5a9515ab0f80adcc8bd">
+        <source>A variable was typed by hand that this email does not receive. Open the editor and insert it from the Variables panel.</source>
+        <target>Es wurde eine Variable von Hand getippt, die diese E-Mail nicht erhält. Öffnen Sie den Editor und fügen Sie sie aus dem Variablen-Panel ein.</target>
+      </trans-unit>
+      <trans-unit id="c627b8462134c72e28b137ae64935dbd">
+        <source>Across the full width</source>
+        <target>Über die volle Breite</target>
+      </trans-unit>
+      <trans-unit id="4d3d769b812b6faa6b76e1a8abaece2d">
+        <source>Active</source>
+        <target>Aktiv</target>
+      </trans-unit>
+      <trans-unit id="ec211f7c20af43e742bf2570c3cb84f9">
+        <source>Add</source>
+        <target>Hinzufügen</target>
+      </trans-unit>
+      <trans-unit id="07cc45f000fd674518a50f15dce1ae45">
+        <source>Add a block from the left, or load the built-in content.</source>
+        <target>Fügen Sie links einen Block hinzu oder laden Sie den mitgelieferten Inhalt.</target>
+      </trans-unit>
+      <trans-unit id="083f62fcae98023532c130f6c6506bd5">
+        <source>Add a link</source>
+        <target>Link hinzufügen</target>
+      </trans-unit>
+      <trans-unit id="1fa457c4929b2e054b78ba61706cf9a1">
+        <source>Add a variable</source>
+        <target>Variable hinzufügen</target>
+      </trans-unit>
+      <trans-unit id="687f36d7b8a74834a4598ab3f08ab6ce">
+        <source>Added by you</source>
+        <target>Von Ihnen ergänzt</target>
+      </trans-unit>
+      <trans-unit id="284b47b0bb63ae2df3b29f0e691d6fcf">
+        <source>Addresses</source>
+        <target>Adressen</target>
+      </trans-unit>
+      <trans-unit id="ee2d3754b6e7f57898d9d8670f78ae71">
+        <source>Advanced options</source>
+        <target>Erweiterte Optionen</target>
+      </trans-unit>
+      <trans-unit id="71c546fa61f3964d72bdf25223b78669">
+        <source>Air</source>
+        <target>Luft</target>
+      </trans-unit>
+      <trans-unit id="a63706eecfa33f67b315f978392ad7ae">
+        <source>Alignment</source>
+        <target>Ausrichtung</target>
+      </trans-unit>
+      <trans-unit id="b1c94ca2fbc3e78fc30069c8d0f01680">
+        <source>All</source>
+        <target>Alle</target>
+      </trans-unit>
+      <trans-unit id="f0443fc7ffad9aebc67e72f4f79bfc05">
+        <source>Alternative logo URL</source>
+        <target>Alternative Logo-URL</target>
+      </trans-unit>
+      <trans-unit id="1b214cffe903e6176c0724472b6d1e56">
+        <source>Alternative text</source>
+        <target>Alternativtext</target>
+      </trans-unit>
+      <trans-unit id="d3968fe61a2b33f02e9cd8606b029a57">
+        <source>Amounts</source>
+        <target>Beträge</target>
+      </trans-unit>
+      <trans-unit id="10d9c275447c43ac1ada6df97207eee5">
+        <source>An email arrives without your design.</source>
+        <target>Eine E-Mail kommt ohne Ihr Design an.</target>
+      </trans-unit>
+      <trans-unit id="0fa33e9ca8993bc661b2bdec78fce71f">
+        <source>An override of the Mail class removes the email hooks</source>
+        <target>Ein Override der Mail-Klasse entfernt die E-Mail-Hooks</target>
+      </trans-unit>
+      <trans-unit id="de834ec9c1085761ac88301f3809858b">
+        <source>Another address…</source>
+        <target>Eine andere Adresse…</target>
+      </trans-unit>
+      <trans-unit id="defcbaf784b89342265b0205fe4bed73">
+        <source>Apply the design when sending</source>
+        <target>Design beim Versand anwenden</target>
+      </trans-unit>
+      <trans-unit id="e449cb97caaf07e0e35377ff546bbad0">
+        <source>As written</source>
+        <target>Wie geschrieben</target>
+      </trans-unit>
+      <trans-unit id="984085f7fb1669d5aa8adefdf5a9da44">
+        <source>BK Mail Designer</source>
+        <target>BK Mail Designer</target>
+      </trans-unit>
+      <trans-unit id="a9ded1e5ce5d75814730bb4caaf49419">
+        <source>Background</source>
+        <target>Hintergrund</target>
+      </trans-unit>
+      <trans-unit id="6d816d855b2d17889f1128d543f4ab3d">
+        <source>Backup and move</source>
+        <target>Sicherung und Umzug</target>
+      </trans-unit>
+      <trans-unit id="7921b6e967f6a85b006b762df20621e4">
+        <source>Before you leave it running, send one to your inbox and open it on your phone. It travels exactly like a real one.</source>
+        <target>Bevor Sie es laufen lassen, schicken Sie eine an Ihr Postfach und öffnen Sie sie am Handy. Sie nimmt genau denselben Weg wie eine echte.</target>
+      </trans-unit>
+      <trans-unit id="e1e4c8c9ccd9fc39c391da4bcd093fb2">
+        <source>Block</source>
+        <target>Block</target>
+      </trans-unit>
+      <trans-unit id="04c4f9f595c4f21d1de65eb07056c15a">
+        <source>Blocks</source>
+        <target>Blöcke</target>
+      </trans-unit>
+      <trans-unit id="ac101b32dda4448cf13a93fe283dddd8">
+        <source>Body</source>
+        <target>Fließtext</target>
+      </trans-unit>
+      <trans-unit id="f78761bcf400dbdcd5873dd256b430d8">
+        <source>Body size</source>
+        <target>Größe des Fließtexts</target>
+      </trans-unit>
+      <trans-unit id="114c3050111d8b8ddd830b99ccebd246">
+        <source>Bold</source>
+        <target>Fett</target>
+      </trans-unit>
+      <trans-unit id="1be6f9eb563f3bf85c78b4219bf09de9">
+        <source>Brand</source>
+        <target>Marke</target>
+      </trans-unit>
+      <trans-unit id="bde631e4c5ee885c0b0a2a64d62d33e2">
+        <source>Brand colour</source>
+        <target>Markenfarbe</target>
+      </trans-unit>
+      <trans-unit id="ce3a23aa97e01034ea44b8133d818194">
+        <source>Brand every email</source>
+        <target>Marke auf alle anwenden</target>
+      </trans-unit>
+      <trans-unit id="03bee58781f438c8ac6256c9655f7869">
+        <source>Branded</source>
+        <target>Mit Marke</target>
+      </trans-unit>
+      <trans-unit id="1365bac2e3bf15f8d5f3e1dc71b5782c">
+        <source>Branded automatically</source>
+        <target>Automatisch mit Marke</target>
+      </trans-unit>
+      <trans-unit id="91157e5387617d3139cd329e651524d8">
+        <source>Branded header and footer on every email your shop sends, and a block editor for the ones that matter.</source>
+        <target>Kopf- und Fußzeile im Look Ihres Shops in jeder E-Mail, und ein Block-Editor für die wichtigen.</target>
+      </trans-unit>
+      <trans-unit id="87b7760f14fbff78d8819291f36ab9a0">
+        <source>Button</source>
+        <target>Button</target>
+      </trans-unit>
+      <trans-unit id="325fd6a30c5c00d71ceba2af9780242e">
+        <source>Button across the full width</source>
+        <target>Button über die volle Breite</target>
+      </trans-unit>
+      <trans-unit id="7169fde650be6ceb5b425f539ed06981">
+        <source>Button corners</source>
+        <target>Button-Ecken</target>
+      </trans-unit>
+      <trans-unit id="851ff025bde0cc7893dc7dfee9f4ac49">
+        <source>Button in capitals</source>
+        <target>Button in Versalien</target>
+      </trans-unit>
+      <trans-unit id="31de1fd9efe72874b7e5da36e286b7b7">
+        <source>Button size</source>
+        <target>Button-Größe</target>
+      </trans-unit>
+      <trans-unit id="019a87095e0f8fb23958f05ec8ee3ec2">
+        <source>Button style</source>
+        <target>Button-Stil</target>
+      </trans-unit>
+      <trans-unit id="93b6f4fb6f19e9cf187b3c470d14985a">
+        <source>Buttons and corners</source>
+        <target>Buttons und Ecken</target>
+      </trans-unit>
+      <trans-unit id="8e75ffc90a57dab9257fa7d54d6e35b1">
+        <source>Capitals</source>
+        <target>Versalien</target>
+      </trans-unit>
+      <trans-unit id="1d565b9e5303987bb1b1938d5d458bca">
+        <source>Card</source>
+        <target>Karte</target>
+      </trans-unit>
+      <trans-unit id="6a2bdd49ab7fa565f2dbab122d4ce4a1">
+        <source>Card corners</source>
+        <target>Karten-Ecken</target>
+      </trans-unit>
+      <trans-unit id="4f1f6016fc9f3f2353c0cc7c67b292bd">
+        <source>Center</source>
+        <target>Mitte</target>
+      </trans-unit>
+      <trans-unit id="6bc3fc1eee23220ca8953cba8ef11dee">
+        <source>Centred logo</source>
+        <target>Logo zentriert</target>
+      </trans-unit>
+      <trans-unit id="887e17d525f25f5d4a10da11f3450a0a">
+        <source>Change it in Design › Theme &amp; Logo</source>
+        <target>Ändern Sie es unter Design › Theme &amp; Logo</target>
+      </trans-unit>
+      <trans-unit id="77ec72a375f5448efc2911eb9a73afb5">
+        <source>Check how the branded emails are read</source>
+        <target>Prüfen, wie die E-Mails mit Marke gelesen werden</target>
+      </trans-unit>
+      <trans-unit id="fcd5c9d4aebbee1f10c63ca0085b82eb">
+        <source>Check how the original text is read</source>
+        <target>Prüfen, wie der Originaltext gelesen wird</target>
+      </trans-unit>
+      <trans-unit id="1c63874eca045c7d960753997eb92ced">
+        <source>Check it before you leave it running</source>
+        <target>Prüfen Sie es, bevor Sie es laufen lassen</target>
+      </trans-unit>
+      <trans-unit id="f4cfce5e5fe49b4d78566c96eae34c24">
+        <source>Check that it is not in Untouched mode, and that the master switch in Settings is on. A designed email with no blocks is sent as the original on purpose: an empty email is worse than a plain one.</source>
+        <target>Prüfen Sie, ob sie nicht im Modus Unverändert ist und ob der Hauptschalter in den Einstellungen an ist. Eine gestaltete E-Mail ohne Blöcke wird bewusst als Original gesendet: eine leere E-Mail ist schlimmer als eine schlichte.</target>
+      </trans-unit>
+      <trans-unit id="80327a36bae54f218dd845feb4691a5c">
+        <source>Check that it is not set to Unchanged, and that the master switch in Settings is on. A full design with no blocks is sent as the original on purpose: an empty email is worse than a plain one.</source>
+        <target>Prüfen Sie, ob er nicht auf Unverändert steht und der Hauptschalter in den Einstellungen an ist. Ein volles Design ohne Blöcke wird bewusst als Original gesendet: eine leere E-Mail ist schlimmer als eine schlichte.</target>
+      </trans-unit>
+      <trans-unit id="0cc35121929be44db7635c5742c7f83d">
+        <source>Check the branded ones</source>
+        <target>Die mit Marke prüfen</target>
+      </trans-unit>
+      <trans-unit id="30fd34f37b7528417837ae6cf825a63c">
+        <source>Choose a file to import.</source>
+        <target>Wählen Sie eine Datei zum Importieren.</target>
+      </trans-unit>
+      <trans-unit id="80ffff123555bd5173345bc8f144edeb">
+        <source>Clear selection</source>
+        <target>Auswahl aufheben</target>
+      </trans-unit>
+      <trans-unit id="1e9879de5b87c066a1ec448ec875f8ba">
+        <source>Click a variable to insert it at the cursor.</source>
+        <target>Klicken Sie auf eine Variable, um sie an der Cursorposition einzufügen.</target>
+      </trans-unit>
+      <trans-unit id="f1381015edbedb3b847fefbaaa030958">
+        <source>Coloured band</source>
+        <target>Farbiges Band</target>
+      </trans-unit>
+      <trans-unit id="efd622bbdef1fa0653276a17a3b2bd93">
+        <source>Colours, header and footer are shared by every email. You only fill this in once.</source>
+        <target>Farben, Kopf- und Fußzeile gelten für alle E-Mails. Sie füllen das nur einmal aus.</target>
+      </trans-unit>
+      <trans-unit id="2dbb7fb817a2cb477eeca732fd44df2e">
+        <source>Column split</source>
+        <target>Spaltenaufteilung</target>
+      </trans-unit>
+      <trans-unit id="6fae6e0297a07752cbe2632a780c9fb3">
+        <source>Company name · Address · VAT number</source>
+        <target>Firmenname · Anschrift · USt-IdNr.</target>
+      </trans-unit>
+      <trans-unit id="ad119d5ea30f6c26b58e0af5bc43c9fe">
+        <source>Contact support</source>
+        <target>Support kontaktieren</target>
+      </trans-unit>
+      <trans-unit id="f15c1cae7882448b3fb0404682e17e61">
+        <source>Content</source>
+        <target>Inhalt</target>
+      </trans-unit>
+      <trans-unit id="e677c18875414608beaf3d0b3eb78043">
+        <source>Copy from reference</source>
+        <target>Von Referenz kopieren</target>
+      </trans-unit>
+      <trans-unit id="4b69a91edc1acd3f9d2faee5f18ba937">
+        <source>Could not save. Check the log.</source>
+        <target>Speichern nicht möglich. Sehen Sie im Protokoll nach.</target>
+      </trans-unit>
+      <trans-unit id="ce26601dac0dea138b7295f02b7620a7">
+        <source>Customer</source>
+        <target>Kunde</target>
+      </trans-unit>
+      <trans-unit id="9943ed6a521058c3551930b1901a21bc">
+        <source>Customer account</source>
+        <target>Kundenkonto</target>
+      </trans-unit>
+      <trans-unit id="cd92e21218612817d52a8d71c32faf38">
+        <source>Debug log</source>
+        <target>Debug-Protokoll</target>
+      </trans-unit>
+      <trans-unit id="1afa74da05ca145d3418aad9af510109">
+        <source>Design</source>
+        <target>Design</target>
+      </trans-unit>
+      <trans-unit id="fc577feffc979207532df1b340f3c433">
+        <source>Design saved.</source>
+        <target>Design gespeichert.</target>
+      </trans-unit>
+      <trans-unit id="2e5bd661202a63057a65b014e8795174">
+        <source>Designed</source>
+        <target>Gestaltet</target>
+      </trans-unit>
+      <trans-unit id="2908050e771fb91a3afbb7809972e90c">
+        <source>Divider</source>
+        <target>Trennlinie</target>
+      </trans-unit>
+      <trans-unit id="90c09393a4c0970bc9a6703ad527781c">
+        <source>Dotted</source>
+        <target>Gepunktet</target>
+      </trans-unit>
+      <trans-unit id="ed75712b0eb1913c28a3872731ffd48d">
+        <source>Duplicate</source>
+        <target>Duplizieren</target>
+      </trans-unit>
+      <trans-unit id="93c0a3ab7048d6b0f2194b387b276cd3">
+        <source>Each email in the list is in one of three modes, and the name says what reaches your customer. Change it from the dropdown in its row, or tick several and use the bar above the list.</source>
+        <target>Jede E-Mail der Liste ist in einem von drei Modi, und der Name sagt, was beim Kunden ankommt. Ändern Sie ihn im Auswahlfeld ihrer Zeile, oder haken Sie mehrere an und nutzen Sie die Leiste über der Liste.</target>
+      </trans-unit>
+      <trans-unit id="c722a8e96c07cccf80157ef0973111bf">
+        <source>Each email in the list is in one of three modes. You change it from the dropdown in the Mode column, one email at a time, or with the buttons above the list for all of them at once.</source>
+        <target>Jede E-Mail der Liste ist in einem von drei Modi. Sie ändern ihn im Auswahlfeld der Spalte Modus, einzeln, oder mit den Schaltflächen über der Liste für alle auf einmal.</target>
+      </trans-unit>
+      <trans-unit id="49931a63a373c714af26557644656dda">
+        <source>Each preview below is a real email of your shop, rendered with that theme. Click one to apply it: your logo and your footer texts are kept, and everything below stays editable.</source>
+        <target>Jede Vorschau unten ist eine echte E-Mail Ihres Shops, mit diesem Theme gerendert. Klicken Sie eine an, um sie anzuwenden: Ihr Logo und Ihre Fußzeilentexte bleiben, und alles darunter bleibt bearbeitbar.</target>
+      </trans-unit>
+      <trans-unit id="7dce122004969d56ae2e0245cb754d35">
+        <source>Edit</source>
+        <target>Bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="ce8ae9da5b7cd6c3df2929543a9af92d">
+        <source>Email</source>
+        <target>E-Mail</target>
+      </trans-unit>
+      <trans-unit id="35ca6ea35e5ae50ec8e7961c1d978e0b">
+        <source>Email width (px)</source>
+        <target>Breite der E-Mail (px)</target>
+      </trans-unit>
+      <trans-unit id="9790b70b0772c3b35108155cf340f315">
+        <source>Emails</source>
+        <target>E-Mails</target>
+      </trans-unit>
+      <trans-unit id="23a4292f8718146dd404be3ad7b08b24">
+        <source>Emails go out as plain text only</source>
+        <target>E-Mails gehen nur als Nur-Text raus</target>
+      </trans-unit>
+      <trans-unit id="1b0936ea3f4c1498465c1ca61f2bbfd9">
+        <source>Emails go out in HTML</source>
+        <target>E-Mails gehen als HTML raus</target>
+      </trans-unit>
+      <trans-unit id="70cda77efc986b75bb9ab82bcc858dd7">
+        <source>Empty keeps the subject PrestaShop uses.</source>
+        <target>Leer behält den Betreff, den PrestaShop verwendet.</target>
+      </trans-unit>
+      <trans-unit id="473f81670bcdd9d92624698f43d6a517">
+        <source>Empty.</source>
+        <target>Leer.</target>
+      </trans-unit>
+      <trans-unit id="87557f11575c0ad78e4e28abedc13b6e">
+        <source>End</source>
+        <target>Ende</target>
+      </trans-unit>
+      <trans-unit id="6b78b8b3a01ec053c32f18bbb7f8978c">
+        <source>Every email PrestaShop and your modules can send, found automatically. Branded emails keep their original text inside your header and footer; designed emails use the block editor. Switch any of them off to send the original file.</source>
+        <target>Alle E-Mails, die PrestaShop und Ihre Module senden können, automatisch gefunden. E-Mails mit Marke behalten ihren Originaltext in Ihrer Kopf- und Fußzeile; gestaltete E-Mails nutzen den Block-Editor. Schalten Sie eine aus, um die Originaldatei zu senden.</target>
+      </trans-unit>
+      <trans-unit id="2e1aea54e1eea691e9dfffc87910dad8">
+        <source>Every email PrestaShop and your modules can send, found on its own. The mode of each one says what your customer receives: the original untouched, the original inside your header and footer, or a full design written by you.</source>
+        <target>Alle E-Mails, die PrestaShop und Ihre Module senden können, von selbst gefunden. Der Modus jeder einzelnen sagt, was Ihr Kunde bekommt: das Original unverändert, das Original in Ihrer Kopf- und Fußzeile, oder ein vollständiges Design von Ihnen.</target>
+      </trans-unit>
+      <trans-unit id="64bae33cbcd2a686e380d172cf56d64d">
+        <source>Every email in this list leaves with your header and footer from the moment you install the module. Open the preview of any of them to see it.</source>
+        <target>Alle E-Mails dieser Liste gehen ab der Installation mit Ihrer Kopf- und Fußzeile raus. Öffnen Sie die Vorschau einer beliebigen, um es zu sehen.</target>
+      </trans-unit>
+      <trans-unit id="d637c00fae9d3c01d5eb143f92c7eb75">
+        <source>Every email is read from where PrestaShop or its module keeps it.</source>
+        <target>Jede E-Mail wird dort gelesen, wo PrestaShop oder ihr Modul sie ablegt.</target>
+      </trans-unit>
+      <trans-unit id="5fec1af9679d141ac7e9410e4911844c">
+        <source>Every email is written once per language. The tabs at the top of the editor switch between them; the coloured letters in the list tell you at a glance how each language stands.</source>
+        <target>Jede E-Mail wird einmal pro Sprache geschrieben. Die Reiter oben im Editor wechseln zwischen ihnen; die farbigen Kürzel in der Liste zeigen auf einen Blick, wie es um jede Sprache steht.</target>
+      </trans-unit>
+      <trans-unit id="8702eb9199eda52191f7ec69b8da0b5d">
+        <source>Export to a JSON file</source>
+        <target>In eine JSON-Datei exportieren</target>
+      </trans-unit>
+      <trans-unit id="d9d586f8c792f8f661052af42536323c">
+        <source>Filled</source>
+        <target>Gefüllt</target>
+      </trans-unit>
+      <trans-unit id="a84f61fe00c4fa17ce79f52210430eff">
+        <source>Fonts every email client has installed. Web fonts are not offered on purpose: Outlook and Gmail ignore them.</source>
+        <target>Schriften, die jedes E-Mail-Programm installiert hat. Webfonts werden bewusst nicht angeboten: Outlook und Gmail ignorieren sie.</target>
+      </trans-unit>
+      <trans-unit id="ded40f2a77c30efc6062db0cbd857746">
+        <source>Footer</source>
+        <target>Fußzeile</target>
+      </trans-unit>
+      <trans-unit id="1a37166fff788579abfb1cb339cae18b">
+        <source>Footer background</source>
+        <target>Fußzeilen-Hintergrund</target>
+      </trans-unit>
+      <trans-unit id="6f3ebe2ce8a7c3b873c1003b6ead60df">
+        <source>Footer links</source>
+        <target>Links in der Fußzeile</target>
+      </trans-unit>
+      <trans-unit id="ae68c7d78a4135cf3d9790ef9f176cdf">
+        <source>Footer text</source>
+        <target>Fußzeilentext</target>
+      </trans-unit>
+      <trans-unit id="2fa801594234af76df4d72d563b47dc2">
+        <source>From the theme</source>
+        <target>Vom Theme</target>
+      </trans-unit>
+      <trans-unit id="7e87328b816240321a8dc11b3323172a">
+        <source>Full design</source>
+        <target>Volles Design</target>
+      </trans-unit>
+      <trans-unit id="185b12b2b3ee5b50703f1a2b813f8af6">
+        <source>Goes to</source>
+        <target>Geht an</target>
+      </trans-unit>
+      <trans-unit id="2ddf8a5e8b8e9212c3f8a5fc2fd720d7">
+        <source>Guides and news</source>
+        <target>Anleitungen und Neuigkeiten</target>
+      </trans-unit>
+      <trans-unit id="4c4ad5fca2e7a3f74dbb1ced00381aa4">
+        <source>HTML</source>
+        <target>HTML</target>
+      </trans-unit>
+      <trans-unit id="e4e8acaf899706a550837518f764dd81">
+        <source>HTML code</source>
+        <target>HTML-Code</target>
+      </trans-unit>
+      <trans-unit id="73bdb1ccb69eef6798070f8aa5e6e347">
+        <source>Hairline</source>
+        <target>Haarlinie</target>
+      </trans-unit>
+      <trans-unit id="bf50d5e661106d0abe925af3c2e6f7e7">
+        <source>Header</source>
+        <target>Kopfzeile</target>
+      </trans-unit>
+      <trans-unit id="89c608da9b2642dadd553a73625f902f">
+        <source>Header and footer</source>
+        <target>Kopf- und Fußzeile</target>
+      </trans-unit>
+      <trans-unit id="b3d4c22544658a48ee8f42cdd95e911c">
+        <source>Header and footer, automatically</source>
+        <target>Kopf- und Fußzeile, automatisch</target>
+      </trans-unit>
+      <trans-unit id="cf5b1469bb34061b72440e6c83af1485">
+        <source>Header links</source>
+        <target>Links in der Kopfzeile</target>
+      </trans-unit>
+      <trans-unit id="bcfbd6e707474f7cb0061b7990003671">
+        <source>Header, footer and body written by you</source>
+        <target>Kopfzeile, Fußzeile und Text von Ihnen</target>
+      </trans-unit>
+      <trans-unit id="0101316665d4f82adaa26d86fbbb2d6e">
+        <source>Heading</source>
+        <target>Überschrift</target>
+      </trans-unit>
+      <trans-unit id="182d8b6c9b9c83b73c670c988010f858">
+        <source>Heading letter spacing</source>
+        <target>Sperrung der Überschrift</target>
+      </trans-unit>
+      <trans-unit id="33c723cfb856be7099f56f6ae29f8a48">
+        <source>Heading size</source>
+        <target>Größe der Überschrift</target>
+      </trans-unit>
+      <trans-unit id="5c6384f5a786800240713ea2ee2389f1">
+        <source>Heading style</source>
+        <target>Stil der Überschrift</target>
+      </trans-unit>
+      <trans-unit id="545b1150d9c178bf41eee6c799b715d7">
+        <source>Headings</source>
+        <target>Überschriften</target>
+      </trans-unit>
+      <trans-unit id="e03b313cd093a6368ea5e16a8e2af335">
+        <source>Height (px)</source>
+        <target>Höhe (px)</target>
+      </trans-unit>
+      <trans-unit id="2d86ebaf312b5d94bebba278ef63736d">
+        <source>Highlight box</source>
+        <target>Hervorhebungsbox</target>
+      </trans-unit>
+      <trans-unit id="b492548ebf04ccfbdd4766a539b9c42c">
+        <source>How it came</source>
+        <target>Wie geliefert</target>
+      </trans-unit>
+      <trans-unit id="9ffdb95250e26c7a6b468126ac7c75b0">
+        <source>How it works</source>
+        <target>So funktioniert es</target>
+      </trans-unit>
+      <trans-unit id="ee43cbc29cc2bc43ad999d68146193fa">
+        <source>If something looks wrong</source>
+        <target>Wenn etwas nicht stimmt</target>
+      </trans-unit>
+      <trans-unit id="be53a0541a6d36f6ecb879fa2c584b08">
+        <source>Image</source>
+        <target>Bild</target>
+      </trans-unit>
+      <trans-unit id="427b6d816d7fdd86cabe48d8180a3cc9">
+        <source>Image URL</source>
+        <target>Bild-URL</target>
+      </trans-unit>
+      <trans-unit id="72d6d7a1885885bb55a565fd1070581a">
+        <source>Import</source>
+        <target>Importieren</target>
+      </trans-unit>
+      <trans-unit id="6ecffdb47ead86737dd038c522876800">
+        <source>Imported: %count% emails.</source>
+        <target>Importiert: %count% E-Mails.</target>
+      </trans-unit>
+      <trans-unit id="af044ded6b568a686aeca1e9ffbf70c3">
+        <source>Importing overwrites the design and the emails the file carries. Anything the file does not mention is left alone.</source>
+        <target>Der Import überschreibt das Design und die E-Mails, die die Datei mitbringt. Was die Datei nicht nennt, bleibt unangetastet.</target>
+      </trans-unit>
+      <trans-unit id="be28d6b022dca52306e52672978b749f">
+        <source>It came as</source>
+        <target>Kam als</target>
+      </trans-unit>
+      <trans-unit id="e7a642dfd94189a6b9459ec7ae45c0f8">
+        <source>It could not be sent. Check the shop email settings.</source>
+        <target>Der Versand ist fehlgeschlagen. Prüfen Sie die E-Mail-Einstellungen des Shops.</target>
+      </trans-unit>
+      <trans-unit id="0ea68ce3196e92d4112b463ee88e8ec9">
+        <source>It has its own text in that language.</source>
+        <target>Sie hat eigenen Text in dieser Sprache.</target>
+      </trans-unit>
+      <trans-unit id="1f0039d3e80ae5a1b08423412a9677e0">
+        <source>It has nothing of its own, so the reference language is sent instead. Nothing breaks, but a German customer reads it in the reference language.</source>
+        <target>Sie hat nichts Eigenes, also wird die Referenzsprache gesendet. Nichts geht kaputt, aber ein deutscher Kunde liest sie in der Referenzsprache.</target>
+      </trans-unit>
+      <trans-unit id="8b7bf7c368b61659bba871e5f3892846">
+        <source>It is branded and PrestaShop has the original file in that language.</source>
+        <target>Sie hat Ihre Marke und PrestaShop hat die Originaldatei in dieser Sprache.</target>
+      </trans-unit>
+      <trans-unit id="893bf9b28222583f472ed7c2014fbe30">
+        <source>It keeps the email hooks, so this module still works. Worth knowing it is there.</source>
+        <target>Es behält die E-Mail-Hooks, dieses Modul funktioniert also weiterhin. Gut zu wissen, dass es da ist.</target>
+      </trans-unit>
+      <trans-unit id="24be60714c0d256603a95040fd7e3ef2">
+        <source>It reaches your customer</source>
+        <target>Sie erreicht Ihren Kunden</target>
+      </trans-unit>
+      <trans-unit id="4f4575b4a30816b19e0105378b72b63f">
+        <source>It uses your header and footer, and PrestaShop has the original file in that language.</source>
+        <target>Sie nutzt Ihre Kopf- und Fußzeile, und PrestaShop hat die Originaldatei in dieser Sprache.</target>
+      </trans-unit>
+      <trans-unit id="1d874710ccdcd46b95397049d2e7500c">
+        <source>Italic</source>
+        <target>Kursiv</target>
+      </trans-unit>
+      <trans-unit id="3ad6cb6100190c8f81e99fd52debf7ef">
+        <source>Labels</source>
+        <target>Beschriftungen</target>
+      </trans-unit>
+      <trans-unit id="4994a8ffeba4ac3140beb89e8d41f174">
+        <source>Language</source>
+        <target>Sprache</target>
+      </trans-unit>
+      <trans-unit id="3a08e2e340ab29fd9263af48193cbf8e">
+        <source>Languages</source>
+        <target>Sprachen</target>
+      </trans-unit>
+      <trans-unit id="3a69b34ce86dacb205936a8094f6c743">
+        <source>Large</source>
+        <target>Groß</target>
+      </trans-unit>
+      <trans-unit id="bb5cf8edf3e6c94e11597e754cefaa15">
+        <source>Latest blog posts</source>
+        <target>Neueste Blogbeiträge</target>
+      </trans-unit>
+      <trans-unit id="9bfee671b9e286d5a2365989459cd0cb">
+        <source>Leave every email in the mode the module recommends? Emails with built-in text become designed; the rest keep their original text inside your design.</source>
+        <target>Jede E-Mail in den empfohlenen Modus setzen? E-Mails mit mitgeliefertem Text werden gestaltet; die übrigen behalten ihren Originaltext in Ihrem Design.</target>
+      </trans-unit>
+      <trans-unit id="110a9df4e8a0f3934428311d9b39c0b3">
+        <source>Leave every email in the mode the module recommends? Emails with built-in text get the full design; the rest keep their original text inside your header and footer.</source>
+        <target>Jede E-Mail in den empfohlenen Modus setzen? E-Mails mit mitgeliefertem Text bekommen das volle Design; die übrigen behalten ihren Originaltext in Ihrer Kopf- und Fußzeile.</target>
+      </trans-unit>
+      <trans-unit id="f9e4884c7654daa6581b42ed90aeaba4">
+        <source>Left column</source>
+        <target>Linke Spalte</target>
+      </trans-unit>
+      <trans-unit id="62e533bbe006ee6dde718ec43c656fe1">
+        <source>Left unchanged until I decide</source>
+        <target>Unverändert, bis ich entscheide</target>
+      </trans-unit>
+      <trans-unit id="a0522196cc3dc46175c7c346425cf30b">
+        <source>Left untouched until I decide</source>
+        <target>Unverändert, bis ich entscheide</target>
+      </trans-unit>
+      <trans-unit id="c9e48d516ff6f66fdba3a4890df42e59">
+        <source>Legal line</source>
+        <target>Rechtszeile</target>
+      </trans-unit>
+      <trans-unit id="9e3e9c63e433af10b7e6889a8dcdb032">
+        <source>Line above the footer</source>
+        <target>Linie über der Fußzeile</target>
+      </trans-unit>
+      <trans-unit id="153ad58f26c6f1cc1ef7d6851c4d9c91">
+        <source>Line height</source>
+        <target>Zeilenabstand</target>
+      </trans-unit>
+      <trans-unit id="e09b7dbd846a86325d5770c9c98fee6b">
+        <source>Line table variable</source>
+        <target>Variable der Zeilentabelle</target>
+      </trans-unit>
+      <trans-unit id="bc8c2bf41d29e54a7381d80873681675">
+        <source>Line under the header</source>
+        <target>Linie unter der Kopfzeile</target>
+      </trans-unit>
+      <trans-unit id="97e7c9a7d06eac006a28bf05467fcc8b">
+        <source>Link</source>
+        <target>Link</target>
+      </trans-unit>
+      <trans-unit id="0b5c6531b0b26ead873f4c31e85eda0d">
+        <source>Link URL (or a variable such as {url}):</source>
+        <target>Link-URL (oder eine Variable wie {url}):</target>
+      </trans-unit>
+      <trans-unit id="4ee29ca12c7d126654bd0e5275de6135">
+        <source>List</source>
+        <target>Liste</target>
+      </trans-unit>
+      <trans-unit id="3d8daca0ae7b7093976835287be0ae0c">
+        <source>Load built-in content</source>
+        <target>Mitgelieferten Inhalt laden</target>
+      </trans-unit>
+      <trans-unit id="603125aa4fdefb8cb1baf80647bf500d">
+        <source>Load the built-in content into every email that has one? Anything you have written in those emails is replaced.</source>
+        <target>Den mitgelieferten Inhalt in alle E-Mails laden, die einen haben? Was Sie in diesen E-Mails geschrieben haben, wird ersetzt.</target>
+      </trans-unit>
+      <trans-unit id="ce0be71e33226e4c1db2bcea5959f16b">
+        <source>Log</source>
+        <target>Protokoll</target>
+      </trans-unit>
+      <trans-unit id="8c2857a9ad1d8f31659e35e904e20fa6">
+        <source>Logo</source>
+        <target>Logo</target>
+      </trans-unit>
+      <trans-unit id="96d1a20abae619dd924a08ff525ec33d">
+        <source>Logo and links</source>
+        <target>Logo und Links</target>
+      </trans-unit>
+      <trans-unit id="f5cd05a6241804211cf50d27fae55522">
+        <source>Logo width</source>
+        <target>Logobreite</target>
+      </trans-unit>
+      <trans-unit id="aa60718adb488254bdf8c80cd0344f25">
+        <source>Mail Designer</source>
+        <target>E-Mail-Designer</target>
+      </trans-unit>
+      <trans-unit id="25e16048ac5e5c06d48dd23d66d8653b">
+        <source>Missing a translation</source>
+        <target>Ohne Übersetzung</target>
+      </trans-unit>
+      <trans-unit id="650be61892bf690026089544abbd9d26">
+        <source>Mode</source>
+        <target>Modus</target>
+      </trans-unit>
+      <trans-unit id="9c62fbb5e8bc787487b4de5f3d9ddb5c">
+        <source>More from BK Modules</source>
+        <target>Mehr von BK Modules</target>
+      </trans-unit>
+      <trans-unit id="dd9f0c7e1bb3b749bd423e3544b4a8e3">
+        <source>Move down</source>
+        <target>Nach unten</target>
+      </trans-unit>
+      <trans-unit id="f77af7695f71323808f9b6e2795cde86">
+        <source>Move up</source>
+        <target>Nach oben</target>
+      </trans-unit>
+      <trans-unit id="70a51c85067ce6cd7fa1630b5a2d4951">
+        <source>Muted</source>
+        <target>Gedämpft</target>
+      </trans-unit>
+      <trans-unit id="dc595aa2d05d211629633762f27a53e0">
+        <source>My licenses and downloads</source>
+        <target>Meine Lizenzen und Downloads</target>
+      </trans-unit>
+      <trans-unit id="e9bb5320b3890b6747c91b5a71ae5a01">
+        <source>Neutral</source>
+        <target>Neutral</target>
+      </trans-unit>
+      <trans-unit id="535f7e9f0ec01167d9e1a7eca131a77e">
+        <source>New heading</source>
+        <target>Neue Überschrift</target>
+      </trans-unit>
+      <trans-unit id="329c5294a18bc4039ad701a4ee2c3bb1">
+        <source>Newly found emails</source>
+        <target>Neu gefundene E-Mails</target>
+      </trans-unit>
+      <trans-unit id="bafd7322c6e97d25b6299b5d6fe8920b">
+        <source>No</source>
+        <target>Nein</target>
+      </trans-unit>
+      <trans-unit id="5ba0494a3224490ec4dff5a5d62169ad">
+        <source>No links yet. The header shows only your logo.</source>
+        <target>Noch keine Links. Die Kopfzeile zeigt nur Ihr Logo.</target>
+      </trans-unit>
+      <trans-unit id="b631e1856734bf1e4cb8f7d6f1e3f5fa">
+        <source>No other module touches the emails</source>
+        <target>Kein anderes Modul berührt die E-Mails</target>
+      </trans-unit>
+      <trans-unit id="768b5fbc24f76bcb921a44c22e3cf42f">
+        <source>No own content: inherits from %s.</source>
+        <target>Kein eigener Inhalt: erbt von %s.</target>
+      </trans-unit>
+      <trans-unit id="4bb0cf3ed8992ee27c2468aad2cf93b8">
+        <source>No template is overridden by your theme</source>
+        <target>Ihr Theme überschreibt keine Vorlage</target>
+      </trans-unit>
+      <trans-unit id="391a4d8fb2e2d08a39ac2edfc994426f">
+        <source>Nobody sees the design. Change it in Advanced Parameters › Email.</source>
+        <target>Niemand sieht das Design. Ändern Sie es unter Erweiterte Einstellungen › E-Mail.</target>
+      </trans-unit>
+      <trans-unit id="960b44c579bc2f6818d2daaf9e4c16f0">
+        <source>Normal</source>
+        <target>Normal</target>
+      </trans-unit>
+      <trans-unit id="4fe6b97b65e0e4987079755a34dcaac0">
+        <source>Nothing else adds to or alters the body of what your shop sends.</source>
+        <target>Nichts sonst ergänzt oder verändert den Text dessen, was Ihr Shop sendet.</target>
+      </trans-unit>
+      <trans-unit id="b6403705d18f15f8d54701eb8dadd7de">
+        <source>Nothing is overwritten: the original files stay where they are, untouched. The design is applied at the moment the email is sent, so you can switch it off at any time and everything goes back to how PrestaShop had it.</source>
+        <target>Nichts wird überschrieben: Die Originaldateien bleiben unangetastet, wo sie sind. Das Design wird beim Versand angewendet, Sie können es also jederzeit ausschalten und alles ist wieder wie bei PrestaShop.</target>
+      </trans-unit>
+      <trans-unit id="50c089c0525a13d32331b3a0597433a4">
+        <source>Nothing to show yet: the original template could not be read, or the design has no blocks.</source>
+        <target>Noch nichts zu zeigen: Die Originalvorlage konnte nicht gelesen werden, oder das Design hat keine Blöcke.</target>
+      </trans-unit>
+      <trans-unit id="ec237786bb777650a1fd4882055f7ea1">
+        <source>Of this email</source>
+        <target>Von dieser E-Mail</target>
+      </trans-unit>
+      <trans-unit id="009fca8df67d6bbf3badd7a6a7e03104">
+        <source>Off, every email leaves exactly as PrestaShop generates it. Your designs are kept.</source>
+        <target>Ausgeschaltet geht jede E-Mail genau so raus, wie PrestaShop sie erzeugt. Ihre Designs bleiben erhalten.</target>
+      </trans-unit>
+      <trans-unit id="74b1d8c7a5349314df0784732d402a2e">
+        <source>Only for the preview and the test email; a real send always uses real data. Leave one empty to go back to the automatic value.</source>
+        <target>Nur für die Vorschau und die Test-E-Mail; ein echter Versand nutzt immer echte Daten. Lassen Sie ein Feld leer, um zum automatischen Wert zurückzukehren.</target>
+      </trans-unit>
+      <trans-unit id="91868e1bf805cc4a2e11374c986a6824">
+        <source>Only if you need a different image, for example a white version for the coloured band. Remote images are blocked until the reader allows them.</source>
+        <target>Nur wenn Sie ein anderes Bild brauchen, etwa eine weiße Version für das farbige Band. Externe Bilder bleiben blockiert, bis der Leser sie zulässt.</target>
+      </trans-unit>
+      <trans-unit id="3d32398008fecbee7875e317335db86d">
+        <source>Only the ones this email really receives. Click one to insert it at the cursor; hover to see what it is filled with.</source>
+        <target>Nur die, die diese E-Mail wirklich erhält. Zum Einfügen an der Cursorposition anklicken; für den Füllwert mit der Maus darüberfahren.</target>
+      </trans-unit>
+      <trans-unit id="0f5479b9beef5535737de85333f56cb9">
+        <source>Only the ones this email really receives. Click one to insert it at the cursor; hover to see what it is filled with. If a module sends one that is not listed, add it by hand.</source>
+        <target>Nur die, die diese E-Mail wirklich erhält. Zum Einfügen anklicken; für den Füllwert mit der Maus darüberfahren. Sendet ein Modul eine, die nicht aufgeführt ist, fügen Sie sie von Hand hinzu.</target>
+      </trans-unit>
+      <trans-unit id="8fb0a15266ce4b9d0bbda439b56d5322">
+        <source>Open my account</source>
+        <target>Zu meinem Konto</target>
+      </trans-unit>
+      <trans-unit id="a240fa27925a635b08dc28c9e4f9216d">
+        <source>Order</source>
+        <target>Bestellung</target>
+      </trans-unit>
+      <trans-unit id="fb077ecba55e5552916bde26d8b9e794">
+        <source>Order confirmation</source>
+        <target>Bestellbestätigung</target>
+      </trans-unit>
+      <trans-unit id="782c8b38bce4f2f6975ca7f33ac8189b">
+        <source>Order history</source>
+        <target>Bestellverlauf</target>
+      </trans-unit>
+      <trans-unit id="d32dc82d705880837fc3e0cca23a67a6">
+        <source>Order lines</source>
+        <target>Bestellzeilen</target>
+      </trans-unit>
+      <trans-unit id="e783bff46962e7e3128ea3554da94300">
+        <source>Order table</source>
+        <target>Bestelltabelle</target>
+      </trans-unit>
+      <trans-unit id="1007bdd3acbc890a806763a3e4c22fa6">
+        <source>Order, account and password. The module ships them already written and translated: load the built-in content and change what you want.</source>
+        <target>Bestellung, Konto und Passwort. Das Modul liefert sie fertig geschrieben und übersetzt: Laden Sie den mitgelieferten Inhalt und ändern Sie, was Sie wollen.</target>
+      </trans-unit>
+      <trans-unit id="ddee6e605dcde406a76cd44ad2f61638">
+        <source>Original text inside your header and footer</source>
+        <target>Originaltext in Ihrer Kopf- und Fußzeile</target>
+      </trans-unit>
+      <trans-unit id="df8dc591d864f22ef6846c5ed08547dd">
+        <source>Original text, your header and your footer</source>
+        <target>Originaltext, Ihre Kopf- und Fußzeile</target>
+      </trans-unit>
+      <trans-unit id="4cc5ca399c9c71a84c69cfc612251805">
+        <source>Other BK Modules modules</source>
+        <target>Weitere BK-Modules-Module</target>
+      </trans-unit>
+      <trans-unit id="2ce3f12066065c07252ab6a1b978ab4d">
+        <source>Other modules also touch the emails</source>
+        <target>Auch andere Module berühren die E-Mails</target>
+      </trans-unit>
+      <trans-unit id="bfc3d9f0c2a204bb4783a26de1b895d6">
+        <source>Outlined</source>
+        <target>Umrandet</target>
+      </trans-unit>
+      <trans-unit id="67db72d9714d5bd5a79eaf5ccb958f05">
+        <source>Own background</source>
+        <target>Eigener Hintergrund</target>
+      </trans-unit>
+      <trans-unit id="09c300e63a2b90838063c9b3c37a4b72">
+        <source>Own colour</source>
+        <target>Eigene Farbe</target>
+      </trans-unit>
+      <trans-unit id="f39a0720a929097afa9db4505cdf9669">
+        <source>Plain text</source>
+        <target>Nur-Text</target>
+      </trans-unit>
+      <trans-unit id="35ff671aa863c77850e352321f35f959">
+        <source>PrestaShop core</source>
+        <target>PrestaShop-Kern</target>
+      </trans-unit>
+      <trans-unit id="67f856b78681cf31e3ab1997028bd1c8">
+        <source>PrestaShop has no file in that language either; it falls back the way it always did.</source>
+        <target>PrestaShop hat in dieser Sprache ebenfalls keine Datei; es weicht aus wie immer.</target>
+      </trans-unit>
+      <trans-unit id="50cac061860632012cabfb1d95c75688">
+        <source>PrestaShop prepares an email</source>
+        <target>PrestaShop bereitet eine E-Mail vor</target>
+      </trans-unit>
+      <trans-unit id="ad378286c8821b009ec76ca1cfc2d76f">
+        <source>PrestaShop sends around fifty different emails, and every module you install adds its own. This module puts your header and your footer around all of them, and lets you rewrite the ones that matter with a block editor.</source>
+        <target>PrestaShop verschickt rund fünfzig verschiedene E-Mails, und jedes installierte Modul bringt eigene mit. Dieses Modul setzt ihnen allen Ihre Kopf- und Fußzeile auf und lässt Sie die wichtigen mit einem Block-Editor neu schreiben.</target>
+      </trans-unit>
+      <trans-unit id="31fde7b05ac8952dacf4af8a704074ec">
+        <source>Preview</source>
+        <target>Vorschau</target>
+      </trans-unit>
+      <trans-unit id="35b30f1d331f80cef701716f382ff35d">
+        <source>Put every email back the way it came when you installed the module? Emails with built-in text go back to the full design; the rest go back to your header and footer. What you have written is kept.</source>
+        <target>Jede E-Mail so zurücksetzen, wie sie bei der Installation war? E-Mails mit mitgeliefertem Text bekommen wieder das volle Design; die übrigen wieder Ihre Kopf- und Fußzeile. Was Sie geschrieben haben, bleibt.</target>
+      </trans-unit>
+      <trans-unit id="551894aac7c17b28c5f0576846dab9ba">
+        <source>Put your header and footer on every email in the list?</source>
+        <target>Ihre Kopf- und Fußzeile auf alle E-Mails der Liste setzen?</target>
+      </trans-unit>
+      <trans-unit id="428ff644bbad9e670d1e402bc250def5">
+        <source>Read every time you open this page. If an email does not look the way you designed it, the reason is usually here.</source>
+        <target>Wird bei jedem Öffnen dieser Seite geprüft. Sieht eine E-Mail nicht wie entworfen aus, liegt der Grund meist hier.</target>
+      </trans-unit>
+      <trans-unit id="08e6d4d160aeaddd39b29f5776602a86">
+        <source>Read from the original template and from real sends. Click one to insert it at the cursor.</source>
+        <target>Aus der Originalvorlage und echten Sendungen gelesen. Zum Einfügen an der Cursorposition anklicken.</target>
+      </trans-unit>
+      <trans-unit id="5d6103b662f41b07e10687f03aca8fdc">
+        <source>Recipient</source>
+        <target>Empfänger</target>
+      </trans-unit>
+      <trans-unit id="012800aaae8236dd3274b235fc0b61b8">
+        <source>Recommended mode for all</source>
+        <target>Empfohlener Modus für alle</target>
+      </trans-unit>
+      <trans-unit id="b09de1413e8df68335f988ce0878aeee">
+        <source>Recommended:</source>
+        <target>Empfohlen:</target>
+      </trans-unit>
+      <trans-unit id="dd817e470d603ba0951afe1814a3da8e">
+        <source>Reference language</source>
+        <target>Referenzsprache</target>
+      </trans-unit>
+      <trans-unit id="d2203cb1237cb6460cbad94564e39345">
+        <source>Regular</source>
+        <target>Normal</target>
+      </trans-unit>
+      <trans-unit id="1063e38cb53d94d386f21227fcd84717">
+        <source>Remove</source>
+        <target>Entfernen</target>
+      </trans-unit>
+      <trans-unit id="4a406f4a709b761097fa9fd44f2e2d20">
+        <source>Remove the content of every language and start again?</source>
+        <target>Den Inhalt aller Sprachen entfernen und neu anfangen?</target>
+      </trans-unit>
+      <trans-unit id="3d7a6b4f2efe2f31680a1c2778dc4bdc">
+        <source>Rendered with the same engine that sends the emails, using the last real order and sample data.</source>
+        <target>Mit derselben Engine gerendert, die die E-Mails versendet, mit der letzten echten Bestellung und Beispieldaten.</target>
+      </trans-unit>
+      <trans-unit id="33e45858ebc1d36d19d275d6753ca57e">
+        <source>Replace the current content with the built-in one? Languages without a built-in version keep what they have.</source>
+        <target>Den aktuellen Inhalt durch den mitgelieferten ersetzen? Sprachen ohne mitgelieferte Version behalten ihren.</target>
+      </trans-unit>
+      <trans-unit id="8b7207f1ae4be86d3b6ee07c05d4dd75">
+        <source>Resend the confirmation</source>
+        <target>Bestätigung erneut senden</target>
+      </trans-unit>
+      <trans-unit id="501b27608c22ff61bcdc43f1130624c0">
+        <source>Restore all as they came</source>
+        <target>Alle wie geliefert wiederherstellen</target>
+      </trans-unit>
+      <trans-unit id="53bc91c87e2a3aaa86bc19c3c49c5240">
+        <source>Rewrite the ones your customer actually reads</source>
+        <target>Schreiben Sie die neu, die Ihr Kunde wirklich liest</target>
+      </trans-unit>
+      <trans-unit id="feb6cc332459769fe15570bf332a6b50">
+        <source>Right column</source>
+        <target>Rechte Spalte</target>
+      </trans-unit>
+      <trans-unit id="b9b86ce1f83e94feec87375ec9945295">
+        <source>Roomy</source>
+        <target>Großzügig</target>
+      </trans-unit>
+      <trans-unit id="22b4e7bf3118d625243554505037c3d4">
+        <source>Rounded corners</source>
+        <target>Abgerundete Ecken</target>
+      </trans-unit>
+      <trans-unit id="fddbbce8fcad5140d5fa40417145e7b2">
+        <source>Same as the body</source>
+        <target>Wie der Fließtext</target>
+      </trans-unit>
+      <trans-unit id="c9cc8cce247e49bae79f15173ce97354">
+        <source>Save</source>
+        <target>Speichern</target>
+      </trans-unit>
+      <trans-unit id="eb503511e27315827ba931d4cf89f353">
+        <source>Save design</source>
+        <target>Design speichern</target>
+      </trans-unit>
+      <trans-unit id="2bcf4d0012d8fec18f5b97a1f307c958">
+        <source>Saved.</source>
+        <target>Gespeichert.</target>
+      </trans-unit>
+      <trans-unit id="eedf6b8bfc83284c3294ec4b38188e8a">
+        <source>Saving…</source>
+        <target>Wird gespeichert…</target>
+      </trans-unit>
+      <trans-unit id="1e50042624e15998cec87d81666d3a78">
+        <source>Search by name or subject</source>
+        <target>Nach Name oder Betreff suchen</target>
+      </trans-unit>
+      <trans-unit id="b899cb40112ad30057069504347621cb">
+        <source>Secondary text</source>
+        <target>Sekundärtext</target>
+      </trans-unit>
+      <trans-unit id="20d26ff04b740fd03a20131e16e0086f">
+        <source>Seen when sending</source>
+        <target>Beim Senden gesehen</target>
+      </trans-unit>
+      <trans-unit id="cb15d7b645c81736afbe88e7bfba6381">
+        <source>Select a block to edit it.</source>
+        <target>Wählen Sie einen Block zum Bearbeiten.</target>
+      </trans-unit>
+      <trans-unit id="4c41e0bd957698b58100a5c687d757d9">
+        <source>Select all</source>
+        <target>Alle auswählen</target>
+      </trans-unit>
+      <trans-unit id="16186ead9220c2a4646402c69109cfa0">
+        <source>Send a test email</source>
+        <target>Test-E-Mail senden</target>
+      </trans-unit>
+      <trans-unit id="5657d788a13b2f9a472718c5102ff19f">
+        <source>Send it again to</source>
+        <target>Erneut senden an</target>
+      </trans-unit>
+      <trans-unit id="9f12e1bfb98bb9e5b05b12f758333056">
+        <source>Send now</source>
+        <target>Jetzt senden</target>
+      </trans-unit>
+      <trans-unit id="6389099b0b3e12919092dc74736f7fb3">
+        <source>Send test</source>
+        <target>Test senden</target>
+      </trans-unit>
+      <trans-unit id="0e497eb213d0c1eec09cd07b3ed3928c">
+        <source>Send the order confirmation to the customer again?</source>
+        <target>Die Bestellbestätigung erneut an den Kunden senden?</target>
+      </trans-unit>
+      <trans-unit id="595dfba9046fb4b0640329f66e9dc261">
+        <source>Send them with:</source>
+        <target>Senden mit:</target>
+      </trans-unit>
+      <trans-unit id="d44536942b9cdc9e499c4ab921e71dd0">
+        <source>Send yourself a test</source>
+        <target>Schicken Sie sich einen Test</target>
+      </trans-unit>
+      <trans-unit id="ffd21b65401a0ffd742596bdab563cb8">
+        <source>Send yourself a test and open it on your phone, in Gmail and, if your customers use it, in Outlook. Those three cover almost everyone.</source>
+        <target>Schicken Sie sich einen Test und öffnen Sie ihn am Handy, in Gmail und, falls Ihre Kunden es nutzen, in Outlook. Diese drei decken fast alle ab.</target>
+      </trans-unit>
+      <trans-unit id="4d01e82dfb57dcdc8e8c997db4a66219">
+        <source>Sending…</source>
+        <target>Wird gesendet…</target>
+      </trans-unit>
+      <trans-unit id="7f8c0283f16925caed8e632086b81b9c">
+        <source>Sent</source>
+        <target>Gesendet</target>
+      </trans-unit>
+      <trans-unit id="a300a17107acbe9054609982bab99662">
+        <source>Sent in %lang% until you write them</source>
+        <target>Werden auf %lang% gesendet, bis Sie sie schreiben</target>
+      </trans-unit>
+      <trans-unit id="dc523b31eb54bbe4b4c797965c4269ec">
+        <source>Set them to:</source>
+        <target>Setzen auf:</target>
+      </trans-unit>
+      <trans-unit id="4f2fc181e084977e87359a198c0ed6d5">
+        <source>Set your brand once</source>
+        <target>Legen Sie Ihre Marke einmal fest</target>
+      </trans-unit>
+      <trans-unit id="f4f70727dc34561dfde1a3c529b6205c">
+        <source>Settings</source>
+        <target>Einstellungen</target>
+      </trans-unit>
+      <trans-unit id="f38f5974cdc23279ffe6d203641a8bdf">
+        <source>Settings updated.</source>
+        <target>Einstellungen gespeichert.</target>
+      </trans-unit>
+      <trans-unit id="a14527b410214e080e1d745119706e98">
+        <source>Shape and air</source>
+        <target>Form und Luft</target>
+      </trans-unit>
+      <trans-unit id="5ab131a698442a0145f8361b95c3abe1">
+        <source>Shop home page</source>
+        <target>Startseite des Shops</target>
+      </trans-unit>
+      <trans-unit id="1df3eb316e5d795189eefda0d5f0582d">
+        <source>Shop name linked to the home page</source>
+        <target>Shop-Name mit Startseite verlinkt</target>
+      </trans-unit>
+      <trans-unit id="3f9c1d7a8dd8cf9e46af9ab494b78eb2">
+        <source>Show totals</source>
+        <target>Summen anzeigen</target>
+      </trans-unit>
+      <trans-unit id="6f6cb72d544962fa333e2e34ce64f719">
+        <source>Size</source>
+        <target>Größe</target>
+      </trans-unit>
+      <trans-unit id="2660064e68655415da2628c2ae2f7592">
+        <source>Small</source>
+        <target>Klein</target>
+      </trans-unit>
+      <trans-unit id="c4b1c1cc6ebd00e0c208fe574f72b9f2">
+        <source>Space above</source>
+        <target>Abstand oben</target>
+      </trans-unit>
+      <trans-unit id="4bc858d4f6e770b24d168bb00529d8c8">
+        <source>Space below</source>
+        <target>Abstand unten</target>
+      </trans-unit>
+      <trans-unit id="6ab9a295c00f945cf4881fd7667a0334">
+        <source>Spacer</source>
+        <target>Abstand</target>
+      </trans-unit>
+      <trans-unit id="1d1ee5c739d62e53f2f4b73f20e01a00">
+        <source>Spacing and background</source>
+        <target>Abstand und Hintergrund</target>
+      </trans-unit>
+      <trans-unit id="a6122a65eaa676f700ae68d393054a37">
+        <source>Start</source>
+        <target>Anfang</target>
+      </trans-unit>
+      <trans-unit id="eaf510b81ba3d1929832c8f3673b771b">
+        <source>Start from a theme</source>
+        <target>Mit einem Theme starten</target>
+      </trans-unit>
+      <trans-unit id="129b767a5e10f9df6bb9fee19f9a5a12">
+        <source>Start over</source>
+        <target>Neu anfangen</target>
+      </trans-unit>
+      <trans-unit id="ae284f900f9d6e21ba69144cfc91e41b">
+        <source>Style</source>
+        <target>Stil</target>
+      </trans-unit>
+      <trans-unit id="c7892ebbb139886662c6f2fc8c450710">
+        <source>Subject</source>
+        <target>Betreff</target>
+      </trans-unit>
+      <trans-unit id="505a83f220c02df2f85c3810cd9ceb38">
+        <source>Success</source>
+        <target>Erfolg</target>
+      </trans-unit>
+      <trans-unit id="db5eb84117d06047c97c9a0191b5fffe">
+        <source>Support</source>
+        <target>Support</target>
+      </trans-unit>
+      <trans-unit id="bdf23eb2ff04392cb1d94810fa09137f">
+        <source>Switch all off</source>
+        <target>Alle ausschalten</target>
+      </trans-unit>
+      <trans-unit id="b8605bbd449d11792c9276af971806bd">
+        <source>Switch the design off on every email? They will be sent exactly as PrestaShop writes them. Your work is kept.</source>
+        <target>Das Design bei allen E-Mails ausschalten? Sie werden genau so gesendet, wie PrestaShop sie schreibt. Ihre Arbeit bleibt erhalten.</target>
+      </trans-unit>
+      <trans-unit id="506944c5c595cae470dc698c0266a1ae">
+        <source>Switch to Plain text: that is what a reader with images turned off gets. It should still make sense.</source>
+        <target>Wechseln Sie zu Nur-Text: Das bekommt, wer Bilder deaktiviert hat. Es muss weiterhin verständlich sein.</target>
+      </trans-unit>
+      <trans-unit id="1aaf2e2da482bd8b90b254e4814b107b">
+        <source>Switched off</source>
+        <target>Ausgeschaltet</target>
+      </trans-unit>
+      <trans-unit id="0cbc6611f5540bd0809a388dc95a615b">
+        <source>Test</source>
+        <target>Test</target>
+      </trans-unit>
+      <trans-unit id="bc755a08196ce40039b30314e03c8ab9">
+        <source>Test email sent to %s.</source>
+        <target>Test-E-Mail an %s gesendet.</target>
+      </trans-unit>
+      <trans-unit id="030d188d321f80a7a522539bc4bc1a73">
+        <source>Test emails go to</source>
+        <target>Test-E-Mails gehen an</target>
+      </trans-unit>
+      <trans-unit id="37971ba9015db1e83b4d4c96f35c1ea7">
+        <source>Test values</source>
+        <target>Testwerte</target>
+      </trans-unit>
+      <trans-unit id="9dffbf69ffba8bc38bc4e01abf4b1675">
+        <source>Text</source>
+        <target>Text</target>
+      </trans-unit>
+      <trans-unit id="185d266213d67ce43791f4364cb845bc">
+        <source>Text size</source>
+        <target>Textgröße</target>
+      </trans-unit>
+      <trans-unit id="035be2cb8c60962e433f981ad47d6660">
+        <source>That file is not a valid export.</source>
+        <target>Diese Datei ist kein gültiger Export.</target>
+      </trans-unit>
+      <trans-unit id="db020abe4e0beceafc9ce28204657318">
+        <source>That file was exported by another version of the module.</source>
+        <target>Diese Datei wurde von einer anderen Modulversion exportiert.</target>
+      </trans-unit>
+      <trans-unit id="00ee70f0abe4f9455a930fe89e711d3a">
+        <source>That is why you insert them by clicking, never by typing: the Variables panel on the left of the editor lists the ones that this particular email really receives, read from its original file and from emails already sent.</source>
+        <target>Deshalb fügt man sie per Klick ein, nie durch Tippen: Das Variablen-Panel links im Editor listet die, die diese E-Mail tatsächlich erhält — gelesen aus ihrer Originaldatei und aus bereits versendeten E-Mails.</target>
+      </trans-unit>
+      <trans-unit id="cb54531d41422da0e28f24573a3a6a5a">
+        <source>The Mail class of PrestaShop is untouched</source>
+        <target>Die Mail-Klasse von PrestaShop ist unverändert</target>
+      </trans-unit>
+      <trans-unit id="9e75f36af7681824d8d399ef9141f5cc">
+        <source>The blocks are built with the same table markup PrestaShop uses, so Outlook renders them properly. Avoid pasting HTML from a word processor into the HTML block: that is the one thing that breaks in Outlook.</source>
+        <target>Die Blöcke nutzen dasselbe Tabellen-Markup wie PrestaShop, deshalb stellt Outlook sie korrekt dar. Fügen Sie kein HTML aus einer Textverarbeitung in den HTML-Block ein: genau das bricht in Outlook.</target>
+      </trans-unit>
+      <trans-unit id="15e6d3dc398abeee58171370663b5cd2">
+        <source>The body could not be taken out, so this email is sent exactly as it was.</source>
+        <target>Der Textkörper ließ sich nicht entnehmen, deshalb geht diese E-Mail genau so raus, wie sie war.</target>
+      </trans-unit>
+      <trans-unit id="cc1f2b070963176be50dd74afb42a883">
+        <source>The body is written by you in the block editor: headings, text, buttons, the order table. The module ships many of them already written and translated.</source>
+        <target>Den Textkörper schreiben Sie im Block-Editor: Überschriften, Text, Buttons, die Bestelltabelle. Das Modul bringt viele bereits geschrieben und übersetzt mit.</target>
+      </trans-unit>
+      <trans-unit id="cbeeb04bdb60fd40b32d16c065e59b1d">
+        <source>The design could not be saved.</source>
+        <target>Das Design konnte nicht gespeichert werden.</target>
+      </trans-unit>
+      <trans-unit id="88d49ca96b601aaa262a253338ac6b22">
+        <source>The design is visible. PrestaShop also sends the plain-text version alongside it.</source>
+        <target>Das Design ist sichtbar. PrestaShop sendet zusätzlich die Nur-Text-Version.</target>
+      </trans-unit>
+      <trans-unit id="714b7959d6993bf3123b2fba5372c543">
+        <source>The email goes through the same path as a real one, with the last real order and sample data. Unsaved changes are saved first.</source>
+        <target>Die E-Mail nimmt denselben Weg wie eine echte, mit der letzten echten Bestellung und Beispieldaten. Ungespeicherte Änderungen werden vorher gespeichert.</target>
+      </trans-unit>
+      <trans-unit id="5cd8825dc75766b28d2d693ee6c4c3c0">
+        <source>The email leaves exactly as PrestaShop or the module wrote it. Nothing of yours is applied.</source>
+        <target>Die E-Mail geht genau so raus, wie PrestaShop oder das Modul sie geschrieben hat. Nichts von Ihnen wird angewendet.</target>
+      </trans-unit>
+      <trans-unit id="9f07dee47f1603a5df890a694b3812ef">
+        <source>The email leaves exactly as PrestaShop or the module wrote it. The design is not applied.</source>
+        <target>Die E-Mail geht genau so raus, wie PrestaShop oder das Modul sie geschrieben hat. Das Design wird nicht angewendet.</target>
+      </trans-unit>
+      <trans-unit id="cfda5fbdbdffb2bd210cf6131367164d">
+        <source>The email logo of your shop, embedded by PrestaShop so it shows in Outlook without downloading images.</source>
+        <target>Das E-Mail-Logo Ihres Shops, von PrestaShop eingebettet, damit es in Outlook ohne Bilddownload erscheint.</target>
+      </trans-unit>
+      <trans-unit id="73dc341eb21b8f33d7dc02e5a97cf8d4">
+        <source>The export file holds your design and the content of every email in every language. Use it to keep a copy before a big change, or to carry your work from a test shop to the real one.</source>
+        <target>Die Exportdatei enthält Ihr Design und den Inhalt jeder E-Mail in jeder Sprache. Nutzen Sie sie für eine Kopie vor einer großen Änderung oder um Ihre Arbeit vom Testshop in den echten zu bringen.</target>
+      </trans-unit>
+      <trans-unit id="0204c988ea0ea6f463419cd0f0aab6cf">
+        <source>The hooks this module needs are the ones PrestaShop ships.</source>
+        <target>Die Hooks, die dieses Modul braucht, sind die von PrestaShop.</target>
+      </trans-unit>
+      <trans-unit id="05d68586e121518ad8aa53158f5d3e6f">
+        <source>The import could not be applied.</source>
+        <target>Der Import konnte nicht angewendet werden.</target>
+      </trans-unit>
+      <trans-unit id="863632c339446a6ab039c413bde66396">
+        <source>The mode I recommend</source>
+        <target>Der empfohlene Modus</target>
+      </trans-unit>
+      <trans-unit id="de7a23b0cb8c4c608afd3095b94cbbbd">
+        <source>The original text is kept, but the PrestaShop header and footer are replaced by yours. You write nothing.</source>
+        <target>Der Originaltext bleibt, aber Kopf- und Fußzeile von PrestaShop werden durch Ihre ersetzt. Sie schreiben nichts.</target>
+      </trans-unit>
+      <trans-unit id="606ecc05547cec0e8de92fc2b89ed208">
+        <source>The preview could not be rendered.</source>
+        <target>Die Vorschau konnte nicht dargestellt werden.</target>
+      </trans-unit>
+      <trans-unit id="21e7dbdbfad314d26028575e4f494178">
+        <source>The preview in the editor is rendered by the same engine that sends the emails, with your last real order. What you see is what leaves.</source>
+        <target>Die Vorschau im Editor rendert dieselbe Engine, die die E-Mails versendet, mit Ihrer letzten echten Bestellung. Was Sie sehen, geht raus.</target>
+      </trans-unit>
+      <trans-unit id="c333e50cf4fe632d26042992f1409c8f">
+        <source>The template needs at least one block to be sent as designed.</source>
+        <target>Die Vorlage braucht mindestens einen Block, um als gestaltet gesendet zu werden.</target>
+      </trans-unit>
+      <trans-unit id="33de8979da3569b092a2ed7a45cf05de">
+        <source>The test email could not be sent.</source>
+        <target>Die Test-E-Mail konnte nicht gesendet werden.</target>
+      </trans-unit>
+      <trans-unit id="000b61328b13a7be808c88c1f822a3a9">
+        <source>The text stays as it was; only the PrestaShop header and footer are replaced by yours. You write nothing.</source>
+        <target>Der Text bleibt, wie er war; nur Kopf- und Fußzeile von PrestaShop werden durch Ihre ersetzt. Sie schreiben nichts.</target>
+      </trans-unit>
+      <trans-unit id="0a5dbb7e65df8bfc10aad2fae8158f7b">
+        <source>The three modes</source>
+        <target>Die drei Modi</target>
+      </trans-unit>
+      <trans-unit id="239b6e8a746626e120cb3548b0eba4ad">
+        <source>There is an override of the Mail class</source>
+        <target>Es gibt ein Override der Mail-Klasse</target>
+      </trans-unit>
+      <trans-unit id="61088e3d39617d6b579ed046bac95dc9">
+        <source>There is no built-in text for this email, so its original text is better kept inside your design.</source>
+        <target>Für diese E-Mail gibt es keinen mitgelieferten Text, ihr Originaltext bleibt also besser in Ihrem Design.</target>
+      </trans-unit>
+      <trans-unit id="cefde307f4f6ca2843e4d8a152b37cf0">
+        <source>There is no built-in text for this email, so its original text is better kept inside your header and footer.</source>
+        <target>Für diese E-Mail gibt es keinen mitgelieferten Text, ihr Originaltext bleibt also besser in Ihrer Kopf- und Fußzeile.</target>
+      </trans-unit>
+      <trans-unit id="6cc679e7c7e3c51c33ed7a37bf1f2ea2">
+        <source>These four work in every email:</source>
+        <target>Diese vier funktionieren in jeder E-Mail:</target>
+      </trans-unit>
+      <trans-unit id="cd5bd40a1f92398a9cb4f8c7ff4a20f9">
+        <source>Thick, in the brand colour</source>
+        <target>Dick, in der Markenfarbe</target>
+      </trans-unit>
+      <trans-unit id="7ec2d6e9d26445174a15a3745c5659e2">
+        <source>Thin brand-colour line on top</source>
+        <target>Dünne Linie in Markenfarbe oben</target>
+      </trans-unit>
+      <trans-unit id="77ae9f16f5df1bc63516068a00851d27">
+        <source>This email came with the full design because the module ships its text written and translated.</source>
+        <target>Diese E-Mail kam mit vollem Design, weil das Modul ihren Text geschrieben und übersetzt mitliefert.</target>
+      </trans-unit>
+      <trans-unit id="3144e444b5248545e69d6d7dde84939f">
+        <source>This email came with your header and footer because the module ships no text for it.</source>
+        <target>Diese E-Mail kam mit Ihrer Kopf- und Fußzeile, weil das Modul keinen Text dafür mitliefert.</target>
+      </trans-unit>
+      <trans-unit id="f6ce354cc3a1e817cfb546ef6ac3926c">
+        <source>This email has built-in text written and translated for it.</source>
+        <target>Für diese E-Mail gibt es einen mitgelieferten, geschriebenen und übersetzten Text.</target>
+      </trans-unit>
+      <trans-unit id="493bec79d854e5d6da036d111054f1cd">
+        <source>This is what every email starts in. It is enough for the ones nobody reads twice.</source>
+        <target>In diesem Modus starten alle. Für die, die niemand zweimal liest, reicht das.</target>
+      </trans-unit>
+      <trans-unit id="6ba96563fda943b49a619068e5b7974b">
+        <source>This module puts it inside your design</source>
+        <target>Dieses Modul setzt sie in Ihr Design</target>
+      </trans-unit>
+      <trans-unit id="b3c7f706dd2cdeb8c860a57898e4c47a">
+        <source>Those files win over the originals, so a branded email wraps the theme copy and not the PrestaShop one. Delete them if you no longer need them.</source>
+        <target>Diese Dateien haben Vorrang vor den Originalen, eine E-Mail mit Marke umschließt also die Theme-Kopie statt der von PrestaShop. Löschen Sie sie, wenn Sie sie nicht mehr brauchen.</target>
+      </trans-unit>
+      <trans-unit id="a02b652b61f1002703007ae894ada1bb">
+        <source>Those files win over the originals, so the header and footer wrap the theme copy and not the PrestaShop one. Delete them if you no longer need them.</source>
+        <target>Diese Dateien haben Vorrang vor den Originalen, Kopf- und Fußzeile umschließen also die Theme-Kopie statt der von PrestaShop. Löschen Sie sie, wenn Sie sie nicht mehr brauchen.</target>
+      </trans-unit>
+      <trans-unit id="43938d60fdd1fcab218c1cc0b0033ecd">
+        <source>Tight</source>
+        <target>Kompakt</target>
+      </trans-unit>
+      <trans-unit id="cdb6aebacf05f4acb3371f9e3d5147c1">
+        <source>To the customer</source>
+        <target>An den Kunden</target>
+      </trans-unit>
+      <trans-unit id="1e449c76a94504129677fb9be221b962">
+        <source>To you</source>
+        <target>An Sie</target>
+      </trans-unit>
+      <trans-unit id="fc32b1df568445b2c7d0b811fb85ea54">
+        <source>Tone</source>
+        <target>Ton</target>
+      </trans-unit>
+      <trans-unit id="547e9eaf1abe369da95d7abe93e50710">
+        <source>Turn off the master switch in Settings. Your designs are kept, waiting. Uninstalling the module leaves no trace either.</source>
+        <target>Schalten Sie den Hauptschalter in den Einstellungen aus. Ihre Designs bleiben gespeichert. Auch das Deinstallieren des Moduls hinterlässt keine Spuren.</target>
+      </trans-unit>
+      <trans-unit id="a1dbb9c6e5d57e7b0c531cc830351931">
+        <source>Turn on the debug log in Settings and you get one line per email sent, saying which template it was and which mode was applied.</source>
+        <target>Schalten Sie das Debug-Protokoll in den Einstellungen ein und Sie bekommen eine Zeile pro gesendeter E-Mail — mit Vorlage und angewendetem Modus.</target>
+      </trans-unit>
+      <trans-unit id="53f90459acf49d6038e05489528f581c">
+        <source>Two columns</source>
+        <target>Zwei Spalten</target>
+      </trans-unit>
+      <trans-unit id="b5a0c4fa829b4b288290e9b358bc5197">
+        <source>Typeface</source>
+        <target>Schriftart</target>
+      </trans-unit>
+      <trans-unit id="603850e072131401265c4fc01027db93">
+        <source>Typography</source>
+        <target>Typografie</target>
+      </trans-unit>
+      <trans-unit id="5ff3c6978f87d96febfdc8ed3899a97e">
+        <source>Unchanged</source>
+        <target>Unverändert</target>
+      </trans-unit>
+      <trans-unit id="cdfcc7f754bb4456d9007c23cc272c25">
+        <source>Unknown template.</source>
+        <target>Unbekannte Vorlage.</target>
+      </trans-unit>
+      <trans-unit id="e3b5c4a25b13a591b824c557227439be">
+        <source>Untouched</source>
+        <target>Unverändert</target>
+      </trans-unit>
+      <trans-unit id="ff0a3b7f3daef040faf89a88fdac01b7">
+        <source>Updated</source>
+        <target>Aktualisiert</target>
+      </trans-unit>
+      <trans-unit id="7f08f1ab23b7592ec7fcc05ca65de801">
+        <source>Use it for an email you already customised somewhere else, or one you would rather not touch.</source>
+        <target>Verwenden Sie ihn für eine E-Mail, die Sie anderswo bereits angepasst haben oder lieber nicht anfassen.</target>
+      </trans-unit>
+      <trans-unit id="ad70f59bd71a4c65dd8e926f9f394fd5">
+        <source>Use the built-in content everywhere</source>
+        <target>Mitgelieferten Inhalt überall verwenden</target>
+      </trans-unit>
+      <trans-unit id="b6ba229b668e5a7b6700e4d275683084">
+        <source>Use this theme</source>
+        <target>Dieses Theme verwenden</target>
+      </trans-unit>
+      <trans-unit id="03df896fc71cd516fdcf44aa699c4933">
+        <source>Variables</source>
+        <target>Variablen</target>
+      </trans-unit>
+      <trans-unit id="63cff71482ae3db6d8c501cdb4749c45">
+        <source>Variables: the words PrestaShop fills in</source>
+        <target>Variablen: die Wörter, die PrestaShop einsetzt</target>
+      </trans-unit>
+      <trans-unit id="555d9e486fc0ff4e1fcd8486b1601c25">
+        <source>View the module</source>
+        <target>Modul ansehen</target>
+      </trans-unit>
+      <trans-unit id="0eaadb4fcb48a0a0ed7bc9868be9fbaa">
+        <source>Warning</source>
+        <target>Warnung</target>
+      </trans-unit>
+      <trans-unit id="78349e6145bd1d63dfe535f5a6aba7af">
+        <source>What else touches your emails</source>
+        <target>Was sonst Ihre E-Mails berührt</target>
+      </trans-unit>
+      <trans-unit id="773c98accc0ef4d492dfce91bebd1ed5">
+        <source>What happens to an email that appears after installing a new module.</source>
+        <target>Was mit einer E-Mail passiert, die nach der Installation eines neuen Moduls auftaucht.</target>
+      </trans-unit>
+      <trans-unit id="d04fecd67d4fd035b8004c5f9cae61b3">
+        <source>What it adds to the body may end up outside your design. Move this module to the first position in Design › Positions.</source>
+        <target>Was es zum Text hinzufügt, kann außerhalb Ihres Designs landen. Verschieben Sie dieses Modul unter Design › Positionen an die erste Stelle.</target>
+      </trans-unit>
+      <trans-unit id="2969814f01dd55fd2c12da0f07d4074f">
+        <source>What they add lands inside your design as long as they come after this module.</source>
+        <target>Was sie hinzufügen, landet in Ihrem Design, solange sie nach diesem Modul kommen.</target>
+      </trans-unit>
+      <trans-unit id="b1f94185833f144b49874df95b1f4563">
+        <source>What this module does</source>
+        <target>Was dieses Modul macht</target>
+      </trans-unit>
+      <trans-unit id="0ad776270c98d89b6c5e92139b4cdabf">
+        <source>What you set here is shared by every email in the list. The preview on the right updates as you type.</source>
+        <target>Was Sie hier festlegen, gilt für alle E-Mails der Liste. Die Vorschau rechts aktualisiert sich beim Tippen.</target>
+      </trans-unit>
+      <trans-unit id="dd82ea2868f0d44f5418c953f0bdbc1c">
+        <source>Where an email from a module the module does not cover ends up. Enough for the ones nobody reads twice.</source>
+        <target>Hier landet eine E-Mail aus einem nicht abgedeckten Modul. Reicht für die, die niemand zweimal liest.</target>
+      </trans-unit>
+      <trans-unit id="784475bbce97eca491bd6ed12d934657">
+        <source>Where every PrestaShop email and every covered module email starts, from the moment you install.</source>
+        <target>Hier starten alle PrestaShop-E-Mails und die der abgedeckten Module — ab der Installation.</target>
+      </trans-unit>
+      <trans-unit id="50a34628d3fd5c4ab279131a1292687f">
+        <source>Where it goes</source>
+        <target>Wohin</target>
+      </trans-unit>
+      <trans-unit id="953b8d303b4f6edb46278b78949520b6">
+        <source>Why they receive this email</source>
+        <target>Warum diese E-Mail ankommt</target>
+      </trans-unit>
+      <trans-unit id="32954654ac8fe66a1d09be19001de2d4">
+        <source>Width</source>
+        <target>Breite</target>
+      </trans-unit>
+      <trans-unit id="ee8d82448ba8787a6ae043a53157f36e">
+        <source>Width (px)</source>
+        <target>Breite (px)</target>
+      </trans-unit>
+      <trans-unit id="f97bf89125317b7fa645659f7c66fdf6">
+        <source>With a coloured bar</source>
+        <target>Mit Farbbalken</target>
+      </trans-unit>
+      <trans-unit id="e1fc9c9b08fcd6f5d04a50ee43508e71">
+        <source>With what each variable of this email is filled in while you test. What you change here is kept for the next preview; a real send always uses real data.</source>
+        <target>Womit jede Variable dieser E-Mail beim Testen gefüllt wird. Was Sie hier ändern, bleibt für die nächste Vorschau; ein echter Versand nutzt immer echte Daten.</target>
+      </trans-unit>
+      <trans-unit id="c915172be1b225758c31f670d347fc09">
+        <source>Without them this module cannot intervene and every email goes out as PrestaShop wrote it.</source>
+        <target>Ohne sie kann dieses Modul nicht eingreifen und alle E-Mails gehen so raus, wie PrestaShop sie geschrieben hat.</target>
+      </trans-unit>
+      <trans-unit id="0a3154b065cc0564e47cab5c09dc2cf3">
+        <source>Worth the effort for the order, account and password emails.</source>
+        <target>Lohnt sich bei den E-Mails zu Bestellung, Konto und Passwort.</target>
+      </trans-unit>
+      <trans-unit id="9b22f1f0ef21ee57be7ebcb31fa0927b">
+        <source>Write your text here.</source>
+        <target>Schreiben Sie hier Ihren Text.</target>
+      </trans-unit>
+      <trans-unit id="0008ac9c72bc884791193151683a13b1">
+        <source>Writes one line per email sent, with the template and the mode applied.</source>
+        <target>Schreibt eine Zeile pro gesendeter E-Mail, mit Vorlage und angewendetem Modus.</target>
+      </trans-unit>
+      <trans-unit id="c69f8155aa9d24ed2418687ba51145e9">
+        <source>Written with the block editor</source>
+        <target>Mit dem Block-Editor geschrieben</target>
+      </trans-unit>
+      <trans-unit id="93cba07454f06a4a960172bbd6e2a435">
+        <source>Yes</source>
+        <target>Ja</target>
+      </trans-unit>
+      <trans-unit id="cae8d14edd025e72c59dbab6f378c95a">
+        <source>You</source>
+        <target>Sie</target>
+      </trans-unit>
+      <trans-unit id="604a9a8f13d447df5c82b824ef2de820">
+        <source>You have unsaved changes.</source>
+        <target>Sie haben ungespeicherte Änderungen.</target>
+      </trans-unit>
+      <trans-unit id="54193c88fc540b87296fceabb9bc8a16">
+        <source>You installed a module that sends emails. The list finds them on its own; the Settings tab decides whether they arrive branded or untouched.</source>
+        <target>Sie haben ein Modul installiert, das E-Mails versendet. Die Liste findet sie von selbst; der Reiter Einstellungen entscheidet, ob sie mit Marke oder unverändert ankommen.</target>
+      </trans-unit>
+      <trans-unit id="67de2c51f28db31d763000197099729b">
+        <source>You installed a module that sends emails. The list finds them on its own; the Settings tab decides whether they arrive with your header and footer or unchanged.</source>
+        <target>Sie haben ein Modul installiert, das E-Mails versendet. Die Liste findet sie von selbst; der Reiter Einstellungen entscheidet, ob sie mit Ihrer Kopf- und Fußzeile oder unverändert ankommen.</target>
+      </trans-unit>
+      <trans-unit id="a78da9de4e848dcf6d56bc0e2cf3f7f9">
+        <source>You receive this email because you have an account at {shop_name}.</source>
+        <target>Sie erhalten diese E-Mail, weil Sie ein Konto bei {shop_name} haben.</target>
+      </trans-unit>
+      <trans-unit id="fb52e5980a8f306dad4ef568dd2dbddd">
+        <source>You see braces in the received email.</source>
+        <target>Sie sehen geschweifte Klammern in der empfangenen E-Mail.</target>
+      </trans-unit>
+      <trans-unit id="53ecd0ad6ec90ec2ae6d348d932d9653">
+        <source>You want everything back as it was.</source>
+        <target>Sie wollen alles wieder wie vorher.</target>
+      </trans-unit>
+      <trans-unit id="4372303c3ff11c977b64bc8e04543ff3">
+        <source>Your emails already carry your brand</source>
+        <target>Ihre E-Mails tragen bereits Ihre Marke</target>
+      </trans-unit>
+      <trans-unit id="00626d1e392fd78b3862a6f1f327928e">
+        <source>Your header, your footer and a body written in the block editor: headings, text, buttons, the order table. The module ships it already written and translated for every PrestaShop email and for the modules it covers.</source>
+        <target>Ihre Kopfzeile, Ihre Fußzeile und ein Text aus dem Block-Editor: Überschriften, Text, Buttons, Bestelltabelle. Das Modul liefert ihn fertig geschrieben und übersetzt für alle PrestaShop-E-Mails und für die abgedeckten Module.</target>
+      </trans-unit>
+      <trans-unit id="953fe01a902813ca1db664e9a7dd7249">
+        <source>Your shop</source>
+        <target>Von Ihrem Shop</target>
+      </trans-unit>
+      <trans-unit id="132e4af2eb7fbb167d3acc6d63b9b0cb">
+        <source>Your theme overrides some templates</source>
+        <target>Ihr Theme überschreibt einige Vorlagen</target>
+      </trans-unit>
+      <trans-unit id="cafc9414266f1c4d5889dde72667fd59">
+        <source>built by PrestaShop</source>
+        <target>von PrestaShop erzeugt</target>
+      </trans-unit>
+      <trans-unit id="39824fe3f75766e8726c841be1eb9517">
+        <source>generic read</source>
+        <target>generische Lesung</target>
+      </trans-unit>
+      <trans-unit id="ba11b8feb4e43d227dcabe6565836d24">
+        <source>in use</source>
+        <target>aktiv</target>
+      </trans-unit>
+      <trans-unit id="070bbfeee9a245ea815f2499f4d1b5b8">
+        <source>inherits from the reference language</source>
+        <target>erbt von der Referenzsprache</target>
+      </trans-unit>
+      <trans-unit id="64573a5c5d73416d28d9086f42e095da">
+        <source>name, without braces</source>
+        <target>Name, ohne Klammern</target>
+      </trans-unit>
+      <trans-unit id="322469898c79a4d49ec5bd8110c804d6">
+        <source>no file for this language</source>
+        <target>keine Datei für diese Sprache</target>
+      </trans-unit>
+      <trans-unit id="ec66a95b647f525942a7c3066dd1ea66">
+        <source>not readable</source>
+        <target>nicht lesbar</target>
+      </trans-unit>
+      <trans-unit id="8de86facf08508b2e928fa22b0b540f6">
+        <source>original file</source>
+        <target>Originaldatei</target>
+      </trans-unit>
+      <trans-unit id="d073faa3358bab49b8a60ee27410be31">
+        <source>own content</source>
+        <target>eigener Inhalt</target>
+      </trans-unit>
+      <trans-unit id="c920e978ec0f345bf0f78aa356372cb4">
+        <source>recognised</source>
+        <target>erkannt</target>
+      </trans-unit>
+      <trans-unit id="f2542542b286a56796c6340eb1219f17">
+        <source>what to fill it with while testing</source>
+        <target>womit sie beim Testen gefüllt wird</target>
+      </trans-unit>
+      <trans-unit id="28f6f44578bd0844fee3f06a767cca52">
+        <source>How the products of an order are shown in the order confirmation and in the new order alert.</source>
+        <target>Wie die Produkte einer Bestellung in der Bestätigung und in der Benachrichtigung über eine neue Bestellung erscheinen.</target>
+      </trans-unit>
+      <trans-unit id="c7bc3fddddb62d5b656adc30cea77a55">
+        <source>Presentation</source>
+        <target>Darstellung</target>
+      </trans-unit>
+      <trans-unit id="dee8bbbba911eb8e4319c6e8e04b521c">
+        <source>One line per product, reads on a phone</source>
+        <target>Eine Zeile pro Produkt, auf dem Handy lesbar</target>
+      </trans-unit>
+      <trans-unit id="f8319b8c07c5bbb764d7311c6750168e">
+        <source>Five columns, like PrestaShop</source>
+        <target>Fünf Spalten, wie PrestaShop</target>
+      </trans-unit>
+      <trans-unit id="9eab1dcfa32243fd08329bbf05b1205a">
+        <source>Line style</source>
+        <target>Stil der Zeile</target>
+      </trans-unit>
+      <trans-unit id="ec054624976a746d4150b69093b23c80">
+        <source>Separated by a hairline</source>
+        <target>Durch eine Haarlinie getrennt</target>
+      </trans-unit>
+      <trans-unit id="259a71e554e02091eb227e2bfb0452a6">
+        <source>Alternating background</source>
+        <target>Abwechselnder Hintergrund</target>
+      </trans-unit>
+      <trans-unit id="fe16352973f639b799fc5149612263e0">
+        <source>Each product in its own box</source>
+        <target>Jedes Produkt im eigenen Kasten</target>
+      </trans-unit>
+      <trans-unit id="de42d203acec6ce84fc76d756fb7ce84">
+        <source>Photo size</source>
+        <target>Fotogröße</target>
+      </trans-unit>
+      <trans-unit id="2227cc1dfa8069df5d809c8cae89721b">
+        <source>Product photo</source>
+        <target>Produktfoto</target>
+      </trans-unit>
+      <trans-unit id="63d5049791d9d79d86e9a108b0a999ca">
+        <source>Reference</source>
+        <target>Referenz</target>
+      </trans-unit>
+      <trans-unit id="5883e14bd69d654f040c777feb838015">
+        <source>Combination and customisations</source>
+        <target>Variante und Anpassungen</target>
+      </trans-unit>
+      <trans-unit id="b14d0e560525a863ffed089b65fda54a">
+        <source>Quantity and unit price</source>
+        <target>Menge und Einzelpreis</target>
+      </trans-unit>
+      <trans-unit id="3a385cacbb9277649c150a1182dcc922">
+        <source>Each order block can override this in its own email.</source>
+        <target>Jeder Bestellblock kann das in seiner eigenen E-Mail ändern.</target>
+      </trans-unit>
+      <trans-unit id="84e3c0f5fcd29a65dafcd56416576de8">
+        <source>Your own CSS</source>
+        <target>Eigenes CSS</target>
+      </trans-unit>
+      <trans-unit id="0da467f80b83e9ed2b002c040b68ee7b">
+        <source>Added at the end of the stylesheet, so it wins over the theme. It is turned into inline styles before sending, like the rest.</source>
+        <target>Wird am Ende des Stylesheets ergänzt und gewinnt damit gegen das Theme. Vor dem Versand wird es wie alles Übrige zu Inline-Stilen.</target>
+      </trans-unit>
+      <trans-unit id="82f163a514f810b21bf81e0c7c8ea1ef">
+        <source>One per line</source>
+        <target>Eine pro Zeile</target>
+      </trans-unit>
+      <trans-unit id="ab2e2eb63ec0f71d1bbd91f64de51a17">
+        <source>Five columns</source>
+        <target>Fünf Spalten</target>
+      </trans-unit>
+      <trans-unit id="b32ca8b651d2ffc10c2c2bfbaf36248e">
+        <source>The order lines</source>
+        <target>Die Bestellzeilen</target>
+      </trans-unit>
+      <trans-unit id="067fc109b21915ed73de815d8269cbb8">
+        <source>PrestaShop sends the products of an order as a five-column table. On a phone those columns leave about eighty pixels for the product name, so the module lays them out again: the name, its combination and customisations and its «2 × 49.99 €» on the left, the line total on the right. It reads at 320 px without any media query.</source>
+        <target>PrestaShop verschickt die Produkte einer Bestellung als Tabelle mit fünf Spalten. Auf einem Handy bleiben dem Produktnamen dadurch rund achtzig Pixel, deshalb setzt das Modul sie neu: links der Name, seine Variante, seine Anpassungen und sein „2 × 49,99 €“; rechts die Zeilensumme. Lesbar ab 320 px, ganz ohne Media Query.</target>
+      </trans-unit>
+      <trans-unit id="7d86590389df772be3d76d93e8d16b48">
+        <source>The theme decides how it looks: hairline, alternating background or one box per product, with or without the product photo.</source>
+        <target>Das Theme bestimmt das Aussehen: Haarlinie, abwechselnder Hintergrund oder ein Kasten je Produkt, mit oder ohne Foto.</target>
+      </trans-unit>
+      <trans-unit id="0b2a6076f668dae9540b361cc54de0dc">
+        <source>Each order block can override it for its own email: the photo, the reference, the combination and customisations and the quantity with the unit price are turned on and off one by one.</source>
+        <target>Jeder Bestellblock kann das in seiner eigenen E-Mail ändern: Foto, Referenz, Variante samt Anpassungen und Menge samt Einzelpreis lassen sich einzeln ein- und ausschalten.</target>
+      </trans-unit>
+      <trans-unit id="f1e89a095916a85b7273e0802392647a">
+        <source>Any further change goes in «Your own CSS», at the bottom of the design screen: .bk-line is the line, .bk-line__name the product name, .bk-line__meta the small print and .bk-line__amount the total.</source>
+        <target>Alles Weitere kommt in „Eigenes CSS“ unten im Design-Bildschirm: .bk-line ist die Zeile, .bk-line__name der Produktname, .bk-line__meta das Kleingedruckte und .bk-line__amount der Betrag.</target>
+      </trans-unit>
+      <trans-unit id="59f3f36565809e4fac01f99731973111">
+        <source>A module that sends its products with a different markup keeps its own table: nothing is rewritten unless it is recognised.</source>
+        <target>Ein Modul, das seine Produkte mit anderem Markup verschickt, behält seine Tabelle: Nichts wird umgeschrieben, was nicht erkannt wird.</target>
+      </trans-unit>
+      <trans-unit id="b634259575978d46f24b0deed4de62bb">
+        <source>Column headings</source>
+        <target>Spaltenüberschriften</target>
+      </trans-unit>
+      <trans-unit id="a707a320d1b462ae8e314607e6827f08">
+        <source>It is not the same line for everyone: whoever wrote through the contact form or subscribed to the newsletter has no account, and the shop does not need to be told why it gets its own emails. Leave a box empty and that line does not appear.</source>
+        <target>Nicht für alle derselbe Satz: Wer über das Formular geschrieben oder den Newsletter abonniert hat, hat kein Konto, und dem Shop muss man nicht erklären, warum er seine eigenen E-Mails bekommt. Ein leeres Feld heißt: Diese Zeile erscheint nicht.</target>
+      </trans-unit>
+      <trans-unit id="9b48d3b5dae48372c3b00c314f578ce0">
+        <source>Emails to a customer</source>
+        <target>E-Mails an eine Kundin oder einen Kunden</target>
+      </trans-unit>
+      <trans-unit id="52acebaa5d1ee9a422d8c0a8419b078c">
+        <source>Emails to someone with no account</source>
+        <target>E-Mails an Personen ohne Konto</target>
+      </trans-unit>
+      <trans-unit id="9d98799b5f87a13b126af743ba66e04a">
+        <source>Emails to the shop itself</source>
+        <target>E-Mails an den Shop selbst</target>
+      </trans-unit>
+      <trans-unit id="027e246353e2080a4cab863f3eeb9f4c">
+        <source>You receive this email because this address was used at {shop_name}.</source>
+        <target>Sie erhalten diese E-Mail, weil diese Adresse bei {shop_name} verwendet wurde.</target>
+      </trans-unit>
+      <trans-unit id="879599801fc0bfa693c70de9005f0276">
+        <source>Usually empty: nobody needs to explain to you why your shop writes to you.</source>
+        <target>Normalerweise leer: Niemand muss Ihnen erklären, warum Ihr Shop Ihnen schreibt.</target>
+      </trans-unit>
+      <trans-unit id="3bb3e8c8a24891ba0f7608bcc96f8b0a">
+        <source>Frame</source>
+        <target>Rahmen</target>
+      </trans-unit>
+      <trans-unit id="9b6545e4cea9b4ad4979d41bb9170e2b">
+        <source>Advanced</source>
+        <target>Erweitert</target>
+      </trans-unit>
+      <trans-unit id="5b3ec15499a125805b5bbf8e4afcec8c">
+        <source>Buttons</source>
+        <target>Buttons</target>
+      </trans-unit>
+      <trans-unit id="ebd9bec4d70abc789d439c1f136b0538">
+        <source>Layout</source>
+        <target>Anordnung</target>
+      </trans-unit>
+      <trans-unit id="1f323e25051ceeaa3252caef8a3584eb">
+        <source>Top band</source>
+        <target>Oberes Band</target>
+      </trans-unit>
+      <trans-unit id="f82fb312949892ddf375e1159d1cecb2">
+        <source>Band thickness</source>
+        <target>Stärke des Bands</target>
+      </trans-unit>
+      <trans-unit id="aa325e91c944f242448fba279b7a4f75">
+        <source>Outer background</source>
+        <target>Äußerer Hintergrund</target>
+      </trans-unit>
+      <trans-unit id="85d2cc57f7fad681d2ec34d552a580d5">
+        <source>Colour band on top</source>
+        <target>Farbband oben</target>
+      </trans-unit>
+      <trans-unit id="f95c89c71914ce7eefcec79d655944c1">
+        <source>Logo and links in a row</source>
+        <target>Logo und Links in einer Reihe</target>
+      </trans-unit>
+      <trans-unit id="77ad4c3171a342252d1b3bc5713f61c9">
+        <source>On a colour</source>
+        <target>Auf einer Farbe</target>
+      </trans-unit>
+      <trans-unit id="607010e6a88aaf1f498de800a038fe49">
+        <source>Header background</source>
+        <target>Hintergrund der Kopfzeile</target>
+      </trans-unit>
+      <trans-unit id="cafb4e3f4959cfd9735076a6c668a126">
+        <source>Header text</source>
+        <target>Text der Kopfzeile</target>
+      </trans-unit>
+      <trans-unit id="046e5210960d543b1ab01b8273812e01">
+        <source>Social networks</source>
+        <target>Soziale Netzwerke</target>
+      </trans-unit>
+      <trans-unit id="48e26c8f7773a5db30f26478ebcb1dfc">
+        <source>Icon style</source>
+        <target>Stil der Symbole</target>
+      </trans-unit>
+      <trans-unit id="00b3551acfdc2201a1542805ffb61ad7">
+        <source>Icon shape</source>
+        <target>Form der Symbole</target>
+      </trans-unit>
+      <trans-unit id="fc23ffe3bc715a46cc8b63071ded5fda">
+        <source>Icon size</source>
+        <target>Größe der Symbole</target>
+      </trans-unit>
+      <trans-unit id="2a802769f5260f7c2c0b5adfbd0d1918">
+        <source>Each network in its own colour</source>
+        <target>Jedes Netzwerk in seiner Farbe</target>
+      </trans-unit>
+      <trans-unit id="c0532cca0b39fdb584a041391f7de3ce">
+        <source>All in your brand colour</source>
+        <target>Alle in Ihrer Markenfarbe</target>
+      </trans-unit>
+      <trans-unit id="7291417479be88cf7dc61910d3bfae0e">
+        <source>No background</source>
+        <target>Ohne Hintergrund</target>
+      </trans-unit>
+      <trans-unit id="b7f41fc1412ad2ee75e9b2635d3b9d5c">
+        <source>Round</source>
+        <target>Rund</target>
+      </trans-unit>
+      <trans-unit id="de356308479a18db4c9208c83497665d">
+        <source>Rounded square</source>
+        <target>Abgerundete Quadrate</target>
+      </trans-unit>
+      <trans-unit id="21c668f653d9d3ac8ca4990e326a56b1">
+        <source>Change it for one email only:</source>
+        <target>Nur für eine E-Mail ändern:</target>
+      </trans-unit>
+      <trans-unit id="c84fd173cff4e980aef7eefc4b307731">
+        <source>Emails to whoever receives them</source>
+        <target>E-Mails an die Empfänger</target>
+      </trans-unit>
+      <trans-unit id="123e602c9c762e8bbe549c38da7d9c61">
+        <source>The classes you will need:</source>
+        <target>Die Klassen, die Sie brauchen:</target>
+      </trans-unit>
+      <trans-unit id="93b5fc6e5b39b687431890ad503f9636">
+        <source>Export or import the whole design as a JSON file</source>
+        <target>Das ganze Design als JSON-Datei exportieren oder importieren</target>
+      </trans-unit>
+      <trans-unit id="205433bd3e115ed40ec554c2b99483c4">
+        <source>What is yours and shows up in all of them: the logo and the three colours the whole email is built from.</source>
+        <target>Was Ihnen gehört und in allen erscheint: das Logo und die drei Farben, aus denen die ganze E-Mail gebaut ist.</target>
+      </trans-unit>
+      <trans-unit id="bec5957cb7ebc6be2831fb5d671787c0">
+        <source>The brand colour paints the buttons and the links. The band and the header have their own colour in Frame and in Header.</source>
+        <target>Die Markenfarbe färbt Buttons und Links. Band und Kopfzeile haben ihre eigene Farbe in Rahmen und Kopfzeile.</target>
+      </trans-unit>
+      <trans-unit id="1ff9ac2699075ccca589ecc69a6791f3">
+        <source>The two typefaces and how headings behave. Everything that goes in capitals is decided here.</source>
+        <target>Die beiden Schriften und das Verhalten der Überschriften. Alles, was in Versalien steht, wird hier entschieden.</target>
+      </trans-unit>
+      <trans-unit id="3bc4a76afc86682f842000d951e2faf1">
+        <source>The paper the email is printed on: how wide it is, how much air it has and what surrounds it.</source>
+        <target>Das Papier, auf dem die E-Mail gedruckt wird: Breite, Luft und was sie umgibt.</target>
+      </trans-unit>
+      <trans-unit id="38b70fc3542a3f8a6be9cac358a09d47">
+        <source>The first thing anyone sees: the logo, the links next to it and the line that closes it.</source>
+        <target>Das Erste, was man sieht: das Logo, die Links daneben und die Linie, die es abschließt.</target>
+      </trans-unit>
+      <trans-unit id="764ff5d29c10d39b500a3b5018aa263e">
+        <source>Only used by «On a colour». With a dark background give the logo a light version in Brand.</source>
+        <target>Nur von „Auf einer Farbe“ genutzt. Bei dunklem Hintergrund geben Sie dem Logo unter Marke eine helle Fassung.</target>
+      </trans-unit>
+      <trans-unit id="50daa033c59ba27d9a41fcea724b6c56">
+        <source>What the blocks look like by default. Every email can change it block by block in its own editor.</source>
+        <target>Das Standardaussehen der Blöcke. Jede E-Mail kann es in ihrem Editor Block für Block ändern.</target>
+      </trans-unit>
+      <trans-unit id="5f183c3e069786cb6b29aab993612586">
+        <source>They only show up in the order confirmation and in the new order alert. This is the default: each of those emails can change it in its own editor.</source>
+        <target>Sie erscheinen nur in der Bestellbestätigung und in der Benachrichtigung über neue Bestellungen. Das ist der Standard: Jede dieser E-Mails kann ihn in ihrem Editor ändern.</target>
+      </trans-unit>
+      <trans-unit id="6d857931669573c594821f6e2375f9fb">
+        <source>It closes the email: its colours, its links, your social networks and the two lines of small print.</source>
+        <target>Sie schließt die E-Mail ab: ihre Farben, ihre Links, Ihre sozialen Netzwerke und die beiden Zeilen Kleingedrucktes.</target>
+      </trans-unit>
+      <trans-unit id="5398ee73743f3f7396d9248128f00b9e">
+        <source>Written once, not per language: an Instagram page does not change with the language of the buyer.</source>
+        <target>Einmal eingetragen, nicht je Sprache: Eine Instagram-Seite ändert sich nicht mit der Sprache der Käuferin oder des Käufers.</target>
+      </trans-unit>
+      <trans-unit id="7efdbde54d2e257e9a42d5c5ff29e643">
+        <source>There is no way to know whether the person has an account —an order can be from a guest—, so the line does not claim it. Leave a box empty and that line does not appear.</source>
+        <target>Es lässt sich nicht wissen, ob die Person ein Konto hat — eine Bestellung kann von einem Gast kommen —, deshalb behauptet der Satz es nicht. Ein leeres Feld heißt: Diese Zeile erscheint nicht.</target>
+      </trans-unit>
+      <trans-unit id="4d114fed3d14a74e61249eaadac36305">
+        <source>For whoever knows what they are doing. Added at the end of the stylesheet, so it wins over the theme, and turned into inline styles before sending like the rest.</source>
+        <target>Für alle, die wissen, was sie tun. Wird am Ende des Stylesheets ergänzt, gewinnt damit gegen das Theme und wird vor dem Versand wie alles Übrige zu Inline-Stilen.</target>
+      </trans-unit>
+      <trans-unit id="34fecbc18b4c1a884e8a822aa3e32814">
+        <source>Track an order as a guest</source>
+        <target>Bestellung als Gast verfolgen</target>
+      </trans-unit>
+      <trans-unit id="7c575dd8b1e4b5fb973967516a9fc2c8">
+        <source>Write to the shop</source>
+        <target>An den Shop schreiben</target>
+      </trans-unit>
+      <trans-unit id="eec89088ee408b80387155272b113256">
+        <source>Network</source>
+        <target>Netzwerk</target>
+      </trans-unit>
+      <trans-unit id="87e256a950d84ccb80a6c3696d35c066">
+        <source>Address of your page</source>
+        <target>Adresse Ihrer Seite</target>
+      </trans-unit>
+      <trans-unit id="15b9246f433cd82a982f12092075a1fe">
+        <source>Another one</source>
+        <target>Eine andere</target>
+      </trans-unit>
+      <trans-unit id="6a10d3dda551f509ce57029169a4d4e4">
+        <source>Icon URL</source>
+        <target>URL des Symbols</target>
+      </trans-unit>
+      <trans-unit id="49ee3087348e8d44e1feda1917443987">
+        <source>Name</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit id="623241fa6b34075aab529dc34652d34b">
+        <source>Add a network</source>
+        <target>Netzwerk hinzufügen</target>
+      </trans-unit>
+      <trans-unit id="7f5f3afe91ccd709f2b20abb5a910652">
+        <source>No networks yet. The footer shows no icons.</source>
+        <target>Noch keine Netzwerke. Die Fußzeile zeigt keine Symbole.</target>
+      </trans-unit>
+      <trans-unit id="29d77859f9b8d7136dc216471912aafc">
+        <source>Image and text</source>
+        <target>Bild und Text</target>
+      </trans-unit>
+      <trans-unit id="243747da20238ef5cb199fba55c47f6a">
+        <source>Image side</source>
+        <target>Seite des Bildes</target>
+      </trans-unit>
+      <trans-unit id="945d5e233cf7d6240f6b783b36a374ff">
+        <source>Left</source>
+        <target>Links</target>
+      </trans-unit>
+      <trans-unit id="92b09c7c48c520c3c55e497875da437c">
+        <source>Right</source>
+        <target>Rechts</target>
+      </trans-unit>
+      <trans-unit id="edf5bde022950ccd82bebfdc9deddd13">
+        <source>Full width, ignoring the side margin</source>
+        <target>Volle Breite, ohne den Seitenrand</target>
+      </trans-unit>
+      <trans-unit id="d11420f20ff77b820beb2c162ed1c35e">
+        <source>The networks and their look are set once in Design › Footer.</source>
+        <target>Netzwerke und ihr Aussehen werden einmal unter Design › Fußzeile eingestellt.</target>
+      </trans-unit>
+      <trans-unit id="ad9433539fc47e248183579565237dc3">
+        <source>Every source</source>
+        <target>Alle Quellen</target>
+      </trans-unit>
+      <trans-unit id="d60fd197e540446192f328624ebc9be2">
+        <source>Any state</source>
+        <target>Beliebiger Zustand</target>
+      </trans-unit>
+      <trans-unit id="26de4d3e04796d6486136c5b8203c3ac">
+        <source>Upload an image</source>
+        <target>Bild hochladen</target>
+      </trans-unit>
+      <trans-unit id="adeb2359b7930f63db78324162d40aa7">
+        <source>Uploading…</source>
+        <target>Wird hochgeladen…</target>
+      </trans-unit>
+      <trans-unit id="5820d5d04f966991aa4bba4b073407cb">
+        <source>The image could not be uploaded.</source>
+        <target>Das Bild konnte nicht hochgeladen werden.</target>
+      </trans-unit>
+      <trans-unit id="b774ab91407ecd3220008c57234a2aa7">
+        <source>No file arrived.</source>
+        <target>Es ist keine Datei angekommen.</target>
+      </trans-unit>
+      <trans-unit id="770f4920fb36852384574e0cc2edfde0">
+        <source>The folder could not be created.</source>
+        <target>Der Ordner konnte nicht erstellt werden.</target>
+      </trans-unit>
+      <trans-unit id="11e6d2074ee7e5c22b9bb3e71c4f6d7d">
+        <source>Only images are accepted.</source>
+        <target>Es werden nur Bilder angenommen.</target>
+      </trans-unit>
+      <trans-unit id="5605dce8b359976752d2ffbb52e42000">
+        <source>The image could not be saved.</source>
+        <target>Das Bild konnte nicht gespeichert werden.</target>
+      </trans-unit>
+      <trans-unit id="6d5722448bf3b41d54c7f134b92db6fb">
+        <source>There is no original file for this language.</source>
+        <target>Für diese Sprache gibt es keine Originaldatei.</target>
+      </trans-unit>
+      <trans-unit id="e0232916f003ab14762b75e8b3c9cbd2">
+        <source>There is a newer version of this module</source>
+        <target>Es gibt eine neuere Version dieses Moduls</target>
+      </trans-unit>
+      <trans-unit id="a0d5a7fbab28816e8a58b3f5e2555c0e">
+        <source>You have version %installed%; the latest published version is %latest%.</source>
+        <target>Sie haben Version %installed%; die zuletzt veröffentlichte ist %latest%.</target>
+      </trans-unit>
+      <trans-unit id="a1f2061c8613565d6bab38a126051a35">
+        <source>Get the update</source>
+        <target>Update holen</target>
+      </trans-unit>
+      <trans-unit id="76ab6c81133e3493e8dadf59e7712738">
+        <source>The latest published version could not be checked right now.</source>
+        <target>Die zuletzt veröffentlichte Version konnte gerade nicht abgefragt werden.</target>
+      </trans-unit>
+      <trans-unit id="bac630adb4d5cd6ed5c91c79ad168a1d">
+        <source>Your module is up to date.</source>
+        <target>Ihr Modul ist aktuell.</target>
+      </trans-unit>
+      <trans-unit id="6b8b0dcf3ee5d14f1ffae82bc44c3454">
+        <source>Whoever receives it</source>
+        <target>Wer sie erhält</target>
+      </trans-unit>
+      <trans-unit id="c795dfff10a7c952f4c5438951e9ece9">
+        <source>Cover</source>
+        <target>Titelbild</target>
+      </trans-unit>
+      <trans-unit id="168b82d33f8073018c50a4f658a02559">
+        <source>Columns</source>
+        <target>Spalten</target>
+      </trans-unit>
+      <trans-unit id="b856d55d8c7c9cc663a2bac05f0c7512">
+        <source>Third column</source>
+        <target>Dritte Spalte</target>
+      </trans-unit>
+      <trans-unit id="36994ff63b6ed2bd8c5998b71c67073b">
+        <source>Vertical alignment</source>
+        <target>Vertikale Ausrichtung</target>
+      </trans-unit>
+      <trans-unit id="a4ffdcf0dc1f31b9acaf295d75b51d00">
+        <source>Top</source>
+        <target>Oben</target>
+      </trans-unit>
+      <trans-unit id="b1ca34f82e83c52b010f86955f264e05">
+        <source>Middle</source>
+        <target>Mittig</target>
+      </trans-unit>
+      <trans-unit id="c6568e77f61109390e82d035aaacaef0">
+        <source>Headline</source>
+        <target>Schlagzeile</target>
+      </trans-unit>
+      <trans-unit id="111082bb18b636c4493e0370dce09f00">
+        <source>Button text</source>
+        <target>Text des Buttons</target>
+      </trans-unit>
+      <trans-unit id="15fcc7ab64c322448d20454419aa93ee">
+        <source>Button link</source>
+        <target>Link des Buttons</target>
+      </trans-unit>
+      <trans-unit id="01569f300d0540a139f1e3b3f95fbe8b">
+        <source>Darken the photo</source>
+        <target>Foto abdunkeln</target>
+      </trans-unit>
+      <trans-unit id="eec6c4bdbd339edf8cbea68becb85244">
+        <source>Height</source>
+        <target>Höhe</target>
+      </trans-unit>
+      <trans-unit id="3749c7343d912a50307df6ac9fbf22cb">
+        <source>Text colour</source>
+        <target>Textfarbe</target>
+      </trans-unit>
+      <trans-unit id="172a15a27c0a30feb812e652e3dae43d">
+        <source>Background colour</source>
+        <target>Hintergrundfarbe</target>
+      </trans-unit>
+      <trans-unit id="340fb5e66d428435ccc557795bbd3fe0">
+        <source>More options for this block</source>
+        <target>Weitere Optionen für diesen Block</target>
+      </trans-unit>
+      <trans-unit id="4ffe25338bfe61950ed61fcde9cfac43">
+        <source>The photo goes behind and the text on top. Without a photo it is a band of colour. Darken it until the text reads.</source>
+        <target>Das Foto liegt dahinter, der Text darüber. Ohne Foto ist es ein Farbband. Dunkeln Sie es ab, bis der Text lesbar ist.</target>
+      </trans-unit>
+      <trans-unit id="8d1f74fa5cd188ffbb61ccafb6ae4ccb">
+        <source>How it looks</source>
+        <target>Wie es aussieht</target>
+      </trans-unit>
+      <trans-unit id="b44dc4b99f24c03f7fc5caa27d399094">
+        <source>Edit the HTML</source>
+        <target>HTML bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="5cb3f46a55d373b0a391a28334468b4e">
+        <source>Back to the text</source>
+        <target>Zurück zum Text</target>
+      </trans-unit>
+      <trans-unit id="852721aa5fc738dfedff2945d71da439">
+        <source>Underline</source>
+        <target>Unterstrichen</target>
+      </trans-unit>
+      <trans-unit id="4b985b57aabbd3110aac1d53b1a921c1">
+        <source>Numbered list</source>
+        <target>Nummerierte Liste</target>
+      </trans-unit>
+      <trans-unit id="418a563a1290913c56620f8bf96e59c1">
+        <source>Remove the link</source>
+        <target>Link entfernen</target>
+      </trans-unit>
+      <trans-unit id="4494691b92e1f195feb25bd63ee5468b">
+        <source>Clear formatting</source>
+        <target>Formatierung entfernen</target>
+      </trans-unit>
+      <trans-unit id="398124682999fe955755feb5cfccf031">
+        <source>Centred</source>
+        <target>Zentriert</target>
+      </trans-unit>
+      <trans-unit id="4d3b7918ad361de06b00f31345af2c85">
+        <source>Small print</source>
+        <target>Kleingedrucktes</target>
+      </trans-unit>
+      <trans-unit id="68eec46437c384d8dad18d5464ebc35c">
+        <source>Always</source>
+        <target>Immer</target>
+      </trans-unit>
+      <trans-unit id="0913f64a5c41aa36f9c4d63b7d17287a">
+        <source>Only if it has an amount</source>
+        <target>Nur wenn es einen Betrag gibt</target>
+      </trans-unit>
+      <trans-unit id="6e7b34fa59e1bd229b207892956dc41c">
+        <source>Never</source>
+        <target>Nie</target>
+      </trans-unit>
+      <trans-unit id="6aebe02b578bc9c9d47b4b6703736f22">
+        <source>«Only if it has an amount» hides the line when it comes to zero. Shipping at zero shows the free shipping text instead of hiding.</source>
+        <target>„Nur wenn es einen Betrag gibt“ blendet die Zeile bei null aus. Versand mit null zeigt stattdessen den Text für Gratisversand.</target>
+      </trans-unit>
+      <trans-unit id="0f239b3fd1cb5bd4df6bd5c25d9afa5e">
+        <source>The words of this block</source>
+        <target>Die Wörter dieses Blocks</target>
+      </trans-unit>
+      <trans-unit id="425b1dd54633ec47818d93a69fc3eed0">
+        <source>Text when shipping is free</source>
+        <target>Text bei kostenlosem Versand</target>
+      </trans-unit>
+      <trans-unit id="27b1f4b514c35f64defe8ed2c79140d0">
+        <source>PrestaShop sends the products in {products}. Some modules use another name — ps_emailalerts uses {items}.</source>
+        <target>PrestaShop schickt die Produkte in {products}. Manche Module nutzen einen anderen Namen — ps_emailalerts nutzt {items}.</target>
+      </trans-unit>
+      <trans-unit id="fde2ad8bed4dd026911f40348a8351a5">
+        <source>Image of the icon</source>
+        <target>Bild des Symbols</target>
+      </trans-unit>
+      <trans-unit id="395408751cac14af4596ac2bbe11add4">
+        <source>No background: the image is the icon</source>
+        <target>Ohne Hintergrund: Das Bild ist das Symbol</target>
+      </trans-unit>
+      <trans-unit id="2df142f20d7121cb2219a2bba551f6b8">
+        <source>A square PNG with transparency looks like the rest. A wide logo also fits: it is placed at the same height, without cropping.</source>
+        <target>Ein quadratisches PNG mit Transparenz wirkt wie die anderen. Ein breites Logo passt auch: Es wird auf dieselbe Höhe gesetzt, ohne Beschnitt.</target>
+      </trans-unit>
+      <trans-unit id="4de131c1dc309c151e45ac2791a2ed47">
+        <source>Your theme overrides templates that are read from the file</source>
+        <target>Ihr Theme überschreibt Vorlagen, die tatsächlich aus der Datei gelesen werden</target>
+      </trans-unit>
+      <trans-unit id="6c47b8841a91239c9bd557fe654aa726">
+        <source>Those emails go out in «Header and footer» or switched off, and in both the file is what is read: the theme copy wins over the PrestaShop one. Put them in «Full design» or delete the files if you no longer need them.</source>
+        <target>Diese E-Mails gehen mit „Kopf- und Fußzeile“ oder ausgeschaltet raus, und in beiden Fällen wird die Datei gelesen: Die Theme-Kopie gewinnt gegen die von PrestaShop. Stellen Sie sie auf „Vollständiges Design“ oder löschen Sie die Dateien, wenn Sie sie nicht mehr brauchen.</target>
+      </trans-unit>
+      <trans-unit id="47915fce1bb328cc114be6f59e7b0592">
+        <source>Your theme overrides some templates, and it does not matter</source>
+        <target>Ihr Theme überschreibt einige Vorlagen, und das spielt keine Rolle</target>
+      </trans-unit>
+      <trans-unit id="7f1757afc0dd420ef05a553339a37cae">
+        <source>Those emails go out in «Full design», and there the original file is never read: what is sent is written in the editor. The files can stay where they are.</source>
+        <target>Diese E-Mails gehen mit „Vollständigem Design“ raus, und dort wird die Originaldatei gar nicht geöffnet: Was verschickt wird, steht im Editor. Die Dateien können bleiben, wo sie sind.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

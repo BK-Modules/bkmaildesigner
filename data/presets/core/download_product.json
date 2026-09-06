@@ -1,0 +1,116 @@
+{
+ "subject": {
+  "es": "Tus descargas del pedido {order_name}",
+  "en": "Your downloads for order {order_name}",
+  "fr": "Vos téléchargements pour la commande {order_name}",
+  "it": "I tuoi download per l'ordine {order_name}",
+  "de": "Ihre Downloads zur Bestellung {order_name}"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Tus productos ya están disponibles, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Los productos digitales del pedido <b>{order_name}</b> están listos en tu cuenta.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Ir a mis descargas",
+    "url": "{my_account_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "Your products are ready, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>The digital products of order <b>{order_name}</b> are waiting in your account.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Go to my downloads",
+    "url": "{my_account_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Vos produits sont prêts, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Les produits numériques de la commande <b>{order_name}</b> vous attendent dans votre compte.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Accéder à mes téléchargements",
+    "url": "{my_account_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "I tuoi prodotti sono pronti, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>I prodotti digitali dell'ordine <b>{order_name}</b> ti aspettano nel tuo account.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Vai ai miei download",
+    "url": "{my_account_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Ihre Produkte sind bereit, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Die digitalen Produkte der Bestellung <b>{order_name}</b> warten in Ihrem Konto.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Zu meinen Downloads",
+    "url": "{my_account_url}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

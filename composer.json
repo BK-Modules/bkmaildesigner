@@ -1,0 +1,49 @@
+{
+    "name": "bkmodules/bkmaildesigner",
+    "description": "BK Mail Designer — branded header and footer on every shop email, with a block editor for the body",
+    "type": "prestashop-module",
+    "keywords": [
+        "prestashop",
+        "email",
+        "mail",
+        "template",
+        "designer"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BK Modules",
+            "email": "dev@bkmodules.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "classmap": [
+            "classes/"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "classmap-authoritative": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "extra": {
+        "prestashop": {
+            "name": "bkmaildesigner",
+            "version": "1.0.0",
+            "displayName": "BK Mail Designer",
+            "description": "Branded header and footer on every email your shop sends, and a block editor for the ones that matter.",
+            "tab": "emailing",
+            "bootstrap": true,
+            "compatibility": {
+                "min": "1.7.6.0",
+                "max": "9.99.99"
+            }
+        }
+    }
+}

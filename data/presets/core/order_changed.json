@@ -1,0 +1,116 @@
+{
+ "subject": {
+  "es": "Cambios en el pedido {order_name}",
+  "en": "Changes to order {order_name}",
+  "fr": "Modifications de la commande {order_name}",
+  "it": "Modifiche all'ordine {order_name}",
+  "de": "Änderungen an Bestellung {order_name}"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Hemos actualizado tu pedido, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>El pedido <b>{order_name}</b> ha cambiado. Puedes ver el detalle actualizado en tu cuenta.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Ver mi pedido",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "We have updated your order, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Order <b>{order_name}</b> has changed. You can see the updated details in your account.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "View my order",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Nous avons mis à jour votre commande, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>La commande <b>{order_name}</b> a changé. Vous pouvez voir le détail à jour dans votre compte.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Voir ma commande",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Abbiamo aggiornato il tuo ordine, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>L'ordine <b>{order_name}</b> è cambiato. Puoi vedere il dettaglio aggiornato nel tuo account.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Vedi il mio ordine",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Wir haben Ihre Bestellung aktualisiert, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Bestellung <b>{order_name}</b> hat sich geändert. Die aktualisierten Angaben finden Sie in Ihrem Konto.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Bestellung ansehen",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

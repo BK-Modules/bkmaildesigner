@@ -1,0 +1,141 @@
+{
+ "subject": {
+  "es": "Un mensaje sobre tu pedido {order_name}",
+  "en": "A message about your order {order_name}",
+  "fr": "Un message concernant votre commande {order_name}",
+  "it": "Un messaggio sul tuo ordine {order_name}",
+  "de": "Eine Nachricht zu Ihrer Bestellung {order_name}"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Hola {firstname},",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Tenemos novedades sobre tu pedido <b>{order_name}</b>:</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{message}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Ver mi pedido",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "Hi {firstname},",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>We have news about your order <b>{order_name}</b>:</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{message}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "View my order",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Bonjour {firstname},",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Nous avons des nouvelles de votre commande <b>{order_name}</b> :</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{message}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Voir ma commande",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Ciao {firstname},",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Abbiamo novità sul tuo ordine <b>{order_name}</b>:</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{message}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Vedi il mio ordine",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Hallo {firstname},",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Wir haben Neuigkeiten zu Ihrer Bestellung <b>{order_name}</b>:</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p>{message}</p>",
+    "tone": "primary"
+   },
+   {
+    "type": "button",
+    "text": "Bestellung ansehen",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

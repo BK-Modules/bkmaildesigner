@@ -1,0 +1,116 @@
+{
+ "subject": {
+  "es": "Pedido {order_name} modificado",
+  "en": "Order {order_name} changed",
+  "fr": "Commande {order_name} modifiée",
+  "it": "Ordine {order_name} modificato",
+  "de": "Bestellung {order_name} geändert"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Un cliente ha cambiado su pedido",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{firstname} {lastname} ha modificado el pedido <b>{order_name}</b>. Revísalo antes de prepararlo.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Abrir el pedido",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "A customer changed their order",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{firstname} {lastname} has changed order <b>{order_name}</b>. Check it before preparing it.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Open the order",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Un client a modifié sa commande",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{firstname} {lastname} a modifié la commande <b>{order_name}</b>. Vérifiez-la avant de la préparer.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Ouvrir la commande",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Un cliente ha modificato il suo ordine",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{firstname} {lastname} ha modificato l'ordine <b>{order_name}</b>. Controllalo prima di prepararlo.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Apri l'ordine",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Ein Kunde hat seine Bestellung geändert",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>{firstname} {lastname} hat Bestellung <b>{order_name}</b> geändert. Prüfen Sie sie vor der Vorbereitung.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Bestellung öffnen",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

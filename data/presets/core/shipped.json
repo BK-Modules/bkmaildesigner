@@ -1,0 +1,196 @@
+{
+ "subject": {
+  "es": "Tu pedido {order_name} va de camino",
+  "en": "Your order {order_name} is on its way",
+  "fr": "Votre commande {order_name} est en route",
+  "it": "Il tuo ordine {order_name} è in viaggio",
+  "de": "Ihre Bestellung {order_name} ist unterwegs"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "hero",
+    "src": "",
+    "url": "",
+    "heading": "Ya va de camino",
+    "html": "<p>El pedido {order_name} ha salido de nuestro almacén.</p>",
+    "btn_text": "Seguir mi pedido",
+    "btn_url": "{history_url}",
+    "align": "center",
+    "height": 0,
+    "veil": 0,
+    "color": "",
+    "bleed": 1
+   },
+   {
+    "type": "columns",
+    "count": "2",
+    "left": "<p><b>Te avisarán antes</b><br>El transportista escribe o llama antes de entregar.</p>",
+    "right": "<p><b>¿No vas a estar?</b><br>Responde a este correo y lo dejamos para otro día.</p>",
+    "third": "",
+    "ratio": "50",
+    "align": "left",
+    "valign": "top",
+    "pad_top": 22
+   },
+   {
+    "type": "divider",
+    "style": "solid"
+   },
+   {
+    "type": "text",
+    "html": "<p>Este correo es el aviso de salida. El seguimiento se activa unas horas después, cuando el transportista lo registra.</p>",
+    "align": "center",
+    "tone": "muted"
+   }
+  ],
+  "en": [
+   {
+    "type": "hero",
+    "src": "",
+    "url": "",
+    "heading": "It is on its way",
+    "html": "<p>Order {order_name} has left our warehouse.</p>",
+    "btn_text": "Track my order",
+    "btn_url": "{history_url}",
+    "align": "center",
+    "height": 0,
+    "veil": 0,
+    "color": "",
+    "bleed": 1
+   },
+   {
+    "type": "columns",
+    "count": "2",
+    "left": "<p><b>You get a heads-up</b><br>The carrier writes or calls before delivering.</p>",
+    "right": "<p><b>Not going to be there?</b><br>Reply to this email and we move it to another day.</p>",
+    "third": "",
+    "ratio": "50",
+    "align": "left",
+    "valign": "top",
+    "pad_top": 22
+   },
+   {
+    "type": "divider",
+    "style": "solid"
+   },
+   {
+    "type": "text",
+    "html": "<p>This email is the dispatch notice. Tracking goes live a few hours later, once the carrier registers it.</p>",
+    "align": "center",
+    "tone": "muted"
+   }
+  ],
+  "fr": [
+   {
+    "type": "hero",
+    "src": "",
+    "url": "",
+    "heading": "Elle est en route",
+    "html": "<p>La commande {order_name} a quitté notre entrepôt.</p>",
+    "btn_text": "Suivre ma commande",
+    "btn_url": "{history_url}",
+    "align": "center",
+    "height": 0,
+    "veil": 0,
+    "color": "",
+    "bleed": 1
+   },
+   {
+    "type": "columns",
+    "count": "2",
+    "left": "<p><b>Vous serez prévenu</b><br>Le transporteur écrit ou appelle avant la livraison.</p>",
+    "right": "<p><b>Vous ne serez pas là ?</b><br>Répondez à cet e-mail et nous reportons la livraison.</p>",
+    "third": "",
+    "ratio": "50",
+    "align": "left",
+    "valign": "top",
+    "pad_top": 22
+   },
+   {
+    "type": "divider",
+    "style": "solid"
+   },
+   {
+    "type": "text",
+    "html": "<p>Cet e-mail est l’avis d’expédition. Le suivi s’active quelques heures plus tard, à l’enregistrement par le transporteur.</p>",
+    "align": "center",
+    "tone": "muted"
+   }
+  ],
+  "it": [
+   {
+    "type": "hero",
+    "src": "",
+    "url": "",
+    "heading": "È in viaggio",
+    "html": "<p>L’ordine {order_name} è uscito dal nostro magazzino.</p>",
+    "btn_text": "Segui il mio ordine",
+    "btn_url": "{history_url}",
+    "align": "center",
+    "height": 0,
+    "veil": 0,
+    "color": "",
+    "bleed": 1
+   },
+   {
+    "type": "columns",
+    "count": "2",
+    "left": "<p><b>Ti avvisano prima</b><br>Il corriere scrive o chiama prima di consegnare.</p>",
+    "right": "<p><b>Non ci sarai?</b><br>Rispondi a questa email e la spostiamo a un altro giorno.</p>",
+    "third": "",
+    "ratio": "50",
+    "align": "left",
+    "valign": "top",
+    "pad_top": 22
+   },
+   {
+    "type": "divider",
+    "style": "solid"
+   },
+   {
+    "type": "text",
+    "html": "<p>Questa email è l’avviso di partenza. Il tracciamento si attiva qualche ora dopo, quando il corriere lo registra.</p>",
+    "align": "center",
+    "tone": "muted"
+   }
+  ],
+  "de": [
+   {
+    "type": "hero",
+    "src": "",
+    "url": "",
+    "heading": "Es ist unterwegs",
+    "html": "<p>Bestellung {order_name} hat unser Lager verlassen.</p>",
+    "btn_text": "Bestellung verfolgen",
+    "btn_url": "{history_url}",
+    "align": "center",
+    "height": 0,
+    "veil": 0,
+    "color": "",
+    "bleed": 1
+   },
+   {
+    "type": "columns",
+    "count": "2",
+    "left": "<p><b>Sie werden vorher informiert</b><br>Der Versanddienst meldet sich vor der Zustellung.</p>",
+    "right": "<p><b>Sie sind nicht da?</b><br>Antworten Sie auf diese E-Mail, dann verschieben wir es.</p>",
+    "third": "",
+    "ratio": "50",
+    "align": "left",
+    "valign": "top",
+    "pad_top": 22
+   },
+   {
+    "type": "divider",
+    "style": "solid"
+   },
+   {
+    "type": "text",
+    "html": "<p>Diese E-Mail ist die Versandmitteilung. Die Verfolgung startet einige Stunden später, sobald der Versanddienst sie registriert.</p>",
+    "align": "center",
+    "tone": "muted"
+   }
+  ]
+ }
+}

@@ -1,0 +1,116 @@
+{
+ "subject": {
+  "es": "Reembolso del pedido {order_name}",
+  "en": "Refund for order {order_name}",
+  "fr": "Remboursement de la commande {order_name}",
+  "it": "Rimborso dell'ordine {order_name}",
+  "de": "Erstattung für Bestellung {order_name}"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Hemos hecho el reembolso, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>El reembolso del pedido <b>{order_name}</b> está en marcha. Según tu banco, puede tardar unos días en aparecer.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Ver mi pedido",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "We have issued your refund, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>The refund for order <b>{order_name}</b> is on its way. Depending on your bank, it can take a few days to show up.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "View my order",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Nous avons effectué le remboursement, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Le remboursement de la commande <b>{order_name}</b> est en cours. Selon votre banque, il peut mettre quelques jours à apparaître.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Voir ma commande",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Abbiamo effettuato il rimborso, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Il rimborso dell'ordine <b>{order_name}</b> è in corso. A seconda della tua banca può richiedere qualche giorno.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Vedi il mio ordine",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Wir haben die Erstattung veranlasst, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Die Erstattung für Bestellung <b>{order_name}</b> ist unterwegs. Je nach Bank kann sie einige Tage dauern.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Bestellung ansehen",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

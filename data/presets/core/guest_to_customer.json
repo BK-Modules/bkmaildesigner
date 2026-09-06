@@ -1,0 +1,171 @@
+{
+ "subject": {
+  "es": "Tu cuenta en {shop_name} está activa",
+  "en": "Your account at {shop_name} is active",
+  "fr": "Votre compte chez {shop_name} est actif",
+  "it": "Il tuo account su {shop_name} è attivo",
+  "de": "Ihr Konto bei {shop_name} ist aktiv"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Hola {firstname},",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Hemos convertido tu compra como invitado en una cuenta completa. Ya puedes entrar con tu correo y ver todo tu historial.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Tu correo de acceso:</b> {email}</p>",
+    "tone": "neutral"
+   },
+   {
+    "type": "button",
+    "text": "Entrar en mi cuenta",
+    "url": "{my_account_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>Si no recuerdas tu contraseña, puedes cambiarla desde la pantalla de acceso.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "Hi {firstname},",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>We turned your guest purchase into a full account. You can now sign in with your email and see all your history.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Your login email:</b> {email}</p>",
+    "tone": "neutral"
+   },
+   {
+    "type": "button",
+    "text": "Go to my account",
+    "url": "{my_account_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>If you don't remember your password, you can change it from the login screen.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Bonjour {firstname},",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Nous avons transformé votre achat en tant qu'invité en compte complet. Vous pouvez maintenant vous connecter avec votre e-mail et voir tout votre historique.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Votre e-mail de connexion :</b> {email}</p>",
+    "tone": "neutral"
+   },
+   {
+    "type": "button",
+    "text": "Accéder à mon compte",
+    "url": "{my_account_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>Si vous ne vous souvenez plus de votre mot de passe, vous pouvez le changer depuis l'écran de connexion.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Ciao {firstname},",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Abbiamo trasformato il tuo acquisto come ospite in un account completo. Ora puoi accedere con la tua email e vedere tutto lo storico.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>La tua email di accesso:</b> {email}</p>",
+    "tone": "neutral"
+   },
+   {
+    "type": "button",
+    "text": "Vai al mio account",
+    "url": "{my_account_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>Se non ricordi la password, puoi cambiarla dalla schermata di accesso.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Hallo {firstname},",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Wir haben Ihren Gastkauf in ein vollwertiges Konto umgewandelt. Sie können sich jetzt mit Ihrer E-Mail anmelden und Ihren gesamten Verlauf sehen.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "box",
+    "html": "<p><b>Ihre Anmelde-E-Mail:</b> {email}</p>",
+    "tone": "neutral"
+   },
+   {
+    "type": "button",
+    "text": "Zu meinem Konto",
+    "url": "{my_account_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "text",
+    "html": "<p>Wenn Sie Ihr Passwort vergessen haben, können Sie es über die Anmeldeseite ändern.</p>",
+    "align": "left",
+    "tone": "muted"
+   }
+  ]
+ }
+}

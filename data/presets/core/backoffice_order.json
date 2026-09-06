@@ -1,0 +1,116 @@
+{
+ "subject": {
+  "es": "Pedido de {firstname} {lastname} desde el back office",
+  "en": "Order for {firstname} {lastname} from the back office",
+  "fr": "Commande de {firstname} {lastname} depuis le back-office",
+  "it": "Ordine di {firstname} {lastname} dal back office",
+  "de": "Bestellung für {firstname} {lastname} aus dem Back-Office"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Pedido creado a mano",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Has creado un pedido para {firstname} {lastname} desde el back office. El cliente ya puede pagarlo desde este enlace.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Abrir el pedido",
+    "url": "{order_link}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "Order created by hand",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>You created an order for {firstname} {lastname} from the back office. The customer can pay it from this link.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Open the order",
+    "url": "{order_link}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Commande créée à la main",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Vous avez créé une commande pour {firstname} {lastname} depuis le back-office. Le client peut la régler depuis ce lien.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Ouvrir la commande",
+    "url": "{order_link}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Ordine creato a mano",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Hai creato un ordine per {firstname} {lastname} dal back office. Il cliente può pagarlo da questo link.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Apri l'ordine",
+    "url": "{order_link}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Bestellung von Hand angelegt",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Sie haben im Back-Office eine Bestellung für {firstname} {lastname} angelegt. Der Kunde kann sie über diesen Link bezahlen.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Bestellung öffnen",
+    "url": "{order_link}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}

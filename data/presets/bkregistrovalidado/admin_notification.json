@@ -1,0 +1,216 @@
+{
+ "subject": {
+  "es": "Registro profesional pendiente de validar",
+  "en": "Business registration awaiting approval",
+  "fr": "Inscription professionnelle en attente de validation",
+  "it": "Registrazione professionale in attesa di approvazione",
+  "de": "Gewerbliche Registrierung wartet auf Freigabe"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Nuevo registro profesional",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "html",
+    "html": "{status_banner}"
+   },
+   {
+    "type": "text",
+    "html": "<p>Hay un registro esperando tu validación. Estos son los datos que ha enviado.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "html",
+    "html": "{html_personales}"
+   },
+   {
+    "type": "html",
+    "html": "{html_profesional}"
+   },
+   {
+    "type": "html",
+    "html": "{html_address}"
+   },
+   {
+    "type": "button",
+    "text": "Validar en el back office",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "html",
+    "html": "{status_footer}"
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "New business registration",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "html",
+    "html": "{status_banner}"
+   },
+   {
+    "type": "text",
+    "html": "<p>A registration is waiting for your approval. These are the details submitted.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "html",
+    "html": "{html_personales}"
+   },
+   {
+    "type": "html",
+    "html": "{html_profesional}"
+   },
+   {
+    "type": "html",
+    "html": "{html_address}"
+   },
+   {
+    "type": "button",
+    "text": "Review in the back office",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "html",
+    "html": "{status_footer}"
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Nouvelle inscription professionnelle",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "html",
+    "html": "{status_banner}"
+   },
+   {
+    "type": "text",
+    "html": "<p>Une inscription attend votre validation. Voici les informations transmises.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "html",
+    "html": "{html_personales}"
+   },
+   {
+    "type": "html",
+    "html": "{html_profesional}"
+   },
+   {
+    "type": "html",
+    "html": "{html_address}"
+   },
+   {
+    "type": "button",
+    "text": "Valider dans le back-office",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "html",
+    "html": "{status_footer}"
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Nuova registrazione professionale",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "html",
+    "html": "{status_banner}"
+   },
+   {
+    "type": "text",
+    "html": "<p>Una registrazione attende la tua approvazione. Questi sono i dati inviati.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "html",
+    "html": "{html_personales}"
+   },
+   {
+    "type": "html",
+    "html": "{html_profesional}"
+   },
+   {
+    "type": "html",
+    "html": "{html_address}"
+   },
+   {
+    "type": "button",
+    "text": "Verifica nel back office",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "html",
+    "html": "{status_footer}"
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Neue gewerbliche Registrierung",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "html",
+    "html": "{status_banner}"
+   },
+   {
+    "type": "text",
+    "html": "<p>Eine Registrierung wartet auf Ihre Freigabe. Dies sind die übermittelten Daten.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "html",
+    "html": "{html_personales}"
+   },
+   {
+    "type": "html",
+    "html": "{html_profesional}"
+   },
+   {
+    "type": "html",
+    "html": "{html_address}"
+   },
+   {
+    "type": "button",
+    "text": "Im Back-Office prüfen",
+    "url": "{shop_url}",
+    "align": "left",
+    "style": ""
+   },
+   {
+    "type": "html",
+    "html": "{status_footer}"
+   }
+  ]
+ }
+}

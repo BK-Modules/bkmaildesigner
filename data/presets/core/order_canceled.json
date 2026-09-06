@@ -1,0 +1,116 @@
+{
+ "subject": {
+  "es": "Pedido {order_name} cancelado",
+  "en": "Order {order_name} cancelled",
+  "fr": "Commande {order_name} annulée",
+  "it": "Ordine {order_name} annullato",
+  "de": "Bestellung {order_name} storniert"
+ },
+ "blocks": {
+  "es": [
+   {
+    "type": "heading",
+    "text": "Hemos cancelado tu pedido, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>El pedido <b>{order_name}</b> ha quedado cancelado. Si el pago llegó a hacerse, lo devolvemos por el mismo medio.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Ir a mi cuenta",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "en": [
+   {
+    "type": "heading",
+    "text": "We have cancelled your order, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Order <b>{order_name}</b> has been cancelled. If the payment went through, we refund it by the same method.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Go to my account",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "fr": [
+   {
+    "type": "heading",
+    "text": "Nous avons annulé votre commande, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>La commande <b>{order_name}</b> a été annulée. Si le paiement a été effectué, nous le remboursons par le même moyen.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Accéder à mon compte",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "it": [
+   {
+    "type": "heading",
+    "text": "Abbiamo annullato il tuo ordine, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>L'ordine <b>{order_name}</b> è stato annullato. Se il pagamento è andato a buon fine, lo rimborsiamo con lo stesso metodo.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Vai al mio account",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ],
+  "de": [
+   {
+    "type": "heading",
+    "text": "Wir haben Ihre Bestellung storniert, {firstname}",
+    "size": "h1",
+    "align": "left"
+   },
+   {
+    "type": "text",
+    "html": "<p>Bestellung <b>{order_name}</b> wurde storniert. Falls die Zahlung erfolgt ist, erstatten wir sie auf demselben Weg.</p>",
+    "align": "left",
+    "tone": "normal"
+   },
+   {
+    "type": "button",
+    "text": "Zu meinem Konto",
+    "url": "{history_url}",
+    "align": "left",
+    "style": ""
+   }
+  ]
+ }
+}
