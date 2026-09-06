@@ -379,7 +379,7 @@ class BkMailDesignerOrderTable
         $context = Context::getContext();
         $link = $context->link;
         $iso = Tools::strtolower($context->language->iso_code);
-        $none = [$link->getImageLink($iso, $iso . '-default', 'home_default')];
+        $none = [self::absolute($link->getImageLink($iso, $iso . '-default', 'home_default'))];
 
         $order = self::order($vars);
         if ($order === null) {
@@ -395,14 +395,39 @@ class BkMailDesignerOrderTable
             }
             // El nombre solo viste la URL; lo que la resuelve es «idProducto-idImagen»
             $name = Product::getProductName($idProduct);
-            $out[] = $link->getImageLink(
+            $out[] = self::absolute($link->getImageLink(
                 Tools::str2url($name ? $name : (string) $idProduct),
                 $idProduct . '-' . (int) $cover['id_image'],
                 'home_default'
-            );
+            ));
         }
 
         return empty($out) ? $none : $out;
+    }
+
+    /**
+     * La URL de una imagen, siempre con su esquema.
+     *
+     * `Link::getImageLink()` pone el protocolo según el contexto de la petición, y un correo
+     * de pedido se envía también desde un cron o desde CLI: ahí devuelve «dominio/ruta», sin
+     * esquema, y el cliente recibe la foto rota. La base de la tienda no depende del contexto.
+     *
+     * @param string $url
+     *
+     * @return string
+     */
+    private static function absolute($url)
+    {
+        if (preg_match('#^https?://#i', $url)) {
+            return $url;
+        }
+        $base = rtrim(Context::getContext()->shop->getBaseURL(true), '/');
+        $host = (string) parse_url($base, PHP_URL_HOST);
+        if ($host !== '' && strpos($url, $host) === 0) {
+            return $base . substr($url, Tools::strlen($host));
+        }
+
+        return $base . '/' . ltrim($url, '/');
     }
 
     /**
