@@ -134,10 +134,15 @@ class BkMailDesignerOrderVars
                 $locale = $container->get('prestashop.core.localization.locale.repository')->getLocale($context->language->locale);
             }
         }
-        if ($locale !== null) {
-            return $locale->formatPrice((float) $amount, $iso);
+        if ($locale !== null && $iso !== '') {
+            try {
+                return $locale->formatPrice((float) $amount, $iso);
+            } catch (Exception $e) {
+                // La moneda del pedido puede no estar ya en la tienda: el correo sale igual, con
+                // el importe legible, en vez de tumbar el envío entero por una línea de total.
+            }
         }
 
-        return number_format((float) $amount, 2, ',', '.') . ' ' . $iso;
+        return trim(number_format((float) $amount, 2, ',', '.') . ' ' . $iso);
     }
 }

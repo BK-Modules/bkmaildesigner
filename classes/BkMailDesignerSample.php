@@ -46,7 +46,8 @@ class BkMailDesignerSample
         if ($order) {
             $vars = array_merge($vars, BkMailDesignerOrderVars::forOrder($order, $context));
             $vars['{voucher_num}'] = 'BIENVENIDA10';
-            $vars['{voucher_amount}'] = BkMailDesignerOrderVars::price(10, 'EUR', $context);
+            $moneda = new Currency((int) $order->id_currency);
+            $vars['{voucher_amount}'] = BkMailDesignerOrderVars::price(10, (string) $moneda->iso_code, $context);
         }
 
         foreach ($names as $name) {
@@ -99,10 +100,33 @@ class BkMailDesignerSample
     }
 
     /**
+     * La moneda de la tienda: es la que tienen que enseñar los importes de la vista previa.
+     *
+     * @param Context $context
+     *
+     * @return string
+     */
+    private static function isoTienda(Context $context)
+    {
+        if (isset($context->currency) && Validate::isLoadedObject($context->currency)) {
+            return (string) $context->currency->iso_code;
+        }
+        $currency = new Currency((int) Configuration::get('PS_CURRENCY_DEFAULT', null, null, (int) $context->shop->id));
+
+        return Validate::isLoadedObject($currency) ? (string) $currency->iso_code : '';
+    }
+
+    /**
      * Valor de ejemplo para una variable sin dato real, por familia de nombre.
      */
     private static function generic($name, Context $context)
     {
+        // Los importes de ejemplo llevan la moneda y el formato de la tienda: un escaparate en
+        // dólares no puede ver euros en su propia vista previa.
+        $iso = self::isoTienda($context);
+        $importe = function ($cantidad) use ($iso, $context) {
+            return BkMailDesignerOrderVars::price($cantidad, $iso, $context);
+        };
         $samples = [
             'firstname' => 'María', 'lastname' => 'García', 'email' => 'maria@ejemplo.com',
             'passwd' => '••••••••', 'url' => $context->link->getPageLink('my-account', true),
@@ -118,16 +142,17 @@ class BkMailDesignerSample
             'followup' => 'https://www.correos.es/seguimiento/PQ123456789ES',
             'meta_products' => 'Producto de ejemplo', 'filename' => 'productos.csv',
             'id_order_return' => '7', 'state_order_return' => 'Paquete recibido',
-            'voucher_num' => 'BIENVENIDA10', 'voucher_amount' => '10 €',
+            'voucher_num' => 'BIENVENIDA10', 'voucher_amount' => $importe(10),
             'bankwire_owner' => 'BK Modules SL', 'bankwire_details' => 'ES12 3456 7890 1234 5678 9012',
             'bankwire_address' => 'Banco Ejemplo, Santander', 'check_name' => 'BK Modules SL',
             'check_address_html' => 'Calle Ejemplo 1<br>39001 Santander',
             'carrier' => 'Correos Express', 'payment' => 'Tarjeta',
-            'total_paid' => '148,99 €', 'total_products' => '148,99 €', 'total_discounts' => '0,00 €',
-            'total_shipping' => '0,00 €', 'total_tax_paid' => '25,85 €',
+            'total_paid' => $importe(148.99), 'total_products' => $importe(148.99),
+            'total_discounts' => $importe(0), 'total_shipping' => $importe(0),
+            'total_tax_paid' => $importe(25.85),
             'delivery_block_html' => 'María García<br>Calle Ejemplo 1<br>39001 Santander<br>España',
             'invoice_block_html' => 'María García<br>Calle Ejemplo 1<br>39001 Santander<br>España',
-            'products' => BkMailDesignerOrderVars::productRow('BKALT', 'Producto de ejemplo', '49,99 €', 1, '49,99 €'),
+            'products' => BkMailDesignerOrderVars::productRow('BKALT', 'Producto de ejemplo', $importe(49.99), 1, $importe(49.99)),
             'discounts' => '', 'recycled_packaging_label' => '',
             'status' => 'Aceptada', 'reason' => 'No es lo que esperaba',
             'comment' => 'Cliente atendida por teléfono, pendiente de respuesta.',
@@ -141,7 +166,7 @@ class BkMailDesignerSample
 
         // Familias de nombre: un módulo de terceros llama a lo mismo de muchas maneras y la vista
         // previa tiene que enseñar algo creíble sin conocer ese módulo.
-        $rows = BkMailDesignerOrderVars::productRow('BKALT', 'Producto de ejemplo', '49,99 €', 1, '49,99 €');
+        $rows = BkMailDesignerOrderVars::productRow('BKALT', 'Producto de ejemplo', $importe(49.99), 1, $importe(49.99));
         $suffixes = [
             '_html' => $rows, '_url' => $context->link->getPageLink('index', true),
             '_link' => $context->link->getPageLink('index', true), '_id' => '1042',
