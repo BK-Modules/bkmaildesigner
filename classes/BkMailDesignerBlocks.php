@@ -273,9 +273,12 @@ class BkMailDesignerBlocks
                     // no break
                 case 'addresses':
                     // Una tienda que vende descargas no entrega nada: enseñar una
-                    // «dirección de entrega» en su correo sobra y confunde.
-                    $shows = self::get($block, 'shows');
-                    $clean['shows'] = in_array($shows, self::ADDRESS_SHOWS, true) ? $shows : 'both';
+                    // «dirección de entrega» en su correo sobra y confunde. Solo el bloque de
+                    // direcciones elige; el de pedido llega aquí por el salto y solo por las etiquetas.
+                    if ($block['type'] === 'addresses') {
+                        $shows = self::get($block, 'shows');
+                        $clean['shows'] = in_array($shows, self::ADDRESS_SHOWS, true) ? $shows : 'both';
+                    }
                     $labels = self::get($block, 'labels');
                     $clean['labels'] = [];
                     if (is_array($labels)) {
