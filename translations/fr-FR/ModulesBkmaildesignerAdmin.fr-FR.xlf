@@ -878,9 +878,9 @@
         <source>PrestaShop prepares an email</source>
         <target>PrestaShop prépare un e-mail</target>
       </trans-unit>
-      <trans-unit id="ad378286c8821b009ec76ca1cfc2d76f">
-        <source>PrestaShop sends around fifty different emails, and every module you install adds its own. This module puts your header and your footer around all of them, and lets you rewrite the ones that matter with a block editor.</source>
-        <target>PrestaShop envoie une cinquantaine d'e-mails différents, et chaque module que vous installez ajoute les siens. Ce module leur met à tous votre en-tête et votre pied de page, et vous laisse réécrire ceux qui comptent avec un éditeur de blocs.</target>
+      <trans-unit id="6addbe19abb61f70a64527bc5a81d948">
+        <source>PrestaShop sends a lot of different emails, and every module you install adds its own. This module puts your header and your footer around all of them, and lets you rewrite the ones that matter with a block editor.</source>
+        <target>PrestaShop envoie beaucoup d’e-mails différents, et chaque module que vous installez ajoute les siens. Ce module leur met à tous votre en-tête et votre pied de page, et vous laisse réécrire ceux qui comptent avec un éditeur de blocs.</target>
       </trans-unit>
       <trans-unit id="31fde7b05ac8952dacf4af8a704074ec">
         <source>Preview</source>

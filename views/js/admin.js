@@ -1082,6 +1082,7 @@
                 block.count = '2'; block.left = '<p>' + i18n.new_text + '</p>'; block.right = '<p>' + i18n.new_text + '</p>';
                 block.third = ''; block.ratio = '50'; block.align = 'left'; block.valign = 'top';
             }
+            if (type === 'addresses') { block.labels = {}; block.shows = 'both'; }
             if (type === 'order') { block.labels = {}; block.source = 'products'; block.discount_source = 'discounts'; block.totals = true; block.layout = ''; block.show_image = ''; block.show_reference = ''; block.show_options = ''; block.show_unit = ''; block.image_size = 0; block.totals_mode = { subtotal: 'always', shipping: 'always', discounts: 'auto', tax: 'auto', total_paid: 'always' }; }
             if (type === 'addresses') { block.labels = {}; }
             if (type === 'html') { block.html = ''; }
@@ -1513,6 +1514,13 @@
                         props.appendChild(el('p', { 'class': 'bkmd-props__hint', text: i18n.totals_hint }));
                     }
                 }
+                if (block.type === 'addresses') {
+                    props.appendChild(field(i18n.label_addresses_shows, seg([
+                        { value: 'both', label: i18n.opt_addr_both },
+                        { value: 'invoice', label: i18n.opt_addr_invoice },
+                        { value: 'delivery', label: i18n.opt_addr_delivery }
+                    ], block.shows || 'both', function (v) { block.shows = v; changed(); })));
+                }
                 var labels = block.labels || (block.labels = {});
                 // Las cabeceras de columna solo existen en la presentación de cinco columnas
                 var stacked = block.type === 'order'
@@ -1520,7 +1528,8 @@
                 var wanted = block.type === 'order'
                     ? (stacked ? [] : ['reference', 'product', 'unit_price', 'quantity', 'total'])
                         .concat(block.totals === false ? [] : ['subtotal', 'shipping', 'free_shipping', 'discounts', 'tax', 'total_paid'])
-                    : ['delivery', 'invoice'];
+                    : (block.shows === 'invoice' ? ['invoice']
+                        : block.shows === 'delivery' ? ['delivery'] : ['delivery', 'invoice']);
                 // Once campos de texto seguidos son un muro: se guardan detrás de un desplegable
                 var wordsBody = el('div', { 'class': 'bkmd-common__body' });
                 wordsBody.hidden = true;

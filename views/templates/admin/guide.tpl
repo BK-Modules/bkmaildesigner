@@ -6,7 +6,7 @@
 
   <section class="bkmd-guide__block">
     <h3>{l s='What this module does' d='Modules.Bkmaildesigner.Admin'}</h3>
-    <p>{l s='PrestaShop sends around fifty different emails, and every module you install adds its own. This module puts your header and your footer around all of them, and lets you rewrite the ones that matter with a block editor.' d='Modules.Bkmaildesigner.Admin'}</p>
+    <p>{l s='PrestaShop sends a lot of different emails, and every module you install adds its own. This module puts your header and your footer around all of them, and lets you rewrite the ones that matter with a block editor.' d='Modules.Bkmaildesigner.Admin'}</p>
     <p>{l s='Nothing is overwritten: the original files stay where they are, untouched. The design is applied at the moment the email is sent, so you can switch it off at any time and everything goes back to how PrestaShop had it.' d='Modules.Bkmaildesigner.Admin'}</p>
     <div class="bkmd-flow">
       <div class="bkmd-flow__step"><strong>1</strong>{l s='PrestaShop prepares an email' d='Modules.Bkmaildesigner.Admin'}</div>

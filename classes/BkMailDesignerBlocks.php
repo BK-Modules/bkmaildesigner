@@ -56,6 +56,9 @@ class BkMailDesignerBlocks
     /** Cuándo sale una línea de totales */
     const TOTAL_MODES = ['always', 'auto', 'never'];
 
+    /** Qué direcciones enseña el bloque: las dos, solo la de facturación o solo la de entrega */
+    const ADDRESS_SHOWS = ['both', 'invoice', 'delivery'];
+
     /** Atributos que sobreviven, por etiqueta; `*` vale para todas */
     const ALLOWED_ATTRS = [
         '*' => ['style', 'class', 'align', 'valign', 'width', 'height', 'dir', 'title'],
@@ -269,6 +272,10 @@ class BkMailDesignerBlocks
                     }
                     // no break
                 case 'addresses':
+                    // Una tienda que vende descargas no entrega nada: enseñar una
+                    // «dirección de entrega» en su correo sobra y confunde.
+                    $shows = self::get($block, 'shows');
+                    $clean['shows'] = in_array($shows, self::ADDRESS_SHOWS, true) ? $shows : 'both';
                     $labels = self::get($block, 'labels');
                     $clean['labels'] = [];
                     if (is_array($labels)) {
@@ -615,12 +622,25 @@ class BkMailDesignerBlocks
     private static function blockAddresses(array $b, array $ctx)
     {
         $l = array_merge($ctx['labels'], $b['labels']);
-        $html = '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr>'
-            . '<td class="bk-col bk-col-first" width="50%" valign="top"><p class="bk-label">' . self::esc($l['delivery']) . '</p><p>{delivery_block_html}</p></td>'
-            . '<td class="bk-col bk-col-last" width="50%" valign="top"><p class="bk-label">' . self::esc($l['invoice']) . '</p><p>{invoice_block_html}</p></td>'
-            . '</tr></table>';
+        $shows = isset($b['shows']) && in_array($b['shows'], self::ADDRESS_SHOWS, true) ? $b['shows'] : 'both';
 
-        return self::row('bk-columns', $html, $b);
+        // Con una sola dirección la celda ocupa todo el ancho: media tabla vacía se lee
+        // como un fallo de maquetación, no como una decisión.
+        $celda = function ($etiqueta, $var, $clase, $ancho) {
+            return '<td class="bk-col ' . $clase . '" width="' . $ancho . '" valign="top">'
+                . '<p class="bk-label">' . self::esc($etiqueta) . '</p><p>' . $var . '</p></td>';
+        };
+        if ($shows === 'invoice') {
+            $celdas = $celda($l['invoice'], '{invoice_block_html}', 'bk-col-first bk-col-last', '100%');
+        } elseif ($shows === 'delivery') {
+            $celdas = $celda($l['delivery'], '{delivery_block_html}', 'bk-col-first bk-col-last', '100%');
+        } else {
+            $celdas = $celda($l['delivery'], '{delivery_block_html}', 'bk-col-first', '50%')
+                . $celda($l['invoice'], '{invoice_block_html}', 'bk-col-last', '50%');
+        }
+
+        return self::row('bk-columns', '<table role="presentation" width="100%" cellpadding="0" '
+            . 'cellspacing="0" border="0"><tr>' . $celdas . '</tr></table>', $b);
     }
 
     private static function blockHtml(array $b, array $ctx)
