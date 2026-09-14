@@ -57,7 +57,7 @@ class BkMailDesigner extends Module
     {
         $this->name = 'bkmaildesigner';
         $this->tab = 'emailing';
-        $this->version = '1.0.0';
+        $this->version = '1.0.1';
         $this->author = 'BK Modules';
         $this->need_instance = 0;
         $this->bootstrap = true;

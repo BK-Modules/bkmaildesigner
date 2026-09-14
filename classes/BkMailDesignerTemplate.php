@@ -77,6 +77,15 @@ class BkMailDesignerTemplate extends ObjectModel
                 $template->subject[(int) $language['id_lang']] = '';
                 $template->blocks[(int) $language['id_lang']] = '';
             }
+            // Una plantilla que aparece después de instalar —un módulo actualizado que estrena
+            // un correo— nace con la misma regla que las de la instalación: si trae contenido de
+            // serie, en diseño completo y con ese contenido cargado.
+            $preset = BkMailDesignerPresets::load((string) $module, (string) $name);
+            if ($preset !== null) {
+                BkMailDesignerPresets::apply($template, $preset);
+                $template->mode = BkMailDesignerConfig::MODE_DESIGNED;
+                $template->active = true;
+            }
         }
 
         return $template;

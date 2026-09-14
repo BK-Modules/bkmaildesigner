@@ -1,0 +1,186 @@
+{
+  "subject": {
+    "es": "¿Qué tal te va {product_short}?",
+    "en": "How is {product_short} working out?",
+    "fr": "Comment se passe {product_short} ?",
+    "it": "Come va con {product_short}?",
+    "de": "Wie läuft es mit {product_short}?"
+  },
+  "blocks": {
+    "es": [
+      {
+        "type": "heading",
+        "text": "Cuéntanos qué tal te va, {firstname}",
+        "size": "h1",
+        "align": "left"
+      },
+      {
+        "type": "text",
+        "html": "<p>Compraste <b>{product_short}</b> en {shop_name}. Si te está sirviendo —o si le falta algo—, cuéntalo en dos líneas: es lo que lee quien está decidiendo si le vale.</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "box",
+        "html": "<p><b>{product_name}</b><br>Pedido {order_reference}</p>",
+        "tone": "neutral"
+      },
+      {
+        "type": "html",
+        "html": "<table role=\"presentation\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" align=\"center\" style=\"margin:0 auto;\"><tr><td style=\"padding:0 4px;\"><a href=\"{review_url_1}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_2}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_3}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_4}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_5}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td></tr><tr><td colspan=\"5\" align=\"center\" style=\"padding-top:8px;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#8a99a6;\">Pincha una estrella y queda enviada</td></tr></table>"
+      },
+      {
+        "type": "button",
+        "text": "Escribir mi opinión",
+        "url": "{review_url}",
+        "align": "center"
+      },
+      {
+        "type": "text",
+        "html": "<p>Sin iniciar sesión. Después podrás añadir un comentario, cambiar tu nombre o borrarla desde el mismo enlace.</p>",
+        "align": "center",
+        "tone": "muted"
+      }
+    ],
+    "en": [
+      {
+        "type": "heading",
+        "text": "Tell us how it is going, {firstname}",
+        "size": "h1",
+        "align": "left"
+      },
+      {
+        "type": "text",
+        "html": "<p>You bought <b>{product_short}</b> at {shop_name}. If it is doing the job —or if something is missing— say it in two lines: that is what the next shop owner reads before buying.</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "box",
+        "html": "<p><b>{product_name}</b><br>Order {order_reference}</p>",
+        "tone": "neutral"
+      },
+      {
+        "type": "html",
+        "html": "<table role=\"presentation\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" align=\"center\" style=\"margin:0 auto;\"><tr><td style=\"padding:0 4px;\"><a href=\"{review_url_1}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_2}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_3}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_4}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_5}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td></tr><tr><td colspan=\"5\" align=\"center\" style=\"padding-top:8px;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#8a99a6;\">Tap a star and it is sent</td></tr></table>"
+      },
+      {
+        "type": "button",
+        "text": "Write my review",
+        "url": "{review_url}",
+        "align": "center"
+      },
+      {
+        "type": "text",
+        "html": "<p>No sign-in needed. Afterwards you can add a comment, change your name or remove it from the same link.</p>",
+        "align": "center",
+        "tone": "muted"
+      }
+    ],
+    "fr": [
+      {
+        "type": "heading",
+        "text": "Dites-nous ce que ça donne, {firstname}",
+        "size": "h1",
+        "align": "left"
+      },
+      {
+        "type": "text",
+        "html": "<p>Vous avez acheté <b>{product_short}</b> sur {shop_name}. Si cela fait le travail —ou s'il manque quelque chose—, dites-le en deux lignes : c'est ce que lit celui qui hésite encore.</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "box",
+        "html": "<p><b>{product_name}</b><br>Commande {order_reference}</p>",
+        "tone": "neutral"
+      },
+      {
+        "type": "html",
+        "html": "<table role=\"presentation\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" align=\"center\" style=\"margin:0 auto;\"><tr><td style=\"padding:0 4px;\"><a href=\"{review_url_1}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_2}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_3}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_4}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_5}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td></tr><tr><td colspan=\"5\" align=\"center\" style=\"padding-top:8px;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#8a99a6;\">Cliquez sur une étoile et c'est envoyé</td></tr></table>"
+      },
+      {
+        "type": "button",
+        "text": "Écrire mon avis",
+        "url": "{review_url}",
+        "align": "center"
+      },
+      {
+        "type": "text",
+        "html": "<p>Sans connexion. Vous pourrez ensuite ajouter un commentaire, changer votre nom ou le retirer depuis le même lien.</p>",
+        "align": "center",
+        "tone": "muted"
+      }
+    ],
+    "it": [
+      {
+        "type": "heading",
+        "text": "Raccontaci come va, {firstname}",
+        "size": "h1",
+        "align": "left"
+      },
+      {
+        "type": "text",
+        "html": "<p>Hai acquistato <b>{product_short}</b> su {shop_name}. Se sta facendo il suo lavoro —o se manca qualcosa—, raccontalo in due righe: è quello che legge chi sta ancora decidendo.</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "box",
+        "html": "<p><b>{product_name}</b><br>Ordine {order_reference}</p>",
+        "tone": "neutral"
+      },
+      {
+        "type": "html",
+        "html": "<table role=\"presentation\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" align=\"center\" style=\"margin:0 auto;\"><tr><td style=\"padding:0 4px;\"><a href=\"{review_url_1}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_2}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_3}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_4}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_5}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td></tr><tr><td colspan=\"5\" align=\"center\" style=\"padding-top:8px;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#8a99a6;\">Tocca una stella e la recensione è inviata</td></tr></table>"
+      },
+      {
+        "type": "button",
+        "text": "Scrivi la mia recensione",
+        "url": "{review_url}",
+        "align": "center"
+      },
+      {
+        "type": "text",
+        "html": "<p>Senza accedere. Dopo puoi aggiungere un commento, cambiare il nome o rimuoverla dallo stesso link.</p>",
+        "align": "center",
+        "tone": "muted"
+      }
+    ],
+    "de": [
+      {
+        "type": "heading",
+        "text": "Erzähl uns, wie es läuft, {firstname}",
+        "size": "h1",
+        "align": "left"
+      },
+      {
+        "type": "text",
+        "html": "<p>Du hast <b>{product_short}</b> bei {shop_name} gekauft. Wenn es seine Arbeit macht —oder wenn etwas fehlt—, schreib es in zwei Zeilen: genau das liest der Nächste, der noch überlegt.</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "box",
+        "html": "<p><b>{product_name}</b><br>Bestellung {order_reference}</p>",
+        "tone": "neutral"
+      },
+      {
+        "type": "html",
+        "html": "<table role=\"presentation\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" align=\"center\" style=\"margin:0 auto;\"><tr><td style=\"padding:0 4px;\"><a href=\"{review_url_1}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_2}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_3}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_4}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_5}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td></tr><tr><td colspan=\"5\" align=\"center\" style=\"padding-top:8px;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#8a99a6;\">Auf einen Stern tippen und sie ist abgeschickt</td></tr></table>"
+      },
+      {
+        "type": "button",
+        "text": "Meine Bewertung schreiben",
+        "url": "{review_url}",
+        "align": "center"
+      },
+      {
+        "type": "text",
+        "html": "<p>Ohne Anmeldung. Danach kannst du über denselben Link einen Kommentar ergänzen, deinen Namen ändern oder sie löschen.</p>",
+        "align": "center",
+        "tone": "muted"
+      }
+    ]
+  }
+}
