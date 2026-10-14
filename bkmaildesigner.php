@@ -113,14 +113,14 @@ class BkMailDesigner extends Module
 
         BkMailDesignerLogger::confirmation('Módulo instalado, versión ' . $this->version);
 
-        \BkModules\Registry\V1\InstallReporter::report($this->name, $this->version, 'install');
+        \BkModules\Registry\V2\InstallReporter::report($this->name, $this->version, 'install');
 
         return true;
     }
 
     public function uninstall()
     {
-        \BkModules\Registry\V1\InstallReporter::report($this->name, $this->version, 'uninstall');
+        \BkModules\Registry\V2\InstallReporter::report($this->name, $this->version, 'uninstall');
 
         BkMailDesignerTabsInstaller::uninstall();
         BkMailDesignerTemplate::uninstallTable();
