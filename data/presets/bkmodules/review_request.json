@@ -1,29 +1,30 @@
 {
   "subject": {
-    "es": "¿Qué tal te va {product_short}?",
-    "en": "How is {product_short} working out?",
-    "fr": "Comment se passe {product_short} ?",
-    "it": "Come va con {product_short}?",
-    "de": "Wie läuft es mit {product_short}?"
+    "es": "{firstname}, ¿te funciona {product_short}?",
+    "en": "{firstname}, is {product_short} working for you?",
+    "fr": "{firstname}, {product_short} fonctionne bien chez vous ?",
+    "it": "{firstname}, ti funziona {product_short}?",
+    "de": "{firstname}, funktioniert {product_short} bei dir?"
   },
   "blocks": {
     "es": [
       {
-        "type": "heading",
-        "text": "Cuéntanos qué tal te va, {firstname}",
-        "size": "h1",
-        "align": "left"
-      },
-      {
         "type": "text",
-        "html": "<p>Compraste <b>{product_short}</b> en {shop_name}. Si te está sirviendo —o si le falta algo—, cuéntalo en dos líneas: es lo que lee quien está decidiendo si le vale.</p>",
+        "html": "<p>Hola {firstname}:</p>",
         "align": "left",
         "tone": "normal"
       },
       {
-        "type": "box",
-        "html": "<p><b>{product_name}</b><br>Pedido {order_reference}</p>",
-        "tone": "neutral"
+        "type": "text",
+        "html": "<p>Soy {signer}, el desarrollador de <b>{product_short}</b>. ¿Te está funcionando bien en tu tienda?</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "text",
+        "html": "<p>Pincha una estrella y tu nota queda enviada. Si prefieres contármelo con tus palabras, contesta a este correo: también cuenta como opinión, y si algo no va, lo vemos juntos.</p>",
+        "align": "left",
+        "tone": "normal"
       },
       {
         "type": "html",
@@ -36,29 +37,41 @@
         "align": "center"
       },
       {
+        "type": "box",
+        "html": "<p>Por opinar, con la nota que sea, te sumo <b>un mes más de actualizaciones y soporte</b> a tu licencia. No depende de que la opinión sea buena: me ayuda igual una de una estrella que una de cinco.</p>",
+        "tone": "neutral"
+      },
+      {
         "type": "text",
-        "html": "<p>Sin iniciar sesión. Después podrás añadir un comentario, cambiar tu nombre o borrarla desde el mismo enlace.</p>",
-        "align": "center",
+        "html": "<p>Un saludo,<br><b>{signer}</b><br>BK Modules</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "text",
+        "html": "<p>Pedido {order_reference} · {product_name}. Sin iniciar sesión: desde el mismo enlace puedes cambiarla o borrarla.</p>",
+        "align": "left",
         "tone": "muted"
       }
     ],
     "en": [
       {
-        "type": "heading",
-        "text": "Tell us how it is going, {firstname}",
-        "size": "h1",
-        "align": "left"
-      },
-      {
         "type": "text",
-        "html": "<p>You bought <b>{product_short}</b> at {shop_name}. If it is doing the job —or if something is missing— say it in two lines: that is what the next shop owner reads before buying.</p>",
+        "html": "<p>Hi {firstname},</p>",
         "align": "left",
         "tone": "normal"
       },
       {
-        "type": "box",
-        "html": "<p><b>{product_name}</b><br>Order {order_reference}</p>",
-        "tone": "neutral"
+        "type": "text",
+        "html": "<p>I am {signer}, the developer behind <b>{product_short}</b>. Is it working well in your shop?</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "text",
+        "html": "<p>Tap a star and your rating is sent. If you would rather tell me in your own words, just reply to this email: that counts as a review too, and if something is not right, we will sort it out together.</p>",
+        "align": "left",
+        "tone": "normal"
       },
       {
         "type": "html",
@@ -71,29 +84,41 @@
         "align": "center"
       },
       {
+        "type": "box",
+        "html": "<p>For reviewing, with whatever rating, I add <b>one more month of updates and support</b> to your licence. It does not depend on the review being good: a one-star review helps me as much as a five-star one.</p>",
+        "tone": "neutral"
+      },
+      {
         "type": "text",
-        "html": "<p>No sign-in needed. Afterwards you can add a comment, change your name or remove it from the same link.</p>",
-        "align": "center",
+        "html": "<p>Best,<br><b>{signer}</b><br>BK Modules</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "text",
+        "html": "<p>Order {order_reference} · {product_name}. No sign-in needed: you can change or remove it from the same link.</p>",
+        "align": "left",
         "tone": "muted"
       }
     ],
     "fr": [
       {
-        "type": "heading",
-        "text": "Dites-nous ce que ça donne, {firstname}",
-        "size": "h1",
-        "align": "left"
-      },
-      {
         "type": "text",
-        "html": "<p>Vous avez acheté <b>{product_short}</b> sur {shop_name}. Si cela fait le travail —ou s'il manque quelque chose—, dites-le en deux lignes : c'est ce que lit celui qui hésite encore.</p>",
+        "html": "<p>Bonjour {firstname},</p>",
         "align": "left",
         "tone": "normal"
       },
       {
-        "type": "box",
-        "html": "<p><b>{product_name}</b><br>Commande {order_reference}</p>",
-        "tone": "neutral"
+        "type": "text",
+        "html": "<p>Je suis {signer}, le développeur de <b>{product_short}</b>. Est-ce qu'il fonctionne bien sur votre boutique ?</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "text",
+        "html": "<p>Cliquez sur une étoile et votre note est envoyée. Si vous préférez me le dire avec vos mots, répondez simplement à cet e-mail : cela compte aussi comme un avis, et si quelque chose ne va pas, on regarde ensemble.</p>",
+        "align": "left",
+        "tone": "normal"
       },
       {
         "type": "html",
@@ -106,29 +131,41 @@
         "align": "center"
       },
       {
+        "type": "box",
+        "html": "<p>Pour votre avis, quelle que soit la note, j'ajoute <b>un mois de mises à jour et de support</b> à votre licence. Cela ne dépend pas d'un avis positif : un avis à une étoile m'aide autant qu'un avis à cinq.</p>",
+        "tone": "neutral"
+      },
+      {
         "type": "text",
-        "html": "<p>Sans connexion. Vous pourrez ensuite ajouter un commentaire, changer votre nom ou le retirer depuis le même lien.</p>",
-        "align": "center",
+        "html": "<p>Bien à vous,<br><b>{signer}</b><br>BK Modules</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "text",
+        "html": "<p>Commande {order_reference} · {product_name}. Sans connexion : vous pouvez le modifier ou le retirer depuis le même lien.</p>",
+        "align": "left",
         "tone": "muted"
       }
     ],
     "it": [
       {
-        "type": "heading",
-        "text": "Raccontaci come va, {firstname}",
-        "size": "h1",
-        "align": "left"
-      },
-      {
         "type": "text",
-        "html": "<p>Hai acquistato <b>{product_short}</b> su {shop_name}. Se sta facendo il suo lavoro —o se manca qualcosa—, raccontalo in due righe: è quello che legge chi sta ancora decidendo.</p>",
+        "html": "<p>Ciao {firstname},</p>",
         "align": "left",
         "tone": "normal"
       },
       {
-        "type": "box",
-        "html": "<p><b>{product_name}</b><br>Ordine {order_reference}</p>",
-        "tone": "neutral"
+        "type": "text",
+        "html": "<p>Sono {signer}, lo sviluppatore di <b>{product_short}</b>. Ti sta funzionando bene nel tuo negozio?</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "text",
+        "html": "<p>Tocca una stella e il tuo voto è inviato. Se preferisci raccontarmelo con parole tue, rispondi a questa email: vale anche come recensione, e se qualcosa non va, lo vediamo insieme.</p>",
+        "align": "left",
+        "tone": "normal"
       },
       {
         "type": "html",
@@ -141,33 +178,45 @@
         "align": "center"
       },
       {
+        "type": "box",
+        "html": "<p>Per la tua recensione, con qualsiasi voto, aggiungo <b>un mese in più di aggiornamenti e assistenza</b> alla tua licenza. Non dipende dal fatto che sia positiva: una recensione da una stella mi aiuta quanto una da cinque.</p>",
+        "tone": "neutral"
+      },
+      {
         "type": "text",
-        "html": "<p>Senza accedere. Dopo puoi aggiungere un commento, cambiare il nome o rimuoverla dallo stesso link.</p>",
-        "align": "center",
+        "html": "<p>Un saluto,<br><b>{signer}</b><br>BK Modules</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "text",
+        "html": "<p>Ordine {order_reference} · {product_name}. Senza accedere: puoi modificarla o rimuoverla dallo stesso link.</p>",
+        "align": "left",
         "tone": "muted"
       }
     ],
     "de": [
       {
-        "type": "heading",
-        "text": "Erzähl uns, wie es läuft, {firstname}",
-        "size": "h1",
-        "align": "left"
-      },
-      {
         "type": "text",
-        "html": "<p>Du hast <b>{product_short}</b> bei {shop_name} gekauft. Wenn es seine Arbeit macht —oder wenn etwas fehlt—, schreib es in zwei Zeilen: genau das liest der Nächste, der noch überlegt.</p>",
+        "html": "<p>Hallo {firstname},</p>",
         "align": "left",
         "tone": "normal"
       },
       {
-        "type": "box",
-        "html": "<p><b>{product_name}</b><br>Bestellung {order_reference}</p>",
-        "tone": "neutral"
+        "type": "text",
+        "html": "<p>ich bin {signer} und habe <b>{product_short}</b> entwickelt. Läuft es gut in deinem Shop?</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "text",
+        "html": "<p>Klick auf einen Stern und deine Bewertung ist abgeschickt. Wenn du es mir lieber in eigenen Worten sagst, antworte einfach auf diese E-Mail: Das zählt auch als Bewertung, und wenn etwas nicht passt, schauen wir es uns gemeinsam an.</p>",
+        "align": "left",
+        "tone": "normal"
       },
       {
         "type": "html",
-        "html": "<table role=\"presentation\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" align=\"center\" style=\"margin:0 auto;\"><tr><td style=\"padding:0 4px;\"><a href=\"{review_url_1}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_2}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_3}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_4}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_5}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td></tr><tr><td colspan=\"5\" align=\"center\" style=\"padding-top:8px;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#8a99a6;\">Auf einen Stern tippen und sie ist abgeschickt</td></tr></table>"
+        "html": "<table role=\"presentation\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" align=\"center\" style=\"margin:0 auto;\"><tr><td style=\"padding:0 4px;\"><a href=\"{review_url_1}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_2}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_3}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_4}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_5}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td></tr><tr><td colspan=\"5\" align=\"center\" style=\"padding-top:8px;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#8a99a6;\">Klick auf einen Stern und sie ist abgeschickt</td></tr></table>"
       },
       {
         "type": "button",
@@ -176,9 +225,20 @@
         "align": "center"
       },
       {
+        "type": "box",
+        "html": "<p>Für deine Bewertung, egal mit wie vielen Sternen, bekommt deine Lizenz <b>einen Monat mehr Updates und Support</b>. Das hängt nicht davon ab, ob sie positiv ist: Eine Bewertung mit einem Stern hilft mir genauso wie eine mit fünf.</p>",
+        "tone": "neutral"
+      },
+      {
         "type": "text",
-        "html": "<p>Ohne Anmeldung. Danach kannst du über denselben Link einen Kommentar ergänzen, deinen Namen ändern oder sie löschen.</p>",
-        "align": "center",
+        "html": "<p>Viele Grüße<br><b>{signer}</b><br>BK Modules</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "text",
+        "html": "<p>Bestellung {order_reference} · {product_name}. Ohne Anmeldung: Über denselben Link kannst du sie ändern oder löschen.</p>",
+        "align": "left",
         "tone": "muted"
       }
     ]

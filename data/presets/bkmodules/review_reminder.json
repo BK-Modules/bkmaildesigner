@@ -1,0 +1,246 @@
+{
+  "subject": {
+    "es": "{firstname}, una pregunta rápida sobre {product_short}",
+    "en": "{firstname}, one quick question about {product_short}",
+    "fr": "{firstname}, une petite question sur {product_short}",
+    "it": "{firstname}, una domanda veloce su {product_short}",
+    "de": "{firstname}, eine kurze Frage zu {product_short}"
+  },
+  "blocks": {
+    "es": [
+      {
+        "type": "text",
+        "html": "<p>Hola {firstname}:</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "text",
+        "html": "<p>Te lo pregunto una vez más y no vuelvo a insistir: ¿qué tal te va <b>{product_short}</b>?</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "text",
+        "html": "<p>Con una estrella basta. Y si algo no va como esperabas, contesta a este correo y cuéntamelo: también cuenta como opinión.</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "html",
+        "html": "<table role=\"presentation\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" align=\"center\" style=\"margin:0 auto;\"><tr><td style=\"padding:0 4px;\"><a href=\"{review_url_1}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_2}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_3}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_4}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_5}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td></tr><tr><td colspan=\"5\" align=\"center\" style=\"padding-top:8px;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#8a99a6;\">Pincha una estrella y queda enviada</td></tr></table>"
+      },
+      {
+        "type": "button",
+        "text": "Escribir mi opinión",
+        "url": "{review_url}",
+        "align": "center"
+      },
+      {
+        "type": "box",
+        "html": "<p>Por opinar, con la nota que sea, te sumo <b>un mes más de actualizaciones y soporte</b> a tu licencia. No depende de que la opinión sea buena: me ayuda igual una de una estrella que una de cinco.</p>",
+        "tone": "neutral"
+      },
+      {
+        "type": "text",
+        "html": "<p>Un saludo,<br><b>{signer}</b><br>BK Modules</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "text",
+        "html": "<p>Pedido {order_reference} · {product_name}. Sin iniciar sesión: desde el mismo enlace puedes cambiarla o borrarla.</p>",
+        "align": "left",
+        "tone": "muted"
+      }
+    ],
+    "en": [
+      {
+        "type": "text",
+        "html": "<p>Hi {firstname},</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "text",
+        "html": "<p>I am asking one more time and then I will leave it: how is <b>{product_short}</b> going?</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "text",
+        "html": "<p>One star is enough. And if something is not working as you expected, reply to this email and tell me: that counts as a review too.</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "html",
+        "html": "<table role=\"presentation\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" align=\"center\" style=\"margin:0 auto;\"><tr><td style=\"padding:0 4px;\"><a href=\"{review_url_1}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_2}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_3}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_4}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_5}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td></tr><tr><td colspan=\"5\" align=\"center\" style=\"padding-top:8px;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#8a99a6;\">Tap a star and it is sent</td></tr></table>"
+      },
+      {
+        "type": "button",
+        "text": "Write my review",
+        "url": "{review_url}",
+        "align": "center"
+      },
+      {
+        "type": "box",
+        "html": "<p>For reviewing, with whatever rating, I add <b>one more month of updates and support</b> to your licence. It does not depend on the review being good: a one-star review helps me as much as a five-star one.</p>",
+        "tone": "neutral"
+      },
+      {
+        "type": "text",
+        "html": "<p>Best,<br><b>{signer}</b><br>BK Modules</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "text",
+        "html": "<p>Order {order_reference} · {product_name}. No sign-in needed: you can change or remove it from the same link.</p>",
+        "align": "left",
+        "tone": "muted"
+      }
+    ],
+    "fr": [
+      {
+        "type": "text",
+        "html": "<p>Bonjour {firstname},</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "text",
+        "html": "<p>Je vous pose la question une dernière fois, promis : comment se passe <b>{product_short}</b> ?</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "text",
+        "html": "<p>Une étoile suffit. Et si quelque chose ne marche pas comme prévu, répondez à cet e-mail pour me le dire : cela compte aussi comme un avis.</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "html",
+        "html": "<table role=\"presentation\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" align=\"center\" style=\"margin:0 auto;\"><tr><td style=\"padding:0 4px;\"><a href=\"{review_url_1}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_2}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_3}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_4}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_5}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td></tr><tr><td colspan=\"5\" align=\"center\" style=\"padding-top:8px;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#8a99a6;\">Cliquez sur une étoile et c'est envoyé</td></tr></table>"
+      },
+      {
+        "type": "button",
+        "text": "Écrire mon avis",
+        "url": "{review_url}",
+        "align": "center"
+      },
+      {
+        "type": "box",
+        "html": "<p>Pour votre avis, quelle que soit la note, j'ajoute <b>un mois de mises à jour et de support</b> à votre licence. Cela ne dépend pas d'un avis positif : un avis à une étoile m'aide autant qu'un avis à cinq.</p>",
+        "tone": "neutral"
+      },
+      {
+        "type": "text",
+        "html": "<p>Bien à vous,<br><b>{signer}</b><br>BK Modules</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "text",
+        "html": "<p>Commande {order_reference} · {product_name}. Sans connexion : vous pouvez le modifier ou le retirer depuis le même lien.</p>",
+        "align": "left",
+        "tone": "muted"
+      }
+    ],
+    "it": [
+      {
+        "type": "text",
+        "html": "<p>Ciao {firstname},</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "text",
+        "html": "<p>Te lo chiedo un'ultima volta e poi non insisto: come va con <b>{product_short}</b>?</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "text",
+        "html": "<p>Basta una stella. E se qualcosa non funziona come ti aspettavi, rispondi a questa email e raccontamelo: vale anche come recensione.</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "html",
+        "html": "<table role=\"presentation\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" align=\"center\" style=\"margin:0 auto;\"><tr><td style=\"padding:0 4px;\"><a href=\"{review_url_1}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_2}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_3}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_4}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_5}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td></tr><tr><td colspan=\"5\" align=\"center\" style=\"padding-top:8px;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#8a99a6;\">Tocca una stella e la recensione è inviata</td></tr></table>"
+      },
+      {
+        "type": "button",
+        "text": "Scrivi la mia recensione",
+        "url": "{review_url}",
+        "align": "center"
+      },
+      {
+        "type": "box",
+        "html": "<p>Per la tua recensione, con qualsiasi voto, aggiungo <b>un mese in più di aggiornamenti e assistenza</b> alla tua licenza. Non dipende dal fatto che sia positiva: una recensione da una stella mi aiuta quanto una da cinque.</p>",
+        "tone": "neutral"
+      },
+      {
+        "type": "text",
+        "html": "<p>Un saluto,<br><b>{signer}</b><br>BK Modules</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "text",
+        "html": "<p>Ordine {order_reference} · {product_name}. Senza accedere: puoi modificarla o rimuoverla dallo stesso link.</p>",
+        "align": "left",
+        "tone": "muted"
+      }
+    ],
+    "de": [
+      {
+        "type": "text",
+        "html": "<p>Hallo {firstname},</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "text",
+        "html": "<p>ich frage noch ein letztes Mal und lasse es dann gut sein: Wie läuft es mit <b>{product_short}</b>?</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "text",
+        "html": "<p>Ein Stern reicht. Und wenn etwas nicht so funktioniert wie erwartet, antworte auf diese E-Mail und erzähl es mir: Das zählt auch als Bewertung.</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "html",
+        "html": "<table role=\"presentation\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" align=\"center\" style=\"margin:0 auto;\"><tr><td style=\"padding:0 4px;\"><a href=\"{review_url_1}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_2}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_3}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_4}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td><td style=\"padding:0 4px;\"><a href=\"{review_url_5}\" style=\"color:#d9910f;font-size:34px;line-height:1;text-decoration:none;\">&#9733;</a></td></tr><tr><td colspan=\"5\" align=\"center\" style=\"padding-top:8px;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#8a99a6;\">Klick auf einen Stern und sie ist abgeschickt</td></tr></table>"
+      },
+      {
+        "type": "button",
+        "text": "Meine Bewertung schreiben",
+        "url": "{review_url}",
+        "align": "center"
+      },
+      {
+        "type": "box",
+        "html": "<p>Für deine Bewertung, egal mit wie vielen Sternen, bekommt deine Lizenz <b>einen Monat mehr Updates und Support</b>. Das hängt nicht davon ab, ob sie positiv ist: Eine Bewertung mit einem Stern hilft mir genauso wie eine mit fünf.</p>",
+        "tone": "neutral"
+      },
+      {
+        "type": "text",
+        "html": "<p>Viele Grüße<br><b>{signer}</b><br>BK Modules</p>",
+        "align": "left",
+        "tone": "normal"
+      },
+      {
+        "type": "text",
+        "html": "<p>Bestellung {order_reference} · {product_name}. Ohne Anmeldung: Über denselben Link kannst du sie ändern oder löschen.</p>",
+        "align": "left",
+        "tone": "muted"
+      }
+    ]
+  }
+}
