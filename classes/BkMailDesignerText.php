@@ -93,7 +93,7 @@ class BkMailDesignerText
             'invoice' => 'Billing address',
         ];
         foreach ($labels as $key => $source) {
-            $labels[$key] = BkMailDesignerTranslations::trans(BkMailDesignerTranslations::DOMAIN_SHOP, $locale, $source);
+            $labels[$key] = \BkModules\I18n\V1\Translations::trans('bkmaildesigner', 'Modules.Bkmaildesigner.Shop', $locale, $source);
         }
 
         return $labels;

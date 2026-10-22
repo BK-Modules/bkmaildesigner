@@ -35,7 +35,7 @@
     "extra": {
         "prestashop": {
             "name": "bkmaildesigner",
-            "version": "1.0.0",
+            "version": "1.0.2",
             "displayName": "BK Mail Designer",
             "description": "Branded header and footer on every email your shop sends, and a block editor for the ones that matter.",
             "tab": "emailing",

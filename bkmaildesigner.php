@@ -57,7 +57,7 @@ class BkMailDesigner extends Module
     {
         $this->name = 'bkmaildesigner';
         $this->tab = 'emailing';
-        $this->version = '1.0.1';
+        $this->version = '1.0.2';
         $this->author = 'BK Modules';
         $this->need_instance = 0;
         $this->bootstrap = true;
@@ -65,7 +65,7 @@ class BkMailDesigner extends Module
 
         parent::__construct();
 
-        BkMailDesignerTranslations::ensure();
+        \BkModules\I18n\V1\Translations::ensure($this->name);
 
         $this->displayName = $this->trans('BK Mail Designer', [], 'Modules.Bkmaildesigner.Admin');
         $this->description = $this->trans(
@@ -90,6 +90,7 @@ class BkMailDesigner extends Module
             $this->registerHook($hook);
         }
         $this->moveHooksFirst();
+        self::declareFooterHook();
 
         if (!BkMailDesignerLayout::installTable() || !BkMailDesignerTemplate::installTable()) {
             return false;
@@ -116,6 +117,25 @@ class BkMailDesigner extends Module
         \BkModules\Registry\V2\InstallReporter::report($this->name, $this->version, 'install');
 
         return true;
+    }
+
+    /**
+     * Da de alta el hook que este módulo dispara al pintar el pie (`BkMailDesignerRenderer::FOOTER_HOOK`), con su
+     * título y descripción, para que exista y se vea en Posiciones aunque ningún módulo se haya enganchado todavía.
+     *
+     * @return bool
+     */
+    public static function declareFooterHook()
+    {
+        if (Hook::getIdByName(BkMailDesignerRenderer::FOOTER_HOOK)) {
+            return true;
+        }
+        $hook = new Hook();
+        $hook->name = BkMailDesignerRenderer::FOOTER_HOOK;
+        $hook->title = 'BK Mail Designer: footer lines';
+        $hook->description = 'Lines another module adds to the footer of a given email (template, module, audience, id_lang, id_shop, vars; append HTML to notes).';
+
+        return (bool) $hook->add();
     }
 
     public function uninstall()

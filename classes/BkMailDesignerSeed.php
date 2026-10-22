@@ -62,27 +62,28 @@ class BkMailDesignerSeed
         BkMailDesignerTheme::apply($idShop, self::DEFAULT_THEME, 'en');
 
         $layout = BkMailDesignerLayout::forShop((int) $idShop);
-        $domain = BkMailDesignerTranslations::DOMAIN_SHOP;
+        $domain = 'Modules.Bkmaildesigner.Shop';
 
         foreach (Language::getLanguages(false) as $language) {
             $idLang = (int) $language['id_lang'];
             $locale = $language['locale'];
 
             $layout->header_links[$idLang] = json_encode([
-                ['label' => BkMailDesignerTranslations::trans($domain, $locale, 'Shop'), 'url' => '{shop_url}'],
-                ['label' => BkMailDesignerTranslations::trans($domain, $locale, 'My account'), 'url' => '{my_account_url}'],
-                ['label' => BkMailDesignerTranslations::trans($domain, $locale, 'Contact'), 'url' => '{contact_url}'],
+                ['label' => \BkModules\I18n\V1\Translations::trans('bkmaildesigner', $domain, $locale, 'Shop'), 'url' => '{shop_url}'],
+                ['label' => \BkModules\I18n\V1\Translations::trans('bkmaildesigner', $domain, $locale, 'My account'), 'url' => '{my_account_url}'],
+                ['label' => \BkModules\I18n\V1\Translations::trans('bkmaildesigner', $domain, $locale, 'Contact'), 'url' => '{contact_url}'],
             ]);
             // Tres destinos que el módulo sabe resolver en cualquier tienda e idioma
             $layout->footer_links[$idLang] = json_encode([
-                ['label' => BkMailDesignerTranslations::trans($domain, $locale, 'My orders'), 'url' => '{history_url}'],
-                ['label' => BkMailDesignerTranslations::trans($domain, $locale, 'Track my order'), 'url' => '{guest_tracking_url}'],
-                ['label' => BkMailDesignerTranslations::trans($domain, $locale, 'Write to us'), 'url' => '{contact_url}'],
+                ['label' => \BkModules\I18n\V1\Translations::trans('bkmaildesigner', $domain, $locale, 'My orders'), 'url' => '{history_url}'],
+                ['label' => \BkModules\I18n\V1\Translations::trans('bkmaildesigner', $domain, $locale, 'Track my order'), 'url' => '{guest_tracking_url}'],
+                ['label' => \BkModules\I18n\V1\Translations::trans('bkmaildesigner', $domain, $locale, 'Write to us'), 'url' => '{contact_url}'],
             ]);
             $layout->footer_legal[$idLang] = self::legalLine($idShop, $idLang);
             // A la tienda no se le explica por qué recibe sus propios correos: va vacío
             $layout->footer_reason[$idLang] = BkMailDesignerLayout::encodeReasons([
-                BkMailDesignerScanner::AUDIENCE_RECIPIENT => BkMailDesignerTranslations::trans(
+                BkMailDesignerScanner::AUDIENCE_RECIPIENT => \BkModules\I18n\V1\Translations::trans(
+                    'bkmaildesigner',
                     $domain,
                     $locale,
                     'You receive this email because this address was used at {shop_name}.'

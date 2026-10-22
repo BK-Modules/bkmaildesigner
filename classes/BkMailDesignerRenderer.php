@@ -19,6 +19,12 @@ class BkMailDesignerRenderer
     const WIDTH = 600;
 
     /**
+     * Hook que se dispara al pintar el pie de cada correo: otro módulo añade a `notes` (por referencia) líneas en HTML
+     * para ese correo concreto, que salen bajo el motivo del pie con su misma letra.
+     */
+    const FOOTER_HOOK = 'actionBkMailDesignerFooter';
+
+    /**
      * @param array $in [
      *   'layout' => BkMailDesignerLayout,
      *   'template' => BkMailDesignerTemplate,
@@ -88,7 +94,7 @@ class BkMailDesignerRenderer
         // Líneas que otro módulo añade al pie de este correo en concreto (un enlace de baja propio, por ejemplo): las
         // escribe él en HTML y se pintan bajo el motivo del pie, con su letra
         $notes = [];
-        Hook::exec('actionBkMailDesignerFooter', [
+        Hook::exec(self::FOOTER_HOOK, [
             'template' => $template->name,
             'module' => $template->module,
             'audience' => $audience,
