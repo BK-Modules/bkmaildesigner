@@ -83,9 +83,22 @@ class BkMailDesignerRenderer
         $title = $subject !== '' ? $subject : (isset($in['shop_name']) ? $in['shop_name'] : '{shop_name}');
 
         $audience = BkMailDesignerScanner::audience($template->module, $template->name);
-        $html = self::skeleton($s, $layout, $idLang, $in['iso'], $rtl, $title, $preheader, $bodyClass, $rows, $audience, !empty($in['mark']));
-
         $idShop = isset($in['id_shop']) ? (int) $in['id_shop'] : (int) Context::getContext()->shop->id;
+
+        // Líneas que otro módulo añade al pie de este correo en concreto (un enlace de baja propio, por ejemplo): las
+        // escribe él en HTML y se pintan bajo el motivo del pie, con su letra
+        $notes = [];
+        Hook::exec('actionBkMailDesignerFooter', [
+            'template' => $template->name,
+            'module' => $template->module,
+            'audience' => $audience,
+            'id_lang' => $idLang,
+            'id_shop' => $idShop,
+            'vars' => isset($in['vars']) && is_array($in['vars']) ? $in['vars'] : [],
+            'notes' => &$notes,
+        ]);
+
+        $html = self::skeleton($s, $layout, $idLang, $in['iso'], $rtl, $title, $preheader, $bodyClass, $rows, $audience, !empty($in['mark']), $notes);
         $html = strtr($html, BkMailDesignerVars::own($idShop, $idLang));
 
         if (!empty($in['vars']) && is_array($in['vars'])) {
@@ -124,7 +137,7 @@ class BkMailDesignerRenderer
      * respetar el ancho, y una hoja de estilos mínima para el móvil que los clientes que la
      * entienden aplican encima de los estilos en línea.
      */
-    private static function skeleton(array $s, BkMailDesignerLayout $layout, $idLang, $iso, $rtl, $title, $preheader, $bodyClass, $rows, $audience, $mark = false)
+    private static function skeleton(array $s, BkMailDesignerLayout $layout, $idLang, $iso, $rtl, $title, $preheader, $bodyClass, $rows, $audience, $mark = false, array $notes = [])
     {
         $w = isset($s['width']) ? (int) $s['width'] : self::WIDTH;
         // Vacío en un color de zona significa «el de marca»: una tienda que nunca los toque no
@@ -186,6 +199,9 @@ class BkMailDesignerRenderer
         $reason = trim($layout->reason($idLang, $audience));
         if ($reason !== '') {
             $footerParts[] = '<p class="bk-reason">' . nl2br(self::esc($reason)) . '</p>';
+        }
+        foreach ($notes as $note) {
+            $footerParts[] = '<p class="bk-reason">' . $note . '</p>';
         }
         $footer = '<tr><td class="bk-footer" bgcolor="' . $s['color_footer_bg'] . '" align="center"' . $zone('footer') . '>' . implode('', $footerParts) . '</td></tr>';
 
