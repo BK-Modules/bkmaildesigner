@@ -188,6 +188,8 @@ class BkMailDesigner extends Module
      */
     public function hookActionEmailSendBefore(&$params)
     {
+        // Antes de cualquier salida: la copia en Enviados de 1.7/8 necesita las variables de este envío, no las del anterior
+        BkMailDesignerSentCopySwift::watch($params);
         self::$pending = null;
 
         if (!BkMailDesignerConfig::isOn(BkMailDesignerConfig::ENABLED) || empty($params['template'])) {
@@ -266,6 +268,23 @@ class BkMailDesigner extends Module
             $params['template_txt'] = $out['txt'];
         }
         BkMailDesignerLogger::debug('Enviado con diseño (' . $out['strategy'] . '): ' . $this->label($template) . ' (idioma ' . $pending['id_lang'] . ')');
+    }
+
+    /**
+     * Copia en Enviados: el mensaje final. Hook enganchado solo con la opción activada (BkMailDesignerSentCopy::HOOKS).
+     */
+    public function hookActionMailAlterMessageBeforeSend($params)
+    {
+        BkMailDesignerSentCopy::capture(isset($params['message']) ? $params['message'] : null);
+    }
+
+    /**
+     * Copia en Enviados: la fila del registro de correos, que el núcleo escribe solo después de que el SMTP aceptara el
+     * mensaje.
+     */
+    public function hookActionObjectMailAddAfter()
+    {
+        BkMailDesignerSentCopy::store();
     }
 
     public function hookDisplayAdminOrderSide(array $params)

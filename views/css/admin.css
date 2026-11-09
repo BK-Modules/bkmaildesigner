@@ -87,6 +87,7 @@
 .bkmd-fieldset { border: 1px solid #dfe2e5; border-radius: 4px; padding: 16px 18px 4px; margin: 0 0 20px; }
 .bkmd-fieldset legend { font-size: 14px; font-weight: 700; width: auto; padding: 0 8px; margin: 0 0 8px; border: 0; }
 .bkmd-fieldset > .help-block { margin-top: -4px; margin-bottom: 16px; }
+.bkmd-sentcopy__pair { display: flex; gap: 8px; }
 
 .bkmd-field { margin-bottom: 16px; }
 .bkmd-field > label { display: block; font-weight: 600; font-size: 13px; margin-bottom: 6px; color: #33424b; }

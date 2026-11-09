@@ -2114,6 +2114,70 @@
         <source>Those emails go out in «Full design», and there the original file is never read: what is sent is written in the editor. The files can stay where they are.</source>
         <target>Diese E-Mails gehen mit „Vollständigem Design“ raus, und dort wird die Originaldatei gar nicht geöffnet: Was verschickt wird, steht im Editor. Die Dateien können bleiben, wo sie sind.</target>
       </trans-unit>
+      <trans-unit id="17cd7baebd1c033411bdde033d369b1a">
+        <source>Copy in your Sent folder</source>
+        <target>Kopie in Ihrem Ordner „Gesendet“</target>
+      </trans-unit>
+      <trans-unit id="148a68b753695a69c1e1b470a0b24d9e">
+        <source>Saves a copy of every email the shop sends in the Sent folder of its mailbox, so your email program shows exactly what the customer received. Gmail and some other providers already do it on their own: if you turn it on there, nothing is duplicated, because an email that is already in Sent is not saved again.</source>
+        <target>Speichert eine Kopie jeder E-Mail, die der Shop versendet, im Ordner „Gesendet“ seines Postfachs, damit Ihr E-Mail-Programm genau zeigt, was der Kunde erhalten hat. Gmail und einige andere Anbieter tun das bereits von selbst: Wenn Sie es dort einschalten, wird nichts doppelt gespeichert, denn eine E-Mail, die schon in „Gesendet“ liegt, wird nicht noch einmal abgelegt.</target>
+      </trans-unit>
+      <trans-unit id="5b607e996fefb92f3fc0c55a24d3be19">
+        <source>Your shop does not send through an SMTP server, so its emails do not belong to any mailbox and no copy is saved. Choose SMTP in</source>
+        <target>Ihr Shop versendet nicht über einen SMTP-Server, daher gehören seine E-Mails zu keinem Postfach und es wird keine Kopie gespeichert. Wählen Sie SMTP unter</target>
+      </trans-unit>
+      <trans-unit id="893a4b6f41aee17ece44b4bc73a76e34">
+        <source>Advanced parameters &gt; E-mail</source>
+        <target>Erweiterte Einstellungen &gt; E-Mail</target>
+      </trans-unit>
+      <trans-unit id="f332a601d207e53c138326474a28c265">
+        <source>The copy needs the email log: turn on «Log emails» in</source>
+        <target>Die Kopie braucht das E-Mail-Protokoll: Aktivieren Sie „E-Mails protokollieren“ unter</target>
+      </trans-unit>
+      <trans-unit id="e471253f336797bfe7af226ebe0e1660">
+        <source>Save a copy in Sent</source>
+        <target>Kopie in „Gesendet“ speichern</target>
+      </trans-unit>
+      <trans-unit id="e5427dd47355a9377167f317a6a3eaaa">
+        <source>IMAP server</source>
+        <target>IMAP-Server</target>
+      </trans-unit>
+      <trans-unit id="d897c8eee1a49cfdd0f3f3c0ad638ef8">
+        <source>Port and security</source>
+        <target>Port und Sicherheit</target>
+      </trans-unit>
+      <trans-unit id="6adf97f83acf6453d4a6a4b1070f3754">
+        <source>None</source>
+        <target>Keine</target>
+      </trans-unit>
+      <trans-unit id="8f9bfe9d1345237cb3b2b205864da075">
+        <source>User</source>
+        <target>Benutzer</target>
+      </trans-unit>
+      <trans-unit id="1fb994421926df9c081d53e7e1a9e418">
+        <source>Leave it empty to use the same user and password the shop sends with (SMTP).</source>
+        <target>Leer lassen, um denselben Benutzer und dasselbe Passwort zu verwenden, mit denen der Shop versendet (SMTP).</target>
+      </trans-unit>
+      <trans-unit id="dc647eb65e6711e155375218212b3964">
+        <source>Password</source>
+        <target>Passwort</target>
+      </trans-unit>
+      <trans-unit id="db905afeda9ea6b2df94131c18aa0993">
+        <source>Only with a user of your own. Empty keeps the one already saved.</source>
+        <target>Nur mit einem eigenen Benutzer. Leer bleibt das bereits gespeicherte.</target>
+      </trans-unit>
+      <trans-unit id="39838db537c95bc8df810c5601601d5b">
+        <source>Test connection</source>
+        <target>Verbindung testen</target>
+      </trans-unit>
+      <trans-unit id="fe5c0ef9ebd039d82b7abf9010f99a18">
+        <source>Connected. Copies will be saved in the «%folder%» folder.</source>
+        <target>Verbunden. Die Kopien werden im Ordner „%folder%“ gespeichert.</target>
+      </trans-unit>
+      <trans-unit id="b94de3cbf7b3bf797e2a41ea347432fb">
+        <source>Could not connect: %reason%</source>
+        <target>Verbindung fehlgeschlagen: %reason%</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

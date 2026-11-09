@@ -24,6 +24,15 @@ class BkMailDesignerConfig
     const SAMPLES = 'BK_MD_SAMPLES';
     /** Variables añadidas a mano: las que un módulo pasa y no aparecen en su plantilla */
     const CUSTOM_VARS = 'BK_MD_CUSTOM_VARS';
+    /** Copia en Enviados del buzón de la tienda (BkMailDesignerSentCopy). Apagada de serie: muchos servidores ya la guardan solos */
+    const SENT_COPY = 'BK_MD_SENT_COPY';
+    /** Servidor IMAP, puerto y seguridad (ssl | starttls | none) del buzón */
+    const SENT_COPY_HOST = 'BK_MD_SENT_COPY_HOST';
+    const SENT_COPY_PORT = 'BK_MD_SENT_COPY_PORT';
+    const SENT_COPY_SECURITY = 'BK_MD_SENT_COPY_SECURITY';
+    /** Usuario y contraseña IMAP; sin usuario se usan los del SMTP de la tienda (PS_MAIL_USER / PS_MAIL_PASSWD) */
+    const SENT_COPY_USER = 'BK_MD_SENT_COPY_USER';
+    const SENT_COPY_PASSWD = 'BK_MD_SENT_COPY_PASSWD';
     /** Traza de depuración */
     const DEBUG = 'BK_MD_DEBUG';
 
@@ -49,6 +58,12 @@ class BkMailDesignerConfig
             self::SAMPLES => '{}',
             self::CUSTOM_VARS => '{}',
             self::DEBUG => '0',
+            self::SENT_COPY => '0',
+            self::SENT_COPY_HOST => '',
+            self::SENT_COPY_PORT => '993',
+            self::SENT_COPY_SECURITY => 'ssl',
+            self::SENT_COPY_USER => '',
+            self::SENT_COPY_PASSWD => '',
         ];
     }
 

@@ -157,6 +157,9 @@ class AdminBkMailDesignerController extends ModuleAdminController
         $values[BkMailDesignerConfig::REF_LANG] = BkMailDesignerConfig::getRefLang();
         $values[BkMailDesignerConfig::NEW_MODE] = BkMailDesignerConfig::getNewMode();
         $values[BkMailDesignerConfig::TEST_EMAIL] = BkMailDesignerConfig::getTestEmail();
+        $values[BkMailDesignerConfig::SENT_COPY_PORT] = (int) $values[BkMailDesignerConfig::SENT_COPY_PORT] ?: 993;
+        // La contraseña no viaja a la página: vacía en el formulario significa «la que ya está guardada»
+        $values[BkMailDesignerConfig::SENT_COPY_PASSWD] = '';
 
         $this->context->smarty->assign([
             'bkmd_list' => $list,
@@ -173,6 +176,12 @@ class AdminBkMailDesignerController extends ModuleAdminController
             'bkmd_logo_link' => $this->context->link->getAdminLink('AdminThemes'),
             'bkmd_v' => $values,
             'bkmd_log' => BkMailDesignerLogger::tail(),
+            'bkmd_sent_copy' => [
+                'smtp' => (int) Configuration::get('PS_MAIL_METHOD') === BkMailDesignerSentCopy::METHOD_SMTP,
+                'smtp_user' => (string) Configuration::get('PS_MAIL_USER'),
+                'mail_log' => (bool) Configuration::get('PS_LOG_EMAILS'),
+                'mail_link' => $this->context->link->getAdminLink('AdminEmails'),
+            ],
             'bkmd_action' => self::$currentIndex . '&token=' . $this->token,
             'bkmd_context_lang' => (int) $this->context->language->id,
             'bkmd_first_tpl' => $this->firstDesignable($list),
@@ -419,8 +428,71 @@ class AdminBkMailDesignerController extends ModuleAdminController
         Configuration::updateValue(BkMailDesignerConfig::NEW_MODE, in_array($mode, BkMailDesignerConfig::NEW_MODES, true) ? $mode : 'wrapped');
         $email = trim((string) Tools::getValue(BkMailDesignerConfig::TEST_EMAIL));
         Configuration::updateValue(BkMailDesignerConfig::TEST_EMAIL, Validate::isEmail($email) ? $email : '');
+        $this->saveSentCopy();
         BkMailDesignerLogger::confirmation('Ajustes guardados');
         $this->confirmations[] = $this->module->t('Settings updated.');
+    }
+
+    /**
+     * Copia en Enviados. Sus dos hooks se enganchan al activarla y se sueltan al apagarla: apagada, ningún envío pasa
+     * por ella. La contraseña vacía conserva la guardada; sin usuario propio se usan los del SMTP y se olvida la suya.
+     */
+    private function saveSentCopy()
+    {
+        $settings = $this->sentCopyForm();
+        $on = (bool) Tools::getValue(BkMailDesignerConfig::SENT_COPY);
+        Configuration::updateValue(BkMailDesignerConfig::SENT_COPY, (int) $on);
+        Configuration::updateValue(BkMailDesignerConfig::SENT_COPY_HOST, $settings['host']);
+        Configuration::updateValue(BkMailDesignerConfig::SENT_COPY_PORT, $settings['port']);
+        Configuration::updateValue(BkMailDesignerConfig::SENT_COPY_SECURITY, $settings['security']);
+        Configuration::updateValue(BkMailDesignerConfig::SENT_COPY_USER, $settings['own'] ? $settings['user'] : '');
+        Configuration::updateValue(BkMailDesignerConfig::SENT_COPY_PASSWD, $settings['own'] ? $settings['password'] : '');
+        foreach (BkMailDesignerSentCopy::HOOKS as $hook) {
+            if ($on) {
+                $this->module->registerHook($hook);
+            } else {
+                $this->module->unregisterHook($hook);
+            }
+        }
+    }
+
+    /**
+     * Los datos IMAP del formulario, sin guardar: los usa tanto el guardado como «Probar conexión».
+     *
+     * @return array
+     */
+    private function sentCopyForm()
+    {
+        $security = (string) Tools::getValue(BkMailDesignerConfig::SENT_COPY_SECURITY);
+        $user = trim((string) Tools::getValue(BkMailDesignerConfig::SENT_COPY_USER));
+        $own = $user !== '';
+        $password = (string) Tools::getValue(BkMailDesignerConfig::SENT_COPY_PASSWD);
+        if ($own && $password === '') {
+            $password = (string) Configuration::get(BkMailDesignerConfig::SENT_COPY_PASSWD);
+        }
+
+        return [
+            'own' => $own,
+            'host' => trim((string) Tools::getValue(BkMailDesignerConfig::SENT_COPY_HOST)),
+            'port' => (int) Tools::getValue(BkMailDesignerConfig::SENT_COPY_PORT) ?: ($security === 'ssl' ? 993 : 143),
+            'security' => in_array($security, BkMailDesignerSentCopy::SECURITIES, true) ? $security : 'ssl',
+            'user' => $own ? $user : (string) Configuration::get('PS_MAIL_USER'),
+            'password' => $own ? $password : (string) Configuration::get('PS_MAIL_PASSWD'),
+        ];
+    }
+
+    /**
+     * «Probar conexión»: con lo que hay en el formulario, aunque no se haya guardado.
+     */
+    public function ajaxProcessBkSentCopyTest()
+    {
+        try {
+            $folder = BkMailDesignerSentCopy::test($this->sentCopyForm());
+            $this->json(['ok' => true, 'message' => $this->module->t('Connected. Copies will be saved in the «%folder%» folder.', ['%folder%' => $folder])]);
+        } catch (\Exception $e) {
+            BkMailDesignerLogger::warning('Copia en Enviados: la prueba de conexión falló: ' . $e->getMessage());
+            $this->json(['ok' => false, 'message' => $this->module->t('Could not connect: %reason%', ['%reason%' => $e->getMessage()])]);
+        }
     }
 
     /**

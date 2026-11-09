@@ -253,6 +253,28 @@
             }
         });
 
+        // «Probar conexión» de la copia en Enviados: manda lo que hay en el formulario, guardado o no
+        var sentTest = document.querySelector('[data-bkmd-sentcopy-test]');
+        if (sentTest) {
+            sentTest.addEventListener('click', function () {
+                var box = document.querySelector('[data-bkmd-sentcopy]');
+                var out = box.querySelector('[data-bkmd-sentcopy-result]');
+                var data = {};
+                Array.prototype.forEach.call(box.querySelectorAll('input[name^="BK_MD_SENT_COPY_"], select'), function (field) {
+                    data[field.name] = field.value;
+                });
+                sentTest.disabled = true;
+                out.hidden = false;
+                out.className = 'help-block';
+                out.textContent = '…';
+                post('BkSentCopyTest', data, function (response) {
+                    sentTest.disabled = false;
+                    out.className = 'help-block ' + (response && response.ok ? 'text-success' : 'text-danger');
+                    out.textContent = response ? response.message : '';
+                });
+            });
+        }
+
         var check = document.querySelector('[data-bkmd-check]');
         if (check) {
             check.addEventListener('click', function () {

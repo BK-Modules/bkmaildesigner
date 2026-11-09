@@ -631,6 +631,52 @@
           <label class="control-label col-lg-3">{l s='Test emails go to' d='Modules.Bkmaildesigner.Admin'}</label>
           <div class="col-lg-9"><input type="email" name="BK_MD_TEST_EMAIL" class="form-control" value="{$bkmd_v.BK_MD_TEST_EMAIL|escape:'htmlall':'UTF-8'}"></div>
         </div>
+        <fieldset class="bkmd-fieldset bkmd-sentcopy" data-bkmd-sentcopy>
+          <legend>{l s='Copy in your Sent folder' d='Modules.Bkmaildesigner.Admin'}</legend>
+          <p class="help-block">{l s='Saves a copy of every email the shop sends in the Sent folder of its mailbox, so your email program shows exactly what the customer received. Gmail and some other providers already do it on their own: if you turn it on there, nothing is duplicated, because an email that is already in Sent is not saved again.' d='Modules.Bkmaildesigner.Admin'}</p>
+          {if !$bkmd_sent_copy.smtp}
+            <div class="alert alert-warning">{l s='Your shop does not send through an SMTP server, so its emails do not belong to any mailbox and no copy is saved. Choose SMTP in' d='Modules.Bkmaildesigner.Admin'} <a href="{$bkmd_sent_copy.mail_link|escape:'htmlall':'UTF-8'}">{l s='Advanced parameters > E-mail' d='Modules.Bkmaildesigner.Admin'}</a>.</div>
+          {/if}
+          {if !$bkmd_sent_copy.mail_log}
+            <div class="alert alert-warning">{l s='The copy needs the email log: turn on «Log emails» in' d='Modules.Bkmaildesigner.Admin'} <a href="{$bkmd_sent_copy.mail_link|escape:'htmlall':'UTF-8'}">{l s='Advanced parameters > E-mail' d='Modules.Bkmaildesigner.Admin'}</a>.</div>
+          {/if}
+          {include file="./_switch.tpl" name='BK_MD_SENT_COPY' label={l s='Save a copy in Sent' d='Modules.Bkmaildesigner.Admin'} on=$bkmd_v.BK_MD_SENT_COPY desc=''}
+          <div class="form-group">
+            <label class="control-label col-lg-3">{l s='IMAP server' d='Modules.Bkmaildesigner.Admin'}</label>
+            <div class="col-lg-9"><input type="text" name="BK_MD_SENT_COPY_HOST" class="form-control" placeholder="imap.example.com" autocomplete="off" value="{$bkmd_v.BK_MD_SENT_COPY_HOST|escape:'htmlall':'UTF-8'}"></div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-lg-3">{l s='Port and security' d='Modules.Bkmaildesigner.Admin'}</label>
+            <div class="col-lg-9 bkmd-sentcopy__pair">
+              <input type="number" name="BK_MD_SENT_COPY_PORT" class="form-control fixed-width-sm" min="1" max="65535" value="{$bkmd_v.BK_MD_SENT_COPY_PORT|intval}">
+              <select name="BK_MD_SENT_COPY_SECURITY" class="form-control fixed-width-xl">
+                <option value="ssl"{if $bkmd_v.BK_MD_SENT_COPY_SECURITY !== 'starttls' && $bkmd_v.BK_MD_SENT_COPY_SECURITY !== 'none'} selected{/if}>SSL/TLS</option>
+                <option value="starttls"{if $bkmd_v.BK_MD_SENT_COPY_SECURITY === 'starttls'} selected{/if}>STARTTLS</option>
+                <option value="none"{if $bkmd_v.BK_MD_SENT_COPY_SECURITY === 'none'} selected{/if}>{l s='None' d='Modules.Bkmaildesigner.Admin'}</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-lg-3">{l s='User' d='Modules.Bkmaildesigner.Admin'}</label>
+            <div class="col-lg-9">
+              <input type="text" name="BK_MD_SENT_COPY_USER" class="form-control" autocomplete="off" placeholder="{$bkmd_sent_copy.smtp_user|escape:'htmlall':'UTF-8'}" value="{$bkmd_v.BK_MD_SENT_COPY_USER|escape:'htmlall':'UTF-8'}">
+              <p class="help-block">{l s='Leave it empty to use the same user and password the shop sends with (SMTP).' d='Modules.Bkmaildesigner.Admin'}</p>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-lg-3">{l s='Password' d='Modules.Bkmaildesigner.Admin'}</label>
+            <div class="col-lg-9">
+              <input type="password" name="BK_MD_SENT_COPY_PASSWD" class="form-control" autocomplete="new-password" value="">
+              <p class="help-block">{l s='Only with a user of your own. Empty keeps the one already saved.' d='Modules.Bkmaildesigner.Admin'}</p>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-lg-9 col-lg-offset-3">
+              <button type="button" class="btn btn-default" data-bkmd-sentcopy-test><i class="icon-plug"></i> {l s='Test connection' d='Modules.Bkmaildesigner.Admin'}</button>
+              <p class="help-block" data-bkmd-sentcopy-result hidden></p>
+            </div>
+          </div>
+        </fieldset>
         {include file="./_switch.tpl" name='BK_MD_DEBUG' label={l s='Debug log' d='Modules.Bkmaildesigner.Admin'} on=$bkmd_v.BK_MD_DEBUG desc={l s='Writes one line per email sent, with the template and the mode applied.' d='Modules.Bkmaildesigner.Admin'}}
         <div class="form-group">
           <label class="control-label col-lg-3">{l s='Log' d='Modules.Bkmaildesigner.Admin'}</label>
