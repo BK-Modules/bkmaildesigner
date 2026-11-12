@@ -105,7 +105,7 @@ class BkMailDesignerRenderer
         ]);
 
         $html = self::skeleton($s, $layout, $idLang, $in['iso'], $rtl, $title, $preheader, $bodyClass, $rows, $audience, !empty($in['mark']), $notes);
-        $html = strtr($html, BkMailDesignerVars::own($idShop, $idLang));
+        $html = strtr($html, BkMailDesignerVars::own($idShop, $idLang, isset($in['vars']) && is_array($in['vars']) ? $in['vars'] : []));
 
         if (!empty($in['vars']) && is_array($in['vars'])) {
             $html = strtr($html, self::stringVars($in['vars']));

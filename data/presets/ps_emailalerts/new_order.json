@@ -39,7 +39,7 @@
    {
     "type": "button",
     "text": "Abrir el pedido",
-    "url": "{shop_url}",
+    "url": "{admin_order_url}",
     "align": "left",
     "style": ""
    }
@@ -76,7 +76,7 @@
    {
     "type": "button",
     "text": "Open the order",
-    "url": "{shop_url}",
+    "url": "{admin_order_url}",
     "align": "left",
     "style": ""
    }
@@ -113,7 +113,7 @@
    {
     "type": "button",
     "text": "Ouvrir la commande",
-    "url": "{shop_url}",
+    "url": "{admin_order_url}",
     "align": "left",
     "style": ""
    }
@@ -150,7 +150,7 @@
    {
     "type": "button",
     "text": "Apri l'ordine",
-    "url": "{shop_url}",
+    "url": "{admin_order_url}",
     "align": "left",
     "style": ""
    }
@@ -187,7 +187,7 @@
    {
     "type": "button",
     "text": "Bestellung öffnen",
-    "url": "{shop_url}",
+    "url": "{admin_order_url}",
     "align": "left",
     "style": ""
    }

@@ -62,6 +62,7 @@ class BkMailDesignerVars
         'followup' => 'order',
         'recycled_packaging_label' => 'order',
         'order_link' => 'order',
+        'admin_order_url' => 'order',
     ];
 
     /**
@@ -161,11 +162,69 @@ class BkMailDesignerVars
      *
      * @return array
      */
-    public static function own($idShop, $idLang)
+    public static function own($idShop, $idLang, array $vars = [])
     {
         $all = self::globals($idShop, $idLang);
+        $own = ['{contact_url}' => $all['{contact_url}']];
+        $adminOrderUrl = self::adminOrderUrl($vars, $idShop);
+        if ($adminOrderUrl !== '') {
+            $own['{admin_order_url}'] = $adminOrderUrl;
+        }
 
-        return ['{contact_url}' => $all['{contact_url}']];
+        return $own;
+    }
+
+    /**
+     * `{admin_order_url}`: la ficha del pedido en el back office, para los correos de un pedido que van al equipo.
+     *
+     * El pedido sale de `{id_order}` o, si el correo no lo trae (el `new_order` de ps_emailalerts), de su referencia.
+     * La URL es la de siempre de AdminOrders y va sin token: con la sesión abierta el back office la lleva al pedido
+     * con el suyo, y sin sesión pasa por el acceso y vuelve al pedido.
+     *
+     * @param array $vars Variables del correo, con llaves
+     * @param int   $idShop
+     *
+     * @return string '' si el correo no es de un pedido
+     */
+    public static function adminOrderUrl(array $vars, $idShop)
+    {
+        $idOrder = isset($vars['{id_order}']) ? (int) $vars['{id_order}'] : 0;
+        if (!$idOrder && !empty($vars['{order_name}'])) {
+            $order = Order::getByReference((string) $vars['{order_name}'])->getFirst();
+            $idOrder = $order ? (int) $order->id : 0;
+        }
+        $adminDir = self::adminDir();
+        if (!$idOrder || $adminDir === '') {
+            return '';
+        }
+
+        return (new Link())->getAdminBaseLink((int) $idShop) . basename($adminDir)
+            . '/index.php?controller=AdminOrders&id_order=' . $idOrder . '&vieworder=1';
+    }
+
+    /**
+     * La carpeta del back office. El correo de un pedido sale casi siempre desde la tienda o desde el webhook del
+     * pago, donde PrestaShop no la conoce (`Link::getAdminLink()` devuelve ''): se busca como la busca el núcleo al
+     * montar su contenedor (`AppKernel`), la carpeta de primer nivel cuyo index.php define `_PS_ADMIN_DIR_`.
+     *
+     * @return string Ruta absoluta, o '' si no se encuentra
+     */
+    private static function adminDir()
+    {
+        static $dir = null;
+        if ($dir === null) {
+            $dir = defined('_PS_ADMIN_DIR_') ? _PS_ADMIN_DIR_ : '';
+            if ($dir === '') {
+                foreach (glob(_PS_ROOT_DIR_ . '/*/index.php') ?: [] as $index) {
+                    if (preg_match('/define\([\'"]_?PS_ADMIN_DIR_?[\'"]/', (string) file_get_contents($index))) {
+                        $dir = dirname($index);
+                        break;
+                    }
+                }
+            }
+        }
+
+        return $dir;
     }
 
     /**

@@ -132,6 +132,7 @@ class BkMailDesignerSample
             'passwd' => '••••••••', 'url' => $context->link->getPageLink('my-account', true),
             'link' => $context->link->getPageLink('my-account', true),
             'order_name' => 'KHWLILZLL', 'id_order' => '1042', 'order_link' => $context->link->getPageLink('history', true),
+            'admin_order_url' => $context->link->getAdminLink('AdminOrders', true, ['route' => 'admin_orders_view', 'orderId' => 1042]),
             'date' => Tools::displayDate(date('Y-m-d H:i:s'), true),
             'message' => 'Hola, ¿podríais confirmarme la fecha de entrega? Gracias.',
             'reply' => 'Hola María, tu pedido sale mañana y te llegará en 48 horas. Un saludo.',
